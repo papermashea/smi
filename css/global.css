@@ -9,7 +9,7 @@ body {
 .hero {
 	height: 25%;
 	width: 100%;
-	min-width:100%;
+	max-width:100%;
 	position:absolute;
 	/*background:
 radial-gradient(circle farthest-side at 0% 50%,#fb1 23.5%,rgba(255,255,255,0) 0)21px 30px,
@@ -53,7 +53,7 @@ background-size:40px 60px;*/
 	bottom:0;
 	left:0;
 	height: 150px;
-	min-width:100%;
+	max-width:100%;
 	background-color: rgba(255,255,255,.2)	
 }
 
@@ -62,11 +62,11 @@ footer {
 	bottom:0;
 	left:0;
 	height: 150px;
-	min-width:100%;
+	max-width:100%;
 }
 
 footer img {
-	width: 20px;
+	width: 40px;
 }
 
 /*footer img#ig:hover,

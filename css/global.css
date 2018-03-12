@@ -67,6 +67,8 @@ footer {
 
 footer img {
 	width: 40px;
+	display: box;
+	float: left;
 }
 
 /*footer img#ig:hover,

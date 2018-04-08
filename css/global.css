@@ -26,6 +26,12 @@ body {
 }
 
 
+.project-description {
+	width: 60%;
+	margin: 2% 20%;
+}
+
+
 /* body */
 
 .projects {

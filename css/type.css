@@ -81,8 +81,23 @@ h1.name {
     }
 
 /* body */
- 
+
+h2.project-title {
+    font-family: "avenir", sans-serif;
+    font-size: 28px;
+    line-height: 1;
+    text-align: center;
+}
+
+h3.project-subtitle {
+    font-family: "avenir", sans-serif;
+    font-size: 21px;
+    line-height: 1;
+    text-align: center;
+}
+
 p.intro,
+.project-description,
 footer p,
 .other a,
 .project-title {
@@ -93,7 +108,8 @@ footer p,
 }
 
 p.intro a,
-.other a {
+.other a,
+.detail-link {
     text-decoration: none;
     color: #25C69A;
     list-style: none;

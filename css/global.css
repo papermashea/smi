@@ -29,7 +29,7 @@ body {
 /* body */
 
 .projects {
-	padding-bottom: 150px;
+	padding-bottom: 50px;
 }
 
 .projects-wrapper {
@@ -79,8 +79,8 @@ footer {
 	position:absolute;
 	bottom:0;
 	left:0;
-	height: 150px;
-	margin-top: -150px;
+	height: 50px;
+	margin-top: -50px;
 	min-width: 100%;
 	max-width:100%;
 	margin: 0;

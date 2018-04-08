@@ -1,4 +1,7 @@
 /* overall */
+html {
+	height: 100%;
+}
 
 body {
 	margin: 0;
@@ -25,6 +28,10 @@ body {
 
 /* body */
 
+.projects {
+	padding-bottom: 150px;
+}
+
 .projects-wrapper {
 	max-width: 100%;
 	margin: 0 0 0 10%;
@@ -39,7 +46,7 @@ body {
 }
 
 .projects .projects-wrapper a:hover .project-details {
-	display: block!important;
+	display: block;
 }
 
 a.project {
@@ -73,6 +80,7 @@ footer {
 	bottom:0;
 	left:0;
 	height: 150px;
+	margin-top: -150px;
 	min-width: 100%;
 	max-width:100%;
 	margin: 0;

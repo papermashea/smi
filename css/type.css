@@ -1,17 +1,52 @@
 /* typekit */
   @import url("https://use.typekit.net/kxt6flw.css");
 
- h1 {   font-family: "acier-bat-outline", avenir;
-    text-decoration-style: 
-    font-size: 36px;
-  }
+/* neon signs */
 
-/* fake neon sign */
+h1.other {
+    font-family: "acier-bat-outline", avenir;
+    font-size: 48px;
+    -webkit-animation: color-change 2s infinite;
+    -moz-animation: color-change 2s infinite;
+    -o-animation: color-change 2s infinite;
+    -ms-animation: color-change 2s infinite;
+    animation: color-change 2s infinite;
+}
+
+    @-webkit-keyframes color-change {
+        0% { color: black; text-shadow: 2px 2px 2px rgba(333,333,333,.4); }
+        30% { color: black; text-shadow: 2px 2px 2px rgba(0,255,177, .4); }
+        60% { color: black; text-shadow: 2px 2px 2px rgba(333,333,333,.4); }
+        90% { color: black; text-shadow: 2px 2px 2px rgba(0,255,177, .4); }
+    }
+    @-moz-keyframes color-change {
+        0% { color: black; text-shadow: 2px 2px 2px rgba(333,333,333,.4); }
+        30% { color: black; text-shadow: 2px 2px 2px rgba(0,255,177, .4); }
+        60% { color: black; text-shadow: 2px 2px 2px rgba(333,333,333,.4); }
+        90% { color: black; text-shadow: 2px 2px 2px rgba(0,255,177, .4); }
+    }
+    @-ms-keyframes color-change {
+        0% { color: black; text-shadow: 2px 2px 2px rgba(333,333,333,.4); }
+        30% { color: black; text-shadow: 2px 2px 2px rgba(0,255,177, .4); }
+        60% { color: black; text-shadow: 2px 2px 2px rgba(333,333,333,.4); }
+        90% { color: black; text-shadow: 2px 2px 2px rgba(0,255,177, .4); }
+    }
+    @-o-keyframes color-change {
+        0% { color: black; text-shadow: 2px 2px 2px rgba(333,333,333,.4); }
+        30% { color: black; text-shadow: 2px 2px 2px rgba(0,255,177, .4); }
+        60% { color: black; text-shadow: 2px 2px 2px rgba(333,333,333,.4); }
+        90% { color: black; text-shadow: 2px 2px 2px rgba(0,255,177, .4); }
+    }
+    @keyframes color-change {
+        0% { color: black; text-shadow: 2px 2px 2px rgba(333,333,333,.4); }
+        30% { color: black; text-shadow: 2px 2px 2px rgba(0,255,177, .4); }
+        60% { color: black; text-shadow: 2px 2px 2px rgba(333,333,333,.4); }
+        90% { color: black; text-shadow: 2px 2px 2px rgba(0,255,177, .4); }
+     }
 
 h1.name {
-	font-family: "acier-bat-outline", avenir;
-    text-decoration-style: 
-	font-size: 36px;
+    font-family: "acier-bat-outline", avenir;
+    font-size: 48px;
     -webkit-animation: color-change 8s infinite;
     -moz-animation: color-change 8s infinite;
     -o-animation: color-change 8s infinite;
@@ -45,12 +80,12 @@ h1.name {
         100% { color: rgba(255,0,0,1); text-shadow: 2px 2px 2px rgba(255,255,0,.4); }
     }
 
-
 /* body */
  
 p.intro,
 footer p,
-.other a {
+.other a,
+.project-title {
     font-family: "avenir", didot;
     font-size: 14px;
     line-height: 2;
@@ -61,10 +96,15 @@ p.intro a,
 .other a {
     text-decoration: none;
     color: #25C69A;
-    list-style: none!important;
+    list-style: none;
+    .project-title {
+        color: blue;
+        text-decoration: none;
+    }
 }
 
-p.intro a:hover {
+p.intro a:hover,
+.other a:hover {
         color: blue;
     }
 

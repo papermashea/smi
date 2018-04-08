@@ -30,8 +30,16 @@ body {
 	margin: 0 0 0 10%;
 }
 
-.projects-wrapper p {
+.project-details {
 	display: none;
+}
+
+.projects .projects-wrapper a:hover img {
+	opacity: 1;
+}
+
+.projects .projects-wrapper a:hover .project-details {
+	display: block!important;
 }
 
 a.project {
@@ -40,17 +48,22 @@ a.project {
 	text-align: center;
 	float: left;
 	background-color: transparent;
-}
-
-a.project:hover {
-	opacity: .5;
+	text-decoration: none;
 }
 
 .projects img {
 	border-radius: 50%;
 	width: 150px;
 	height: auto;
+	opacity: .5;
 }
+
+.project-details {
+	min-width: 100%;
+	margin: 2%;
+	clear: both;
+}
+
 
 
 /* footer */

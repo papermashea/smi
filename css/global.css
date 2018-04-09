@@ -34,7 +34,7 @@ body {
 
 /* body */
 
-.projects {
+.work {
 	padding-bottom: 50px;
 }
 
@@ -47,11 +47,11 @@ body {
 	display: none;
 }
 
-.projects .projects-wrapper a:hover img {
+.work .projects-wrapper a:hover img {
 	opacity: 1;
 }
 
-.projects .projects-wrapper a:hover .project-details {
+.work .projects-wrapper a:hover .project-details {
 	display: block;
 }
 
@@ -64,7 +64,7 @@ a.project {
 	text-decoration: none;
 }
 
-.projects img {
+.work img {
 	border-radius: 50%;
 	width: 150px;
 	height: auto;

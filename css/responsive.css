@@ -1,13 +1,93 @@
-/* small screen 
-@media screen and (min-width: 480px) and (max-width: 640px) {
-.project1 {
-	width: 100%;
-	height: auto;
+/* small screen */
+@media screen and (min-width: 10px) and (max-width: 640px) {
+	.header,
+	.projects-wrapper {
+		margin: 0 10%;
+		max-width: 80%;
+		min-width: 80%;
+	}
+
+	.projects-wrapper {
+		padding-bottom: 10px;
+	}
+
+	.projects {
+	    display: block;
+	    margin: 0 10%;
+	    clear: both;
+	}
+
+	a.project {
+		width: 100%;
+	}
+
+	.project-details {
+		display: block;
+		width: 100%
+	}
+
+
+	footer {
+		position: absolute;
+		bottom:-500px;
+		left:0;
+		height: 50px;
+		margin-top: -200px;
+		min-width: 100%;
+		max-width:100%;
+		margin: 0;
+	}
 }
 
-}
+/* medium screen */ 
+@media screen and (min-width: 641px) and (max-width: 980px) {
+	.header,
+	.projects-wrapper {
+		margin: 0 10%;
+		max-width: 80%;
+		min-width: 80%;
+	}
 
-/* medium screen 
-@media screen and (min-width: 641px) and (max-width: 820px) {
+	.projects-wrapper {
+		padding: 0 10% 10px 10%;
+		padding-bottom: 50px;
+	}
+
+	.projects {
+	    display: block;
+	    margin: 0 2%;
+	    clear: both;
+	    float: left;
+	    width: 45%;
+	}
+	
+	#project2,
+	#project4 {
+		clear: right;
+	}
+
+	a.project {
+		width: 45%;
+	}
+
+	.project-details {
+		display: block;
+		width: 100%
+	}
+
+	.work {
+		height: 1150px;
+	}
+
+	footer {
+		position: absolute;
+		bottom:0;
+		left:0;
+		height: 50px;
+		margin-top: -50px;
+		min-width: 100%;
+		max-width:100%;
+		margin: 0;
+	}
 	
 }

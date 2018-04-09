@@ -82,6 +82,8 @@ h1.name {
 
 /* body */
 
+h2,
+h2.a,
 h2.project-title {
     font-family: "avenir", sans-serif;
     font-size: 28px;
@@ -89,11 +91,14 @@ h2.project-title {
     text-align: center;
 }
 
+h3,
+h3 a,
 h3.project-subtitle {
     font-family: "avenir", sans-serif;
     font-size: 21px;
     line-height: 1;
     text-align: center;
+    text-decoration: none;
 }
 
 p.intro,

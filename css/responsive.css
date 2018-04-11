@@ -26,9 +26,14 @@
 		width: 100%
 	}
 
+	.project-samples img {
+		width: 30%;
+		height: auto;
+	}
+
 	.project-samples iframe {
 		display:none;
-		width:; 
+		width: 580px; 
 		height:100%;
 	}
 

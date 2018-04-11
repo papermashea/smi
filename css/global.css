@@ -34,7 +34,7 @@ body {
 /* body */
 
 .work {
-	padding-bottom: 50px;
+	padding-bottom: 30%;
 }
 
 .projects-wrapper {
@@ -76,19 +76,28 @@ a.project {
 	clear: both;
 }
 
+.project-samples img {
+	width: 25%;
+	height: auto;
+	margin: 1%;
+}
+
+.project-samples img.computer {
+	width: 40%;
+	height: auto;	
+}
+
 .project-samples iframe {
 	box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
 	width:980px; 
 	height:540px;
 }
 
-.project-samples
-
 
 /* footer */
 
 footer {
-	position:absolute;
+	position: absolute;
 	bottom:0;
 	left:0;
 	height: 50px;

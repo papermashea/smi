@@ -25,7 +25,6 @@ body {
 	position:top;
 }
 
-
 .project-description {
 	width: 60%;
 	margin: 2% 20%;
@@ -77,6 +76,13 @@ a.project {
 	clear: both;
 }
 
+.project-samples iframe {
+	box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+	width:980px; 
+	height:540px;
+}
+
+.project-samples
 
 
 /* footer */

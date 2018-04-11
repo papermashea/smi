@@ -26,6 +26,11 @@
 		width: 100%
 	}
 
+	.project-samples iframe {
+		display:none;
+		width:; 
+		height:100%;
+	}
 
 	footer {
 		position: absolute;

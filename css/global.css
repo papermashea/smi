@@ -93,6 +93,13 @@ a.project {
 	height:540px;
 }
 
+.squiggle {
+	opacity: 0;
+}
+
+.other a:hover .squiggle {
+	opacity: 1;
+}
 
 /* footer */
 

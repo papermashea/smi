@@ -93,6 +93,8 @@ a.project {
 	height:540px;
 }
 
+/* other */
+
 .squiggle {
 	opacity: 0;
 }
@@ -101,14 +103,26 @@ a.project {
 	opacity: 1;
 }
 
+/* projects */
+.project-image {
+	max-height:400px;
+	width:100%;
+	background-color: white; 
+}
+
+.project-image img {
+	max-height:400px;
+	padding:10px;
+}
+
 /* footer */
 
 footer {
 	position: absolute;
-	bottom:0;
+	bottom:-300px;
 	left:0;
 	height: 50px;
-	margin-top: -50px;
+	margin-top: -300px;
 	min-width: 100%;
 	max-width:100%;
 	margin: 0;

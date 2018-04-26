@@ -37,6 +37,19 @@
 		height:100%;
 	}
 
+
+	.project-image {
+		max-height:200px;
+		width:auto;
+	}
+
+	.other-wrapper .project-image img {
+		max-height:200px;
+		width: auto;
+		padding:10px;
+	}
+
+
 	footer {
 		position: absolute;
 		bottom:-800px;
@@ -89,18 +102,6 @@
 		height: 1150px;
 	}
 
-
-/* projects */
-.project-image {
-	max-height:200px;
-	width:auto;
-}
-
-.other-wrapper .project-image img {
-	max-height:200px;
-	width: auto;
-	padding:10px;
-}
 
 	footer {
 		position: absolute;

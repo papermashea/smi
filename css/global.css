@@ -112,7 +112,7 @@ a.project {
 	background-color: white; 
 }
 
-.project-image img {
+.other-wrapper .project-image img {
 	max-height:400px;
 	padding:10px;
 }

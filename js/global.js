@@ -1,9 +1,7 @@
-$(document).ready(function(){
-    $("#project-title").click(function(){
-        $("p").hide();
-    });
-    $("#eddi-title").click(function(){
-        $(".eddi-details").show();
-    });
-});
-
+function toggle_visibility(items) {
+       var e = document.getElementById(items);
+       if(e.style.display == 'block')
+          e.style.display = 'none';
+       else
+          e.style.display = 'block';
+    }

@@ -105,7 +105,8 @@ p.intro,
 .project-description,
 footer p,
 .other a,
-.project-title {
+.project-title,
+.menu-list {
     font-family: "avenir", didot;
     font-size: 14px;
     line-height: 2;
@@ -114,18 +115,20 @@ footer p,
 
 p.intro a,
 .other a,
-.detail-link {
+.detail-link,
+.menu-list a {
     text-decoration: none;
     color: #25C69A;
     list-style: none;
     .project-title {
-        color: blue;
+        color: #0000FF;
         text-decoration: none;
     }
 }
 
 p.intro a:hover,
-.other a:hover {
+.other a:hover,
+.menu-list a:hover {
         color: #0000FF;
     }
 

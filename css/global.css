@@ -46,6 +46,7 @@ body {
 	height:125px;
 	background-color: white;
 	box-shadow: 4px 4px 4px 4px rgba(0, 0, 255, .2);
+	display: none;
 }
 
 .menu ul,
@@ -54,7 +55,7 @@ body {
 	font-size: 11px;
 	list-style: none;
 	text-decoration: none;
-	padding: 4px 10px 4px 10px;
+	padding: 10px 10px 0px 10px;
 }
 
 .menu img {
@@ -150,14 +151,16 @@ a.project {
 .other-wrapper .project-image img {
 	max-height:400px;
 	padding:10px;
+	margin-bottom: 50px;
 }
+
 
 
 /* footer */
 
 footer {
 	position: absolute;
-	bottom:-250px;
+	bottom: 0px;
 	left:0;
 	height: 50px;
 	margin-top: -250px;
@@ -165,4 +168,7 @@ footer {
 	max-width:100%;
 	margin: 0;
 }
+
+
+
 

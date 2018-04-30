@@ -1,5 +1,5 @@
-function toggle_visibility(items) {
-       var e = document.getElementById(items);
+function toggle_visibility(id) {
+       var e = document.getElementById(id);
        if(e.style.display == 'block')
           e.style.display = 'none';
        else

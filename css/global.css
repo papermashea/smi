@@ -46,7 +46,6 @@ body {
 	height:125px;
 	background-color: white;
 	box-shadow: 4px 4px 4px 4px rgba(0, 0, 255, .2);
-	/*display:none;*/
 }
 
 .menu ul,
@@ -65,7 +64,6 @@ body {
 	top: 10px;
 	right: 20px;
 }
-
 
 
 /* body */

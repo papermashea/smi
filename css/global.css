@@ -154,6 +154,12 @@ a.project {
 	margin-bottom: 50px;
 }
 
+.creative,
+.side {
+	width: 100%;
+	clear: both;
+	height: 100%;
+}
 
 
 /* footer */

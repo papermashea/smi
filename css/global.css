@@ -42,8 +42,8 @@ body {
 	text-align: right;
 	margin-top: 50px;
 	background-color: 
-	width: 60px;
-	height:125px;
+	width: 80px;
+	height:240px;
 	background-color: white;
 	box-shadow: 4px 4px 4px 4px rgba(0, 0, 255, .2);
 	display: none;
@@ -51,7 +51,7 @@ body {
 
 .menu ul,
 .menu ul a {
-	line-height: 1.5;
+	line-height: 2;
 	font-size: 11px;
 	list-style: none;
 	text-decoration: none;
@@ -76,6 +76,11 @@ body {
 .projects-wrapper {
 	max-width: 100%;
 	margin: 0 0 0 10%;
+}
+
+.project {
+	height: 150px;
+	margin-bottom: 50px;
 }
 
 .project-details {
@@ -169,7 +174,6 @@ footer {
 	bottom: 0px;
 	left:0;
 	height: 50px;
-	margin-top: -250px;
 	min-width: 100%;
 	max-width:100%;
 	margin: 0;

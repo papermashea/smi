@@ -123,6 +123,18 @@ a.project {
 	margin: 1%;
 }
 
+.project-samples img.mobile {
+	width: 15%;
+	height: auto;
+	margin: 1%;
+}
+
+.project-samples img.tablet {
+	width: 22%;
+	height: auto;
+	margin: 1%;
+}
+
 .project-samples img.computer {
 	width: 25%;
 	height: auto;	

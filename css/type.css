@@ -106,7 +106,8 @@ p.intro,
 footer p,
 .other a,
 .project-title,
-.menu-list {
+.menu-list,
+li {
     font-family: "avenir", didot;
     font-size: 14px;
     line-height: 2;

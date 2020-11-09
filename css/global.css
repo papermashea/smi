@@ -154,7 +154,8 @@ a.project {
 
 .project-samples img.computer {
 	width: 25%;
-	height: auto;	
+	height: auto;
+	vertical-align: top;	
 }
 
 .project-samples iframe {
@@ -164,6 +165,12 @@ a.project {
 
 .project-samples iframe:hover {
 	box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+}
+
+img#streetwatch {
+	width: 300px;
+	height: auto;
+	position: relative;
 }
 
 /* other */

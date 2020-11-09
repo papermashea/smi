@@ -82,7 +82,7 @@ h1.name {
 
 /* body */
 
-h1 a.home-link {
+a.home-link {
     font-family: "acier-bat-outline", avenir;
     font-size: 32px;
     text-decoration: none;

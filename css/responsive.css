@@ -7,6 +7,10 @@
 		min-width: 80%;
 	}
 
+	.header-wrapper {
+		width: 90%;
+	}
+
 	.projects-wrapper {
 		padding-bottom: 10px;
 	}

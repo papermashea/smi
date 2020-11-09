@@ -16,6 +16,7 @@ body {
 .other-wrapper {
 	margin: 0 auto;
 	text-align: center;
+	width: 40%;
 }
 .header,
 .other {

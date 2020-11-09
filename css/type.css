@@ -82,11 +82,18 @@ h1.name {
 
 /* body */
 
-a.home-link {
+a.home-link,
+a.home-link:active {
     font-family: "acier-bat-outline", avenir;
     font-size: 32px;
     text-decoration: none;
     padding: 10px 20px;
+    color: #0000ff;
+    /*color: #25C69A;*/
+}
+
+a.home-link:hover,
+a.home-link:visited {
     color: #0000FF;
 }
 
@@ -149,7 +156,8 @@ footer a {
     padding: 1%;
     text-align: center;
     font-family: "avenir", didot;
-    color: #25C69A;
+    /*color: #25C69A;*/
+    color: #0000FF;
     text-decoration: none;
     font-size: 14px;
     line-height: 2;

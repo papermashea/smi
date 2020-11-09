@@ -106,3 +106,5 @@ dist
 #storage
 .DS_Store
 .ai
+find * -size +100M | cat >> .gitignore
+

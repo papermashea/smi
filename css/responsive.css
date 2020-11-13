@@ -58,7 +58,7 @@
 
 	footer {
 		position: absolute;
-		bottom: -2000px;
+		bottom: -80%;
 		left:0;
 		height: 50px;
 		min-width: 100%;
@@ -68,22 +68,22 @@
 }
 
 /* medium screen */ 
-@media screen and (min-width: 641px) and (max-width: 980px) {
+@media screen and (min-width: 641px) and (max-width: 800px) {
 	.header,
 	.projects-wrapper {
 		margin: 0 10%;
-		max-width: 80%;
-		min-width: 80%;
+		max-width: 70%;
+		min-width: 70%;
 	}
 
 	.projects-wrapper {
-		padding: 0 10% 10px 10%;
+		padding: 0 20% 10px 10%;
 		padding-bottom: 50px;
 	}
 
 	.projects {
 	    display: block;
-	    margin: 0 2%;
+	    margin: 0 5%;
 	    clear: both;
 	    float: left;
 	    width: 45%;
@@ -98,19 +98,29 @@
 		width: 45%;
 	}
 
-	.project-details {
+/*	.project-details {
 		display: block;
 		width: 100%
 	}
-
+*/
 	.work {
 		height: 1150px;
 	}
 
+	.projects {
+		min-height: 10%;
+	}
+
+.work .projects-wrapper a:hover .project-details {
+	display: block;
+	padding: 2%;
+	margin-bottom: 20px;
+}
+
 
 	footer {
 		position: absolute;
-		bottom:-150;
+		bottom:-1800px;
 		left:0;
 		height: 50px;
 		margin-top: -50px;

@@ -94,6 +94,7 @@ body {
 
 .work .projects-wrapper a:hover .project-details {
 	display: block;
+	padding: 2%;
 }
 
 a.project {
@@ -208,7 +209,7 @@ img#streetwatch {
 
 footer {
 	position: absolute;
-	bottom: -100px;
+	bottom: -40%;
 	left:0;
 	height: 50px;
 	min-width: 100%;

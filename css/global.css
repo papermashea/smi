@@ -216,7 +216,7 @@ img#streetwatch {
 
 footer {
 	position: absolute;
-	bottom: -40%;
+	bottom: 0px;
 	left:0;
 	height: 50px;
 	min-width: 100%;

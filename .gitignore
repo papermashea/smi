@@ -15,6 +15,7 @@ lerna-debug.log*
 
 #storage
 *.DS_Store
+.DS_Store
 .DS_Store*
 *.ai
 find * -size +100M | cat >> .gitignore

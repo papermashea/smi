@@ -2,7 +2,7 @@
 https://jekyllrb.com/docs/
 
 ## Theme
- *  *folio
+ *  folio
 Documentation: https://github.com/bogoli/-folio
 Demo: http://bogoli.github.io/-folio/
 
@@ -13,11 +13,6 @@ Go to: http://localhost:4000/
 To stop: CTRL + C
 
 To build: bundle exec jekyll build
-
-## Credentials
-Git credentials for local builds
-- git config user.name
-- git config user.name "Mona Lisa"
 
 
 ## New post
@@ -31,11 +26,10 @@ To edit posts:
 To view new posts: bundle exec jekyll build
 
 
-## Navigation
+## Git workflow
+To save local changes: **git push origin 2023**
 
-To update footer links:
-- data/footer.yml
 
-To update featured projects in sidebar:
-- data/sidebar.yml
-
+## site
+- Never update contents of "_site"
+- Update navigation by updating titles/permalinks and renaming .md files in the root directory markdown pages

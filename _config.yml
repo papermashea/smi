@@ -1,9 +1,9 @@
 # Site settings
-title: shea-molloy-info
+title: shea molloy
 email: hello@sheamolloy.info
 description: > # this means to ignore newlines until "baseurl:"
   A simple, whitespace, helvetica based portfolio theme.
-baseurl:  /home/
+baseurl:  
 url:  # the base hostname & protocol for your site
 twitter_username: papermashea
 github_username:  papermashea

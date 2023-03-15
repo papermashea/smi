@@ -6,10 +6,13 @@ description: Articles, livestreams and curation
 ---
 
 <ul class="post-list">
-{% for poem in site.poetry reversed %}
-    <li>
-        <h2><a class="poem-title" href="{{ poem.url | prepend: site.baseurl }}">{{ poem.title }}</a></h2>
-        <p class="post-meta">{{ poem.date | date: '%B %-d, %Y — %H:%M' }}</p>
+    {% for post in site.posts reversed %}
+      <li>
+        <h2><a class="post-title" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
+        <p class="post-meta">{{ post.date | date: '%B %-d, %Y — %H:%M' }}</p>
+        <p>{{ post.description }}</p>
+        <br/>
+        <hr/>
       </li>
-{% endfor %}
+    {% endfor %}
 </ul>

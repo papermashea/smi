@@ -6,14 +6,12 @@
 
       <div class="trigger">
     
-        <a class="page-link" href="{{ site.baseurl }}/">{{ site.title }} </a>
-        <!-- {{ site.title }}  -->
-        <a class="page-link" href="{{ site.baseurl }}/">home</a>
+            <a class="home-link" href="{{ site.baseurl }}/">{{ site.title }}</a>
 
         {% for page in site.pages %}
-          {% if page.title %}
-          <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
-          {% endif %}
+            {% if page.category == 'lp' %}
+            <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+            {% endif %}
         {% endfor %}
 
       </div>

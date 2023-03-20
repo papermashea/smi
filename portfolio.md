@@ -2,6 +2,8 @@
 layout: page
 title: portfolio
 permalink: /portfolio/
+description: Design and data
+category: lp
 ---
 
 {% for project in site.portfolio %}

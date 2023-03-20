@@ -2,7 +2,8 @@
 layout: page
 permalink: /work/
 title: work
-description: Articles, livestreams and curation
+description: Livestreams and publications
+category: lp
 ---
 
 <ul class="post-list">

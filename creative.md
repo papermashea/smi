@@ -2,6 +2,8 @@
 layout: page
 title: creative
 permalink: /creative/
+description: Personal projects
+category: lp
 ---
 
 

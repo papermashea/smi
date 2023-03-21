@@ -24,8 +24,17 @@ text-decoration: none;
 color: $theme-color;
     }
 }
+.nav-wrap {
+    width: 50%;
+}
+.nav-wrap#home {
+    float: left;
+}
+.nav-wrap#work {
+    float: right;
+    text-align: end;
+}
 .site-nav {
-float: right;
 line-height: $nav-height;
 .page-link{
 line-height: $base-line-height;
@@ -38,7 +47,8 @@ margin-left: 10px;
 position: fixed;
 top: 0px;
 right: 10px;
-text-align: right;
+text-align: center;
+width: 100%;
 &:hover .trigger {
 display: block;
 padding-bottom: 5px;

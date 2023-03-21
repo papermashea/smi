@@ -5,15 +5,16 @@
     <nav class="site-nav">
 
       <div class="trigger">
-    
-            <a class="home-link" href="{{ site.baseurl }}/">{{ site.title }}</a>
-
-        {% for page in site.pages %}
-            {% if page.category == 'lp' %}
+        <div class="nav-wrap" id="home">
+          <a class="home-link" href="{{ site.baseurl }}/">{{ site.title }}</a>
+        </div>
+        <div class="nav-wrap" id="work">
+          {% for page in site.pages %}
+              {% if page.category == 'lp' %}  
             <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
             {% endif %}
         {% endfor %}
-
+        </div>
       </div>
     </nav>
 

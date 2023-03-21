@@ -20,7 +20,7 @@ https://jekyllrb.com/docs/posts/
 
 bundle exec jekyll post "My New Post"
 
-To edit posts:
+To edit work:
 - posts/
 
 To view new posts: bundle exec jekyll build

@@ -2,7 +2,7 @@
 layout: page
 title: portfolio
 permalink: /portfolio/
-description: Design and data
+description: design and data
 category: lp
 ---
 

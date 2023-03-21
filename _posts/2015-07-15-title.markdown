@@ -1,8 +1,8 @@
 ---
 layout: post
-title: internal post with code
-date: 2015-07-15 15:09:00
-description: an example of a blog post with some code
+title: internal post 
+date: 2015-07-15
+description: with code
 redirect:
 published: true
 ---

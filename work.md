@@ -7,9 +7,15 @@ category: lp
 ---
 
 <ul class="post-list">
-    {% for post in site.posts reversed %}
+    {% for post in site.work reversed %}
       <li>
-        <h2><a class="post-title" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
+        <h2>
+          {% if post.redirect %}
+            <a class="post-title" href="{{ post.redirect}}">{{ post.title }}</a>
+          {% else %}
+            <a class="post-title" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+          {% endif %}
+        </h2>
         <p class="post-meta">{{ post.date | date: '%B %-d, %Y — %H:%M' }}</p>
         <p>{{ post.description }}</p>
         <br/>

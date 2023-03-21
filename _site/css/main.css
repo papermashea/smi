@@ -20,11 +20,11 @@ dl, dd, ol, ul, figure {
  */
 body {
   font-family: Helvetica, sans-serif;
-  font-size: 16px;
+  font-size: 13px;
   line-height: 1.5em;
   font-weight: 100;
-  color: #666;
-  background-color: #fdfdfd;
+  color: #000;
+  background-color: #fff;
   -webkit-text-size-adjust: 100%;
 }
 
@@ -57,7 +57,7 @@ figure > img {
 }
 
 figcaption {
-  font-size: 14px;
+  font-size: 11.375px;
 }
 
 /**
@@ -83,7 +83,7 @@ h1, h2, h3, h4, h5, h6 {
  * Links
  */
 a {
-  color: #666;
+  color: #000;
   text-decoration: none;
   /*
   &:visited {
@@ -92,12 +92,12 @@ a {
   */
 }
 a:hover {
-  color: #FF3636;
+  color: #0000FF;
   text-decoration: none;
 }
 
 article a {
-  color: #FF3636;
+  color: #0000FF;
   font-weight: 100;
 }
 article a:hover {
@@ -108,7 +108,7 @@ article a:hover {
  * Blockquotes
  */
 blockquote {
-  color: #666;
+  color: #000;
   border-left: 10px solid #ddd;
   padding-left: 25px;
   font-size: 18px;
@@ -194,11 +194,23 @@ pre > code {
 }
 .site-title:hover {
   text-decoration: none;
-  color: #FF3636;
+  color: #0000FF;
+}
+
+.nav-wrap {
+  width: 50%;
+}
+
+.nav-wrap#home {
+  float: left;
+}
+
+.nav-wrap#work {
+  float: right;
+  text-align: end;
 }
 
 .site-nav {
-  float: right;
   line-height: 56px;
 }
 .site-nav .page-link {
@@ -212,7 +224,8 @@ pre > code {
     position: fixed;
     top: 0px;
     right: 10px;
-    text-align: right;
+    text-align: center;
+    width: 100%;
   }
   .site-nav:hover .trigger {
     display: block;
@@ -237,7 +250,7 @@ pre > code {
   z-index: 25;
 }
 .header-bar h1 {
-  color: #FF3636;
+  color: #0000FF;
   font-size: 75px;
 }
 .header-bar h2 {
@@ -248,9 +261,9 @@ pre > code {
  * Site footer  **********************************************************
  */
 .site-footer {
-  border-top: 1px solid #333;
+  border-top: 1px solid #1a1a1a;
   font-size: 10px;
-  background-color: #333;
+  background-color: #1a1a1a;
   padding: 2px;
   color: #aaa;
   position: fixed;
@@ -278,7 +291,7 @@ pre > code {
   font-size: 50px;
 }
 .paginationicon a {
-  color: #FF3636;
+  color: #0000FF;
 }
 
 /**
@@ -354,8 +367,8 @@ pre > code {
 }
 
 .post-meta {
-  font-size: 14px;
-  color: #828282;
+  font-size: 11.375px;
+  color: #1a1a1a;
   margin-bottom: 0px;
 }
 
@@ -440,7 +453,7 @@ pre > code {
  * Portfolio pages **********************************************************
 */
 .blankbox {
-  background: #FF3636;
+  background: #0000FF;
 }
 
 .img_row {

@@ -60,12 +60,13 @@ display: line;
 }
 
 .header-bar{
+    background: #000;
     left: 0px;
     top: 0px;
     position: relative;
     font-size: 20px;
     display: block;
-    opacity: 0.75;
+    opacity: 0.85;
     width: 100%;
     text-align: center;
     padding-top: 25px;
@@ -132,7 +133,7 @@ margin-bottom: $vertical-spacing-unit;
     }
 }
 .contacticon {
-font-size: 60px;
+font-size: 20px;
 display:block;
 margin: 10px;
 }

@@ -1,24 +1,17 @@
 ---
 layout: post
-title: NYC Mesh
-description: Community-owned, accesibly wifi in nyc
-category: Design
-permalink: /nyc-mesh/
-date: 2022-02-01
-img: /img/4.jpg
+title: From the Ground Up
+description: Exploring edible and medicinal plant data for sustainable systems
+category: Data Design
+tags: html css js ux sql bash regex
+permalink: /useful-plants/
+date: 2022-05-01
+img: /img/1.jpg
 ---
 
 Every project has a beautiful feature shocase page. It's easy to include images, in a flexible 3-column grid format. Make your photos 1/3, 2/3, or full width.
 
 To give your project a background in the portfolio page, just add the img tag to the front matter like so: 
-
-	---
-	layout: post
-	title: Project
-	description: a project with a background image
-	img: /img/12.jpg
-	---
-
 
 <div class="img_row">
 	<img class="col one" src="{{ site.baseurl }}/img/1.jpg" alt="" title="example image"/>
@@ -45,14 +38,3 @@ You can also put regular text between your rows of images. Say you wanted to wri
 <div class="col three caption">
 	You can also have artistically styled 2/3 + 1/3 images, like these.
 </div>
-
-
-<br/><br/><br/>
-
-
-The code is simple. Just add a col class to your image, and another class specifying the width: one, two, or three columns wide. Here's the code for the last row of images above: 
-
-	<div class="img_row">
-	  <img class="col two" src="/img/6.jpg"/>
-	  <img class="col one" src="/img/11.jpg"/>
-	</div>

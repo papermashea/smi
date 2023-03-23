@@ -172,19 +172,12 @@ pre > code {
 }
 
 /**
- * Footer
- */
-footer a {
-  color: white;
-}
-
-/**
  * Site header   **********************************************************
  */
 .site-header {
-  border-bottom: 1px solid #464646;
-  background-color: #fff;
-  opacity: 0.75;
+  border-bottom: 1px solid #1a1a1a;
+  background-color: #1a1a1a;
+  opacity: 0.95;
   position: fixed;
   left: 0px;
   top: 0px;
@@ -243,14 +236,17 @@ footer a {
   }
 }
 
+nav a {
+  color: #fff;
+}
+
 .header-bar {
-  background: #000;
   left: 0px;
   top: 0px;
   position: relative;
   font-size: 20px;
   display: block;
-  opacity: 0.85;
+  opacity: 0.9;
   width: 100%;
   text-align: center;
   padding-top: 25px;
@@ -272,7 +268,8 @@ footer a {
   border-top: 1px solid #1a1a1a;
   font-size: 10px;
   background-color: #1a1a1a;
-  padding: 2px;
+  opacity: 0.95;
+  padding: 4px;
   color: #aaa;
   position: fixed;
   left: 0px;
@@ -280,8 +277,10 @@ footer a {
   width: 100%;
 }
 
-.site-footer p {
+.site-footer p,
+.site-footer a {
   margin-bottom: 0;
+  color: #fff;
 }
 
 /**
@@ -431,6 +430,7 @@ footer a {
   position: relative;
   left: -25%;
   top: -5%;
+  filter: blur(0.1rem);
 }
 
 .thumbnail a {
@@ -455,6 +455,10 @@ footer a {
 
 .thumbnail a:hover span {
   display: block;
+}
+
+.thumbnail a:hover img {
+  filter: blur(0.5rem);
 }
 
 /** 

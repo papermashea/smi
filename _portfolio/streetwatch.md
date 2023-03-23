@@ -1,11 +1,12 @@
 ---
 layout: post
-title: ML Explorations
-description: Natural language process, sentiment analysis, GAN generations and Stable Diffusion work
-category: Data Design
-permalink: /ml-experiments/
-date: 2021-11-01
-img: /img/3.jpg
+title: Streetwatch.live
+description: Taking back surveillance for activist archives
+category: Design
+tags: html css js ux cc
+permalink: /streetwatch-live/
+date: 2021-06-01
+img: /img/5.jpg
 ---
 
 Every project has a beautiful feature shocase page. It's easy to include images, in a flexible 3-column grid format. Make your photos 1/3, 2/3, or full width.

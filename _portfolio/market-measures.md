@@ -3,6 +3,7 @@ layout: post
 title: Market Industry Measures
 description: Diversifying data and representations of power in the market
 category: Data Design
+tags: tableau js ux
 permalink: /industry-measures/
 date: 2021-03-01
 img: /img/7.jpg

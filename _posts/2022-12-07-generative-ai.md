@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Generative AI Content Guidelines and Directon
+title: Generative AI Content Directon
 date: 2022-12-07
 category: Livestream
 description: Guidelines, best practices and creative directon

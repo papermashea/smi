@@ -9,13 +9,12 @@ dl, dd, ol, ul, figure {
 }
 
 
-
 /** Variables **********************************************/
-$base-font-family:              Helvetica, sans-serif;
+$base-font-family:              Courier New, monospace;
 $base-line-height:              1.5em;
 $horizontal-spacing-unit:       50px;
-$vertical-spacing-unit:         40px;
-$nav-height:                    56px;
+$vertical-spacing-unit:         25px;
+$nav-height:                    50px;
 
 /* portfolio tinkering */
 $img_spacing: 5px; 
@@ -23,22 +22,13 @@ $img_height: 275px;
 $caption_font_size: 12px;
 $caption_color: #aaa;
 
-/* COLORS  */
-$red:  #FF3636;
-$orange: #F29105;
-$blue: #2698BA;
-$green: #11D68B;
-$lime_green: #B7D12A;
-$purple: #B509AC;
-
-
 $grey-color-dark: #1a1a1a;   /* footer */
-$grey-color-light: #464646;  /* navigation bar border */
-$text-color:     #000;
+$grey-color-light: #bcbcbc;  /* navigation bar border */
+$text-color: #000;
+$text-color-light: #ffffff;
 
 /* Set theme color *************************/
 $theme-color:   $brand-color;
-
 
 /************************************************************/
 

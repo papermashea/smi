@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Graphic Trends for Illustrators and Designers
+title: Design Trends for Illustrators
 date: 2020-10-08
 category: Livestream
 description: Applying trending styles and techniques

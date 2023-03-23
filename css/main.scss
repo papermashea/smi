@@ -6,16 +6,17 @@
 
 
 // Our variables
-$base-font-family: Helvetica, Arial, sans-serif;
-$base-font-size:   13px;
+$base-font-family: Courier New, monospace;
+$base-font-size:   14px;
 $small-font-size:  $base-font-size * 0.875;
 $base-line-height: 1.5;
 
 $spacing-unit:     30px;
 
-$text-color:       #000;
 $background-color: #fff;
-$brand-color:      #0000FF;
+$brand-color:      #CC5500;
+$highlight-color: #afaedc;
+$accent-color: #1c88a5;
 
 $grey-color:       #1a1a1a;
 $grey-color-light: lighten($grey-color, 100%);

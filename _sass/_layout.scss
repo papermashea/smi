@@ -3,9 +3,9 @@
  * Site header   **********************************************************
  */
 .site-header {
-border-bottom: 1px solid $grey-color-light;
-background-color: #fff;
-opacity: 0.75;
+border-bottom: 1px solid $grey-color-dark;
+background-color: $grey-color-dark;
+opacity: 0.95;
 position:fixed;
 left:0px;
 top:0px;
@@ -58,15 +58,17 @@ display: line;
         }
     }
 }
+nav a {
+color: #fff;
+}
 
 .header-bar{
-    background: #000;
     left: 0px;
     top: 0px;
     position: relative;
     font-size: 20px;
     display: block;
-    opacity: 0.85;
+    opacity: 0.9;
     width: 100%;
     text-align: center;
     padding-top: 25px;
@@ -88,7 +90,8 @@ display: line;
 border-top: 1px solid $grey-color-dark;
 font-size: 10px;
 background-color: $grey-color-dark;
-padding: 2px;
+opacity: 0.95;
+padding: 4px;
 color: #aaa;
 position:fixed;
 left:0px;
@@ -96,8 +99,10 @@ bottom:0px;
 width:100%;
 }
 
-.site-footer p {
+.site-footer p,
+.site-footer a {
     margin-bottom: 0; // Remove margin set in _sass/_base.scss for vertical rythm
+    color: #fff;
 }
 
 /**
@@ -227,6 +232,7 @@ height: auto;
 position: relative;
 left: -25%;
 top: -5%;
+filter: blur(.1rem);
 }
 .thumbnail a{
 float: left;
@@ -249,6 +255,10 @@ text-align: center;
 .thumbnail a:hover span {
 display: block;
 }
+.thumbnail a:hover img {
+filter: blur(.5rem);
+}
+
 /** 
  * Portfolio pages **********************************************************
 */

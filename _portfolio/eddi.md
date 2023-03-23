@@ -1,11 +1,12 @@
 ---
 layout: post
-title: Unglitch
-description: Art-tech activism and education
-category: Design
-permalink: /unglitch/
-date: 2017-01-01
-img: /img/10.jpg
+title: EDDI
+description: Electrodialysis desalinator for irrigation
+category: Data Design
+tags: html css ux cc
+permalink: /eddi/
+date: 2016-06-01
+img: /img/11.jpg
 ---
 
 Every project has a beautiful feature shocase page. It's easy to include images, in a flexible 3-column grid format. Make your photos 1/3, 2/3, or full width.

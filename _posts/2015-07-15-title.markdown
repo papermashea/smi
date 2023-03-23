@@ -4,7 +4,7 @@ title: internal post
 date: 2015-07-15
 description: with code
 redirect:
-published: true
+published: false
 ---
 This theme implements a built-in Jekyll feature, the use of Pygments, for sytanx highlighting. It supports more than 100 languages. This example is in C++. All you have to do is wrap your code in a liquid tag: 
 {% raw  %}

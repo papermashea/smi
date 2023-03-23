@@ -46,7 +46,7 @@ hr {
   border: 0;
   height: 0;
   border-top: 1px solid rgba(0, 0, 0, 0.1);
-  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.6);
 }
 
 /**
@@ -109,7 +109,7 @@ article a:hover {
  */
 blockquote {
   color: #000;
-  border-left: 10px solid #ddd;
+  border-left: 10px solid #464646;
   padding-left: 25px;
   font-size: 18px;
   font-style: italic;
@@ -125,7 +125,7 @@ pre,
 code {
   font-size: 15px;
   border-radius: 3px;
-  background-color: #ddd;
+  background-color: #464646;
 }
 
 code {
@@ -172,10 +172,17 @@ pre > code {
 }
 
 /**
+ * Footer
+ */
+footer a {
+  color: white;
+}
+
+/**
  * Site header   **********************************************************
  */
 .site-header {
-  border-bottom: 1px solid #ddd;
+  border-bottom: 1px solid #464646;
   background-color: #fff;
   opacity: 0.75;
   position: fixed;
@@ -237,12 +244,13 @@ pre > code {
 }
 
 .header-bar {
+  background: #000;
   left: 0px;
   top: 0px;
   position: relative;
   font-size: 20px;
   display: block;
-  opacity: 0.75;
+  opacity: 0.85;
   width: 100%;
   text-align: center;
   padding-top: 25px;
@@ -314,7 +322,7 @@ pre > code {
 }
 
 .contacticon {
-  font-size: 60px;
+  font-size: 20px;
   display: block;
   margin: 10px;
 }
@@ -440,7 +448,7 @@ pre > code {
   bottom: 0;
   right: 0;
   background: rgba(0, 0, 0, 0.4);
-  color: #ddd;
+  color: #464646;
   padding: 40px;
   text-align: center;
 }

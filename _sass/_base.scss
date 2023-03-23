@@ -12,8 +12,8 @@ dl, dd, ol, ul, figure {
 /** Variables **********************************************/
 $base-font-family:              Courier New, monospace;
 $base-line-height:              1.5em;
-$horizontal-spacing-unit:       50px;
-$vertical-spacing-unit:         25px;
+$horizontal-spacing-unit:       20px;
+$vertical-spacing-unit:         40px;
 $nav-height:                    50px;
 
 /* portfolio tinkering */
@@ -53,7 +53,7 @@ body {
 p, blockquote, pre,
 ul, ol, dl, figure,
 %vertical-rhythm {
-    margin-bottom: $vertical-spacing-unit / 2;
+    margin-bottom: $vertical-spacing-unit / 4;
 }
 
 .alignright {

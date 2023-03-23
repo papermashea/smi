@@ -90,7 +90,7 @@ border-top: 1px solid $grey-color-dark;
 font-size: 10px;
 background-color: $grey-color-dark;
 opacity: 0.95;
-padding: 4px;
+padding: 5px 0px;
 color: #aaa;
 position:fixed;
 left:0px;
@@ -102,6 +102,7 @@ width:100%;
 .site-footer a {
     margin-bottom: 0; // Remove margin set in _sass/_base.scss for vertical rythm
     color: #fff;
+    padding: 5px 0px;
 }
 
 /**

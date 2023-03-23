@@ -2,8 +2,8 @@
 layout: post
 title: EDDI
 description: Electrodialysis desalinator for irrigation
-category: Data Design
-tags: html css ux cc
+categories: [Data, Design]
+tags: [html,css,ux,cc]
 permalink: /eddi/
 date: 2016-06-01
 img: /img/11.jpg

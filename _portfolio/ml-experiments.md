@@ -2,8 +2,8 @@
 layout: post
 title: ML Explorations
 description: Natural language process, sentiment analysis, GAN generations and Stable Diffusion work
-category: Data Design
-tags: python
+categories: Data
+tags: [python, r]
 permalink: /ml-experiments/
 date: 2021-11-01
 img: /img/3.jpg

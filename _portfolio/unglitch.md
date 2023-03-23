@@ -2,8 +2,8 @@
 layout: post
 title: Unglitch
 description: Art-tech activism and education
-category: Design
-tags: ux cc
+categories: Design
+tags: [ux,cc]
 permalink: /unglitch/
 date: 2017-01-01
 img: /img/10.jpg

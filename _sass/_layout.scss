@@ -1,4 +1,3 @@
-
 /**
  * Site header   **********************************************************
  */
@@ -127,8 +126,11 @@ color: $theme-color;
 .page-content {
 padding: 100px 0; /* VERTICAL PADDING FOR TITLE ON EVERY PAGE */
 }
-.page-heading {
-font-size: 20px;
+.page-title {
+font-size: 32px;
+}
+.page-desc {
+font-size: 24px;
 }
 .post-list {
 margin: 0px 0;
@@ -152,30 +154,31 @@ text-align: center;
 margin-bottom: $vertical-spacing-unit;
 }
 .post-title {
-font-size: 42px;
+font-size: 24px;
 letter-spacing: -1px;
 line-height: 1;
 @include media-query($on-laptop) {
-font-size: 36px;
+font-size: 21px;
     }
 }
 .post-content {
 h2 {
-font-size: 42px;
+font-size: 24px;
 @include media-query($on-laptop) {
-font-size: 28px;
+font-size: 18px;
         }
     }
 h3 {
-font-size: 30px;
+font-size: 21px;
 @include media-query($on-laptop) {
-font-size: 22px;
+font-size: 16px;
         }
     }
 h4 {
-font-size: 20px;
+font-size: 16px;
+font-weight: bold;
 @include media-query($on-laptop) {
-font-size: 18px;
+font-size: 14px;
         }
     }
 }
@@ -184,27 +187,17 @@ font-size: $small-font-size;
 color: $grey-color;
 margin-bottom: 0px; 
 }
-.post-link {
-display: block;
-font-size: 42px;
+.post-tag {
+    color: $text-color-light;
+    background-color: $brand-color;
+    border: .5px solid $brand-color;
+    border-radius: 2px;
+    padding:1px 4px;
 }
-
-/** Poem formatting ********************************************/
-.poem-title {
-font-size: 24px;
-letter-spacing: -1px;
-line-height: 1;
-@include media-query($on-laptop) {
-font-size: 16px;
-    }
-}
-
 
 /** 
  * Portfolio grid **********************************************************
 */
-// Nicolas Gallagher's micro clearfix hack
-// http://nicolasgallagher.com/micro-clearfix-hack/
 .clearfix:before,
 .clearfix:after {
 content: " ";
@@ -221,6 +214,14 @@ vertical-align: middle;
 box-sizing: border-box;
 padding: 10px;
 }
+.thumbnail p {
+    color: $text-color-light;
+    font-size: .75em;
+}
+.tile-title {
+    font-weight: bold;
+    font-size:1em;
+}
 .thumbnail{
 width: 100%;
 height: 230px;
@@ -230,9 +231,8 @@ overflow: hidden;
 width: 500px;
 height: auto;
 position: relative;
-left: -25%;
-top: -5%;
-filter: blur(.1rem);
+left: -65%;
+filter: blur(.05rem);
 }
 .thumbnail a{
 float: left;

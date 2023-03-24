@@ -10,7 +10,7 @@
         </div>
         <div class="nav-wrap" id="work">
           {% for page in site.pages %}
-              {% if page.category == 'lp' %}  
+              {% if page.categories == 'lp' %}  
             <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
             {% endif %}
         {% endfor %}

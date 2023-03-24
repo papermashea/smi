@@ -3,7 +3,7 @@ layout: page
 permalink: /work/
 title: Work
 description: Livestreams, publications and research
-category: lp
+categories: lp
 ---
 
 <ul class="post-list">
@@ -16,7 +16,7 @@ category: lp
             <a class="post-title" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
           {% endif %}
         </h4>
-        <p class="post-meta"><a class="post-tag">{{ post.category }}</a> | {{ post.date | date: '%B %Y' }}</p>
+        <p class="post-meta"><a class="post-tag">{{ post.tags }}</a> | {{ post.date | date: '%B %Y' }}</p>
         <p>{{ post.description }}</p>
         <br/>
         <hr/>

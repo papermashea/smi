@@ -33,7 +33,7 @@ body {
 p, blockquote, pre,
 ul, ol, dl, figure,
 .highlight {
-  margin-bottom: 12.5px;
+  margin-bottom: 10px;
 }
 
 .alignright {
@@ -63,7 +63,7 @@ figcaption {
  * Lists
  */
 ul, ol {
-  margin-left: 50px;
+  margin-left: 20px;
 }
 
 li > ul,
@@ -109,7 +109,7 @@ article a:hover {
 blockquote {
   color: #000;
   border-left: 10px solid #bcbcbc;
-  padding-left: 25px;
+  padding-left: 10px;
   font-size: 18px;
   font-style: italic;
 }
@@ -145,17 +145,17 @@ pre > code {
  * Wrapper
  */
 .wrapper {
-  max-width: -webkit-calc(800px - (50px * 2));
-  max-width: calc(800px - (50px * 2));
+  max-width: -webkit-calc(800px - (20px * 2));
+  max-width: calc(800px - (20px * 2));
   margin-right: auto;
   margin-left: auto;
-  padding-right: 50px;
-  padding-left: 50px;
+  padding-right: 20px;
+  padding-left: 20px;
 }
 @media screen and (max-width: 800px) {
   .wrapper {
-    max-width: -webkit-calc(800px - (50px));
-    max-width: calc(800px - (50px));
+    max-width: -webkit-calc(800px - (20px));
+    max-width: calc(800px - (20px));
     padding-right: 15px;
     padding-left: 15px;
   }
@@ -268,7 +268,7 @@ nav a {
   font-size: 10px;
   background-color: #1a1a1a;
   opacity: 0.95;
-  padding: 4px;
+  padding: 5px 0px;
   color: #aaa;
   position: fixed;
   left: 0px;
@@ -280,13 +280,14 @@ nav a {
 .site-footer a {
   margin-bottom: 0;
   color: #fff;
+  padding: 5px 0px;
 }
 
 /**
  * Pagination   **********************************************************
  */
 .pagination {
-  max-width: -webkit-calc(800px - (50px * 2));
+  max-width: -webkit-calc(800px - (20px * 2));
   text-align: center;
   width: 100%;
   position: fixed;
@@ -320,7 +321,7 @@ nav a {
   list-style: none;
 }
 .post-list > li {
-  margin-bottom: 25px;
+  margin-bottom: 40px;
 }
 
 .contacticon {
@@ -337,7 +338,7 @@ nav a {
  * Posts  **********************************************************
  */
 .post-header {
-  margin-bottom: 25px;
+  margin-bottom: 40px;
 }
 
 .post-title {

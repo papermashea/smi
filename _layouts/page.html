@@ -2,10 +2,13 @@
 layout: default
 ---
 <div class="post">
-
+<!--   {% for cat in categories %}
+      <li><a href="{{ site.baseurl }}{{ proj.url }}">{{ cat }}</a></li>
+  {% endfor %} -->
   <header class="post-header">
+    {% assign categories =  site.portfolio | map: 'categories' | uniq %}
     {% if page.title %}
-      <div class="page-head"><span class="page-title">{{ page.title }}</span><span class="page-desc"> // {{ page.description }}</span></div> 
+      <div class="page-title">{{ page.title }} //</div> 
     {% else %}
       <div class="page-subhead">{{ page.description }} </div>
     {% endif %}

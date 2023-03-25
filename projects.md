@@ -6,16 +6,27 @@ description: Design and data portfolio
 categories: lp
 ---
 
-<!-- <section>
-  {% for tag in site.tags %}
+<section>
+<!--   {% for tag in site.tags %}
     <h3>{{ tag[0] }}</h3>
     <ul>
       {% for post in tag[1] %}
         <li><a href="{{ post.url }}">{{ post.title }}</a></li>
       {% endfor %}
     </ul>
+  {% endfor %} -->
+{% assign tags =  site.portfolio | map: 'tags' | uniq %}
+{% for tag in tags %}
+  <h3>{{ tag }}</h3>
+  <ul>
+  {% for proj in site.portfolio %}
+    {% if proj.tags contains tag %}
+    <li><a href="{{ site.baseurl }}{{ proj.url }}">{{ proj.title }}</a></li>
+    {% endif %}
   {% endfor %}
-</section> -->
+  </ul>
+{% endfor %}
+</section>
 
 {% for project in site.portfolio reversed %}
 <div class="project ">

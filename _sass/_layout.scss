@@ -192,8 +192,12 @@ margin-bottom: 0px;
     color: $text-color-light;
     background-color: $brand-color;
     border: .5px solid $brand-color;
-    border-radius: 2px;
-    padding:1px 4px;
+    border-radius: 4px;
+    &:hover {
+        color: $text-color-light;
+        background-color: $brand-color;
+        text-decoration: underline;
+    }
 }
 
 /** 

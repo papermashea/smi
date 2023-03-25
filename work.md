@@ -16,7 +16,7 @@ categories: lp
             <a class="post-title" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
           {% endif %}
         </h4>
-        <p class="post-meta"><a class="post-tag">{{ post.tags }}</a> | {{ post.date | date: '%B %Y' }}</p>
+        <p class="post-meta"><a class="post-tag">{{ post.categories }}</a> | {{ post.date | date: '%B %Y' }}</p>
         <p>{{ post.description }}</p>
         <br/>
         <hr/>

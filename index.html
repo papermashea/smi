@@ -27,9 +27,12 @@ is interested in technology, art, activism and the environment. She holds a <a h
 </section>
 
 <section>
-  {% for post in site.posts %}
-    {% if post.categories contains "Data" or post.categories contains "Design" %}
+  {% for tag in site.tags %}
+    <h3>{{ tag[0] }}</h3>
+    <ul>
+      {% for post in tag[1] %}
         <li><a href="{{ post.url }}">{{ post.title }}</a></li>
-    {% endif %}
-{% endfor %}
+      {% endfor %}
+    </ul>
+  {% endfor %}
 </section>

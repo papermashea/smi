@@ -11,7 +11,7 @@ categories: lp
       <li>
         <h4>
           {% if post.redirect %}
-            <a class="post-title" href="{{ post.redirect}}">{{ post.title }}</a>
+            <a class="post-title" href="{{ post.redirect}}" target="_blank">{{ post.title }}</a>
           {% else %}
             <a class="post-title" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
           {% endif %}

@@ -19,13 +19,11 @@ highlighter: rouge
 # Include portfolio
 # include: 
 #   - _portfolio
-relative_permalinks: false
+# relative_permalinks: false
 
 # Collections
 collections:
   portfolio:
     output: true
+    tags: true
     permalink: /projects/:path/
-  work:
-    output: true
-    permalink: /work/:path/

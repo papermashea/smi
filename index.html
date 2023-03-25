@@ -27,6 +27,7 @@ is interested in technology, art, activism and the environment. She holds a <a h
 </section>
 
 <section>
+<!-- tags for all posts -->
   {% for tag in site.tags %}
     <h3>{{ tag[0] }}</h3>
     <ul>
@@ -35,4 +36,18 @@ is interested in technology, art, activism and the environment. She holds a <a h
       {% endfor %}
     </ul>
   {% endfor %}
+
+<!-- tags for portfolio collection -->
+{% assign tags =  site.portfolio | map: 'tags' | uniq %}
+{% for tag in tags %}
+  <h3>{{ tag }}</h3>
+  <ul>
+  {% for proj in site.portfolio %}
+    {% if proj.tags contains tag %}
+    <li><a href="{{ site.baseurl }}{{ proj.url }}">{{ proj.title }}</a></li>
+    {% endif %}
+  {% endfor %}
+  </ul>
+{% endfor %}
+
 </section>

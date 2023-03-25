@@ -6,7 +6,6 @@ description: Design and data portfolio
 categories: lp
 ---
 
-
 {% for project in site.portfolio reversed %}
 
 <div class="project ">

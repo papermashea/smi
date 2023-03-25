@@ -2,8 +2,8 @@
 layout: post
 title: Creative Coding
 description: Experimental projects from DVIA and Data Structures
-categories: [Data, Design]
-permalink: /creative-coding/
+categories: ["Data", "Design"]
+permalink: /projects/creative-coding/
 date: 2019-09-01
 img: /img/8.jpg
 ---

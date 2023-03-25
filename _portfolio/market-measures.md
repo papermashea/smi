@@ -1,10 +1,10 @@
 ---
 layout: post
-title: Market Industry Measures
+title: Market Measures
 description: Diversifying data and representations of power in the market
 categories: [Data, Design]
 tags: [tableau,js,ux]
-permalink: /industry-measures/
+permalink: /projects/market-measures/
 date: 2021-03-01
 img: /img/7.jpg
 ---

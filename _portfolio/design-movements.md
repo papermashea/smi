@@ -2,8 +2,8 @@
 layout: post
 title: Cooper Hewitt Design Movements
 description: Color, medium, and regional analysis of the Cooper Hewitt collection
-categories: [Data, Design]
-permalink: /design-movements/
+tags: Data Design
+permalink: /projects/design-movements/
 date: 2021-12-01
 img: /img/design-movements.png
 ---
@@ -30,7 +30,7 @@ Individual design objects provide a great deal of creative insight and societal 
 	<img class="col two" src="{{ site.baseurl }}/img/design-movements/form1.png" alt="" title="example image"/>
 	<img class="col one" src="{{ site.baseurl }}/img/design-movements/form2.png" alt="" title="example image"/>
 </div>
-<div class="col three caption">
+/portfolio<div class="col three caption">
 	Design movements: form analysis 
 </div>
 

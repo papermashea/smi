@@ -6,7 +6,7 @@ categories: home
 ---
 
 <section class="two left">
-is interested in technology, art, activism and the environment. She holds a <a href="https://www.newschool.edu/parsons/ms-data-visualization">Masters of Science in Data Visualization</a> and a <a href="https://cpe.newschool.edu/public/category/courseCategoryCertificateProfile.do?method=load&certificateId=1408175" target="blank">Futures Studies Certificate</a> from Parsons at The New School and is currently <a href="https://www.behance.net/shea-molloy" target="blank">working on the Adobe Stock Design Elements Content Team.</a> 
+is interested in technology, art, activism and the environment. She holds a <a href="https://www.newschool.edu/parsons/ms-data-visualization">Masters of Science in Data Visualization</a> and a <a href="https://cpe.newschool.edu/public/category/courseCategoryCertificateProfile.do?method=load&certificateId=1408175" target="blank">Futures Studies and Speculative Design Certificate</a> from Parsons at The New School and is currently <a href="https://www.behance.net/shea-molloy" target="blank">working on the Adobe Stock Design Elements Content Team.</a> 
   <div class="contacticon">
     <!-- regular icons -->
     <a href="mailto:hello@sheamolloy.info"><i class="fa fa-envelope"></i></a>
@@ -14,10 +14,22 @@ is interested in technology, art, activism and the environment. She holds a <a h
     <a href="https://www.linkedin.com/in/sheamolloy/" target="_blank"><i class="fa fa-linkedin"></i></a>
     <a href="https://twitter.com/papermashea" target="_blank"><i class="fa fa-twitter"></i></a>
   </div>
+<!--   <ul>Other expertise:
+    <li><a href="https://cpe.newschool.edu/public/category/courseCategoryCertificateProfile.do?method=load&certificateId=1408175" target="blank">Futures Studies and Speculative Design Certificate</a></li>
+    <li><a href="https://public.tableau.com/app/profile/shea-molloy" target="blank">Tableau Certified Data Analyst</a></li>
+  </ul> -->
 </section>
 
 <!-- <img class="col one right" src="/img/prof_pic.png"> -->
 
 <section class="three caption">
   <p>Reach out for data and design collaborations, to <a href="https://forms.gle/E9XthQLowpARX7rZ6" target="_blank">request tech support for artists</a>, or just to say<a href="mailto:hello@sheamolloy.info"> hello[at]sheamolloy[dot]info</a></p>
+</section>
+
+<section>
+  {% for post in site.posts %}
+    {% if post.categories contains "Data" or post.categories contains "Design" %}
+        <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endif %}
+{% endfor %}
 </section>

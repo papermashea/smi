@@ -2,8 +2,8 @@
 layout: post
 title: From the Ground Up
 description: Exploring edible and medicinal plant data for sustainable systems
-tags: Data Design
-# tags: [html,css,js,ux,sql,bash,regex]
+categories: Data Design
+tags: [html,css,js,ux,sql,bash,regex]
 permalink: /projects/useful-plants/
 date: 2022-05-01
 img: /img/1.jpg

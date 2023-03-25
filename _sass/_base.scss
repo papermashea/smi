@@ -60,7 +60,6 @@ ul, ol, dl, figure,
     float: right;
 }
 
-
 hr{
     /* Inset, by Dan Eden */
     border: 0;
@@ -114,14 +113,11 @@ h1, h2, h3, h4, h5, h6 {
 a {
     color: $text-color;
     text-decoration: none;
-    /*
-    &:visited {
-        color: darken($brand-color, 15%); 
-    }
-    */
+    padding:1px 4px;
     &:hover {
-        color: $theme-color;
-        text-decoration: none;
+        background-color: $highlight-color;
+        color: $text-color;
+        text-decoration: underline ;
     }
 }
 

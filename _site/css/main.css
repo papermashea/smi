@@ -84,15 +84,12 @@ h1, h2, h3, h4, h5, h6 {
 a {
   color: #000;
   text-decoration: none;
-  /*
-  &:visited {
-      color: darken($brand-color, 15%); 
-  }
-  */
+  padding: 1px 4px;
 }
 a:hover {
-  color: #CC5500;
-  text-decoration: none;
+  background-color: #E9F322;
+  color: #000;
+  text-decoration: underline;
 }
 
 article a {
@@ -388,8 +385,12 @@ nav a {
   color: #ffffff;
   background-color: #CC5500;
   border: 0.5px solid #CC5500;
-  border-radius: 2px;
-  padding: 1px 4px;
+  border-radius: 4px;
+}
+.post-tag:hover {
+  color: #ffffff;
+  background-color: #CC5500;
+  text-decoration: underline;
 }
 
 /** 

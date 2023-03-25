@@ -7,25 +7,17 @@ categories: lp
 ---
 
 <section>
-<!--   {% for tag in site.tags %}
-    <h3>{{ tag[0] }}</h3>
+  {% assign categories =  site.portfolio | map: 'categories' | uniq %}
+  {% for cat in categories %}
+    <h3>{{ cat }}</h3>
     <ul>
-      {% for post in tag[1] %}
-        <li><a href="{{ post.url }}">{{ post.title }}</a></li>
-      {% endfor %}
+    {% for proj in site.portfolio %}
+      {% if proj.categories contains cat %}
+      <li><a href="{{ site.baseurl }}{{ proj.url }}">{{ proj.title }}</a></li>
+      {% endif %}
+    {% endfor %}
     </ul>
-  {% endfor %} -->
-{% assign tags =  site.portfolio | map: 'tags' | uniq %}
-{% for tag in tags %}
-  <h3>{{ tag }}</h3>
-  <ul>
-  {% for proj in site.portfolio %}
-    {% if proj.tags contains tag %}
-    <li><a href="{{ site.baseurl }}{{ proj.url }}">{{ proj.title }}</a></li>
-    {% endif %}
   {% endfor %}
-  </ul>
-{% endfor %}
 </section>
 
 {% for project in site.portfolio reversed %}

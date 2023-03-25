@@ -6,10 +6,20 @@ description: Design and data portfolio
 categories: lp
 ---
 
-{% for project in site.portfolio reversed %}
+<!-- <section>
+  {% for tag in site.tags %}
+    <h3>{{ tag[0] }}</h3>
+    <ul>
+      {% for post in tag[1] %}
+        <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+      {% endfor %}
+    </ul>
+  {% endfor %}
+</section> -->
 
+{% for project in site.portfolio reversed %}
 <div class="project ">
-  <p>{{project.categories | join: ', '}}</p>
+  <!-- <p>{{project.categories | join: ', '}}</p> -->
     <div class="thumbnail">
         <a href="{{ site.baseurl }}{{ project.url }}">
         {% if project.img %}

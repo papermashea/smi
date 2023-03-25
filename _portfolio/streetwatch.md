@@ -4,7 +4,7 @@ title: Streetwatch.live
 description: Taking back surveillance for activist archives
 categories: Design
 tags: [html,css,js,ux,cc]
-permalink: /streetwatch-live/
+permalink: /projects/streetwatch-live/
 date: 2021-06-01
 img: /img/5.jpg
 ---

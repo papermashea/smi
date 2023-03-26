@@ -22,7 +22,7 @@ categories: lp
 
 {% for project in site.portfolio reversed %}
 <div class="project ">
-  <!-- <p>{{project.categories | join: ', '}}</p> -->
+  <p>{{project.categories | join: ', '}}</p>
     <div class="thumbnail">
         <a href="{{ site.baseurl }}{{ project.url }}">
         {% if project.img %}

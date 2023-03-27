@@ -9,9 +9,9 @@ layout: default
         <div class="page-desc">
           {% for cat in categories %}
             {%- if forloop.first -%}
-              <a href="{{ site.baseurl }}{{ page.permalink }}{{ cat | downcase }}" class="category-link">{{ cat }}</a> and
+              <a href="{{ site.baseurl }}{{ page.permalink }}{{ cat | downcase }}" class="category-link">{{ cat }} </a>and
             {%- elsif forloop.last -%}
-              <a href="{{ site.baseurl }}{{ page.permalink }}{{ cat | downcase }}" class="category-link">{{ cat }}</a> portfolio
+              <a href="{{ site.baseurl }}{{ page.permalink }}{{ cat | downcase }}" class="category-link"> {{ cat }} </a> portfolio
             {%- endif -%}
           {%- endfor -%}
         </div> 

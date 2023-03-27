@@ -31,10 +31,8 @@ categories: lp
         {% endif %}    
         <span>
             <p class="tile-title">{{ project.title }}</p>
-            <br/>
             <p class="tile-text">{{ project.description }}</p>
-            <br/>
-            <p class="tile-tag">{{project.categories | join: ', ' | capitalize }}</p>
+            <p class="tile-tag">{{ project.categories  | join: ' ' }}</p>
         </span>
         </a>
     </div>

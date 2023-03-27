@@ -22,7 +22,7 @@ layout: default
             {% for cat in categories %}
             {%- if forloop.length > 0 -%}
               {% if forloop.last %}and{%- endif -%}
-              <a href="{{ site.baseurl }}{{ page.permalink }}{{ cat | downcase }}" class="category-link">{% if forloop.last == false %} {%- endif -%}{{ cat }}{% if cat != 'Research' %}s{%- endif -%}</a>{% unless forloop.last %}, {% endunless -%}
+              <a href="{{ site.baseurl }}{{ page.permalink }}{{ cat | downcase }}" class="category-link">{% if forloop.first == false %}&nbsp;{%- endif -%}{{ cat }}{% if cat != 'Research' %}s{%- endif -%}</a>{% unless forloop.last %},{% endunless -%}
             {%- endif -%}
             {% endfor %}
           </div>  

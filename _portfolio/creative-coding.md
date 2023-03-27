@@ -2,9 +2,10 @@
 layout: post
 title: Creative Coding
 description: Experimental projects from DVIA and Data Structures
-categories: ["Data", "Design"]
+categories: data design
 tags: [js,sql,python]
 permalink: /projects/creative-coding/
+root: /projects/
 date: 2019-09-01
 img: /img/8.jpg
 ---

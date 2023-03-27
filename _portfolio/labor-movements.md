@@ -2,7 +2,7 @@
 layout: post
 title: US Labor Movements
 description: Interactive map of US labor movements aggregating data from the AFL-CIO, IWW, and US Bureau of Labor
-categories: [Data, Design]
+categories: data design
 tags: [js,ux]
 permalink: /projects/labor-movements/
 date: 2021-05-01

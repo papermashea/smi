@@ -2,8 +2,9 @@
 layout: post
 title: Department of Labor
 description: Civic tech usability research and prototyping
-categories: Design
+categories: design
 permalink: /projects/dol/
+root: /projects/
 date: 2019-06-01
 img: /img/9.jpg
 ---

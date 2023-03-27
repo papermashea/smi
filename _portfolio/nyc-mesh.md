@@ -2,7 +2,7 @@
 layout: post
 title: NYC Mesh
 description: Community-owned, accesibly wifi in nyc
-categories: Design
+categories: design
 tags: [ux,cc]
 permalink: /projects/nyc-mesh/
 date: 2022-02-01

@@ -114,6 +114,7 @@ a {
     color: $text-color;
     text-decoration: none;
     padding:2px;
+    margin-bottom: $vertical-spacing-unit / 2;
     &:hover {
         background-color: $highlight-color;
         color: $text-color;
@@ -130,10 +131,26 @@ article a {
     }
 }
 
-.category-link a {
-
+.post-header a {
+    text-decoration: underline;
+    text-underline-offset: 8px;
+    &:hover {
+        background-color: $highlight-color;
+        text-decoration: underline;
+    }
 }
 
+.post-tag {
+    color: $brand-color;
+    border: 1px dotted $brand-color;
+    padding: 1px 5px ;
+    text-align: center;
+    &:hover {
+        background-color: $highlight-color;
+        text-decoration: underline;
+        border: .5px solid $highlight-color;
+    }
+}
 
 /**
  * Blockquotes

@@ -20,6 +20,6 @@ categories: lp
         <p>{{ post.description }}</p>
         <br/>
         <hr/>
-      </li>s
+      </li>
     {% endfor %}
 </ul>

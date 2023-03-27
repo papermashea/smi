@@ -9,9 +9,9 @@ layout: default
         <div class="page-desc">
           {% for cat in categories %}
             {%- if forloop.first -%}
-              <a href="{{ site.baseurl }}{{ page.permalink }}{{ cat | downcase }}" class="category-link">{{ cat }} </a>and
+              <a href="{{ site.baseurl }}{{ page.permalink }}{{ cat | downcase }}" class="category-link">{{ cat | downcase }}</a>&nbsp;and&nbsp;
             {%- elsif forloop.last -%}
-              <a href="{{ site.baseurl }}{{ page.permalink }}{{ cat | downcase }}" class="category-link"> {{ cat }} </a> portfolio
+              <a href="{{ site.baseurl }}{{ page.permalink }}{{ cat | downcase }}" class="category-link">{{ cat | downcase }}</a>&nbsp;portfolio
             {%- endif -%}
           {%- endfor -%}
         </div> 
@@ -21,8 +21,8 @@ layout: default
           <div class="page-desc">
             {% for cat in categories %}
             {%- if forloop.length > 0 -%}
-              {% if forloop.last %}and{%- endif -%}
-              <a href="{{ site.baseurl }}{{ page.permalink }}{{ cat | downcase }}" class="category-link">{% if forloop.first == false %}&nbsp;{%- endif -%}{{ cat }}{% if cat != 'Research' %}s{%- endif -%}</a>{% unless forloop.last %},{% endunless -%}
+              {% if forloop.last %}&nbsp;and{%- endif -%}
+              <a href="{{ site.baseurl }}{{ page.permalink }}{{ cat | downcase }}" class="category-link">{% if forloop.first == false %}&nbsp;{%- endif -%}{{ cat | downcase}}{% if cat != 'Research' %}s{%- endif -%}</a>{% unless forloop.last %},{% endunless -%}
             {%- endif -%}
             {% endfor %}
           </div>  

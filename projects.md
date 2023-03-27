@@ -34,7 +34,7 @@ categories: lp
             <br/>
             <p class="tile-text">{{ project.description }}</p>
             <br/>
-            <p class="tile-tag">{{project.categories | join: ', '}}</p>
+            <p class="tile-tag">{{project.categories | join: ', ' | capitalize }}</p>
         </span>
         </a>
     </div>

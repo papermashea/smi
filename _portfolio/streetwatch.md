@@ -2,9 +2,10 @@
 layout: post
 title: Streetwatch.live
 description: Taking back surveillance for activist archives
-categories: Design
+categories: design
 tags: [html,css,js,ux,cc]
 permalink: /projects/streetwatch-live/
+root: /projects/
 date: 2021-06-01
 img: /img/5.jpg
 ---

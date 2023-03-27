@@ -2,9 +2,10 @@
 layout: post
 title: Market Measures
 description: Diversifying data and representations of power in the market
-categories: [Data, Design]
+categories: data design
 tags: [tableau,js,ux]
 permalink: /projects/market-measures/
+root: /projects/
 date: 2021-03-01
 img: /img/7.jpg
 ---

@@ -2,9 +2,10 @@
 layout: post
 title: Cooper Hewitt Design Movements
 description: Color, medium, and regional analysis of the Cooper Hewitt collection
-categories: Data Design
+categories: data design
 tags: [html,css,js,ux,bash,regex]
 permalink: /projects/design-movements/
+root: /projects/
 date: 2021-12-01
 img: /img/design-movements.png
 ---

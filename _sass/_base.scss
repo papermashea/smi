@@ -113,7 +113,7 @@ h1, h2, h3, h4, h5, h6 {
 a {
     color: $text-color;
     text-decoration: none;
-    padding:1px 4px;
+    padding:2px;
     &:hover {
         background-color: $highlight-color;
         color: $text-color;

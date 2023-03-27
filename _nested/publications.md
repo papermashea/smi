@@ -2,13 +2,14 @@
 layout: page
 permalink: /work/publication/
 title: Work
-description: publications
+description: livestreams, publications and research
+categories: filtered
 root: /work/
 ---
 
 <ul class="post-list">
   {% for post in site.posts %}
-    {% if post.categories contains "Publication" %}
+    {% if post.categories contains "publication" %}
       <li>
         <h4>
           {% if post.redirect %}

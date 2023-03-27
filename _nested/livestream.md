@@ -2,13 +2,14 @@
 layout: page
 permalink: /work/livestream/
 title: Work
-description: livestreams
+description: livestreams, publications and research
+categories: filtered
 root: /work/
 ---
 
 <ul class="post-list">
   {% for post in site.posts %}
-    {% if post.categories contains "Livestream" %}
+    {% if post.categories contains "livestream" %}
       <li>
         <h4>
           {% if post.redirect %}

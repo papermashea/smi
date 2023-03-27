@@ -2,7 +2,8 @@
 layout: post
 title: Design Trends 2021
 date: 2021-12-01
-categories: Research
+categories: research
+root: /work/
 permalink: /research/design-trends-2021/
 ---
 

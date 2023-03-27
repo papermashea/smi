@@ -6,7 +6,7 @@ description: design
 root: /projects/
 ---
 {% assign categories =  site.portfolio | map: 'categories' | uniq %}
-{% for project in site.portfolio reversed %}
+{% for project in site.portfolio %}
     {% if project.categories contains "Design" %}
 <div class="project ">
     <div class="thumbnail">

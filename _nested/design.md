@@ -1,26 +1,13 @@
 ---
 layout: page
 title: Projects
-permalink: /projects/
-description: Design and data portfolio
-categories: lp
+permalink: /projects/design/
+description: design
+root: /projects/
 ---
-<!-- portfolio sidebar -->
-<!-- <section>
-  {% assign categories =  site.portfolio | map: 'categories' | uniq %}
-  {% for cat in categories %}
-    <h3>{{ cat }}</h3>
-    <ul>
-    {% for proj in site.portfolio %}
-      {% if proj.categories contains cat %}
-      <li><a href="{{ site.baseurl }}{{ proj.url }}">{{ proj.title }}</a></li>
-      {% endif %}
-    {% endfor %}
-    </ul>
-  {% endfor %}
-</section> -->
-
+{% assign categories =  site.portfolio | map: 'categories' | uniq %}
 {% for project in site.portfolio reversed %}
+    {% if project.categories contains "Design" %}
 <div class="project ">
     <div class="thumbnail">
         <a href="{{ site.baseurl }}{{ project.url }}">
@@ -39,5 +26,5 @@ categories: lp
         </a>
     </div>
 </div>
-
+{% endif %}
 {% endfor %}

@@ -3,8 +3,8 @@ layout: default
 ---
 <div class="post">
   <header class="post-header">
-    <div class="page-title">{{ page.title }} //</div> 
-    {% if page.title == 'Projects' %}  
+    <div class="page-title"><a href="{{ page.root }}">{{ page.title }}</a> //</div> 
+    {% if page.title == 'Projects' and page.categories =='lp' %}  
       {% assign categories =  site.portfolio | map: 'categories' | uniq %}
         <div class="page-desc">
           {% for cat in categories %}
@@ -16,13 +16,14 @@ layout: default
           {%- endfor -%}
         </div> 
     
-    {% elsif page.title == 'Work' %}
+    {% elsif page.title == 'Work'  and page.categories =='lp' %}
       {% assign categories =  site.posts | map: 'categories' | uniq %}
           <div class="page-desc">
             {% for cat in categories %}
             {%- if forloop.length > 0 -%}
-              {% if forloop.last %}&nbsp;and{%- endif -%}
-              <a href="{{ site.baseurl }}{{ page.permalink }}{{ cat | downcase }}" class="category-link">{% if forloop.first == false %}&nbsp;{%- endif -%}{{ cat | downcase}}{% if cat != 'Research' %}s{%- endif -%}</a>{% unless forloop.last %},{% endunless -%}
+              {% if forloop.first == false %}&nbsp;{%- endif -%}
+              {% if forloop.last %}and&nbsp;{%- endif -%}
+              <a href="{{ site.baseurl }}{{ page.permalink }}{{ cat | downcase }}" class="category-link">{{ cat | downcase}}{% if cat != 'Research' %}s{%- endif -%}</a>{% unless forloop.last %},{% endunless -%}
             {%- endif -%}
             {% endfor %}
           </div>  

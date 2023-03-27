@@ -1,14 +1,14 @@
 ---
 layout: page
-permalink: /work/
+permalink: /work/publication/
 title: Work
-description: Livestreams, publications and research
-categories: lp
+description: publications
 root: /work/
 ---
 
 <ul class="post-list">
-    {% for post in site.posts %}
+  {% for post in site.posts %}
+    {% if post.categories contains "Publication" %}
       <li>
         <h4>
           {% if post.redirect %}
@@ -22,5 +22,6 @@ root: /work/
         <br/>
         <hr/>
       </li>
-    {% endfor %}
+    {% endif %}
+  {% endfor %}
 </ul>

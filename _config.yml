@@ -16,10 +16,10 @@ highlighter: rouge
 # paginate: 15
 # paginate_path: "/home/page:num/"
 
-# Include portfolio
-# include: 
-#   - _portfolio
-# relative_permalinks: false
+# Include nested pages
+include: 
+  - _nested
+relative_permalinks: false
 
 # Collections
 collections:

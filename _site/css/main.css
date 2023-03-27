@@ -85,6 +85,7 @@ a {
   color: #000;
   text-decoration: none;
   padding: 2px;
+  margin-bottom: 20px;
 }
 a:hover {
   background-color: #E9F322;
@@ -98,6 +99,27 @@ article a {
 }
 article a:hover {
   text-decoration: none;
+}
+
+.post-header a {
+  text-decoration: underline;
+  text-underline-offset: 8px;
+}
+.post-header a:hover {
+  background-color: #E9F322;
+  text-decoration: underline;
+}
+
+.post-tag {
+  color: #CC5500;
+  border: 1px dotted #CC5500;
+  padding: 1px 5px;
+  text-align: center;
+}
+.post-tag:hover {
+  background-color: #E9F322;
+  text-decoration: underline;
+  border: 0.5px solid #E9F322;
 }
 
 /**
@@ -307,10 +329,12 @@ nav a {
 
 .page-title {
   font-size: 32px;
+  display: inline;
 }
 
 .page-desc {
   font-size: 24px;
+  display: inline;
 }
 
 .post-list {
@@ -380,18 +404,6 @@ nav a {
   font-size: 12.25px;
   color: #1a1a1a;
   margin-bottom: 0px;
-}
-
-.post-tag {
-  color: #ffffff;
-  background-color: #CC5500;
-  border: 0.5px solid #CC5500;
-  border-radius: 4px;
-}
-.post-tag:hover {
-  color: #ffffff;
-  background-color: #CC5500;
-  text-decoration: underline;
 }
 
 /** 

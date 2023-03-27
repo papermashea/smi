@@ -129,9 +129,11 @@ padding: 100px 0; /* VERTICAL PADDING FOR TITLE ON EVERY PAGE */
 }
 .page-title {
 font-size: 32px;
+display: inline;
 }
 .page-desc {
 font-size: 24px;
+display: inline;
 }
 .post-list {
 margin: 0px 0;
@@ -188,17 +190,6 @@ font-size: 14px;
 font-size: $small-font-size;
 color: $grey-color;
 margin-bottom: 0px; 
-}
-.post-tag {
-    color: $text-color-light;
-    background-color: $brand-color;
-    border: .5px solid $brand-color;
-    border-radius: 4px;
-    &:hover {
-        color: $text-color-light;
-        background-color: $brand-color;
-        text-decoration: underline;
-    }
 }
 
 /** 

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Unglitch
-description: Art-tech activism and education
+description: Art-tech activism, installations, and education
 categories: design
 tags: [ux,cc]
 permalink: /projects/unglitch/

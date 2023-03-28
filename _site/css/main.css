@@ -101,6 +101,12 @@ article a:hover {
   text-decoration: none;
 }
 
+#home,
+#crumb {
+  text-decoration: none;
+  padding: 0px;
+}
+
 .post-header a {
   text-decoration: underline;
   text-underline-offset: 8px;
@@ -110,15 +116,25 @@ article a:hover {
   text-decoration: underline;
 }
 
-.post-tag {
-  color: #CC5500;
-  border: 1px dotted #CC5500;
-  padding: 1px 5px;
+.post-resource {
+  background-color: #afaedc;
+  font-size: 12.25px;
+  color: #fff;
+  padding: 10px;
+  border-radius: 50px;
   text-align: center;
 }
-.post-tag:hover {
+.post-resource:hover {
   background-color: #E9F322;
-  text-decoration: underline;
+}
+
+.post-cat {
+  color: #CC5500;
+  border: 1px dotted #CC5500;
+  text-align: center;
+}
+.post-cat:hover {
+  background-color: #E9F322;
   border: 0.5px solid #E9F322;
 }
 
@@ -127,7 +143,7 @@ article a:hover {
  */
 blockquote {
   color: #000;
-  border-left: 10px solid #bcbcbc;
+  border-left: 10px solid #8c8c8c;
   padding-left: 10px;
   font-size: 18px;
   font-style: italic;
@@ -143,7 +159,7 @@ pre,
 code {
   font-size: 15px;
   border-radius: 3px;
-  background-color: #bcbcbc;
+  background-color: #8c8c8c;
 }
 
 code {
@@ -193,8 +209,8 @@ pre > code {
  * Site header   **********************************************************
  */
 .site-header {
-  border-bottom: 1px solid #1a1a1a;
-  background-color: #1a1a1a;
+  border-bottom: 1px solid #1c1c1c;
+  background-color: #1c1c1c;
   opacity: 0.95;
   position: fixed;
   left: 0px;
@@ -283,9 +299,9 @@ nav a {
  * Site footer  **********************************************************
  */
 .site-footer {
-  border-top: 1px solid #1a1a1a;
+  border-top: 1px solid #1c1c1c;
   font-size: 10px;
-  background-color: #1a1a1a;
+  background-color: #1c1c1c;
   opacity: 0.95;
   padding: 5px 0px;
   color: #aaa;
@@ -299,7 +315,10 @@ nav a {
 .site-footer a {
   margin-bottom: 0;
   color: #fff;
-  padding: 5px 0px;
+}
+.site-footer p:hover,
+.site-footer a:hover {
+  color: #000;
 }
 
 /**
@@ -325,6 +344,10 @@ nav a {
  */
 .page-content {
   padding: 100px 0; /* VERTICAL PADDING FOR TITLE ON EVERY PAGE */
+}
+
+.page-header {
+  margin-bottom: 40px;
 }
 
 .page-title {
@@ -364,6 +387,7 @@ nav a {
 }
 
 .post-title {
+  display: inline;
   font-size: 24px;
   letter-spacing: -1px;
   line-height: 1;
@@ -374,28 +398,30 @@ nav a {
   }
 }
 
-.post-content h2 {
-  font-size: 24px;
+.post-desc {
+  font-size: 18px;
+  line-height: 2;
+  color: #1c1c1c;
 }
 @media screen and (max-width: 800px) {
-  .post-content h2 {
-    font-size: 18px;
-  }
-}
-.post-content h3 {
-  font-size: 21px;
-}
-@media screen and (max-width: 800px) {
-  .post-content h3 {
+  .post-desc {
     font-size: 16px;
   }
 }
-.post-content h4 {
-  font-size: 16px;
-  font-weight: bold;
+
+.post-content h2 {
+  font-size: 18px;
 }
 @media screen and (max-width: 800px) {
-  .post-content h4 {
+  .post-content h2 {
+    font-size: 14px;
+  }
+}
+.post-content h3 {
+  font-size: 16px;
+}
+@media screen and (max-width: 800px) {
+  .post-content h3 {
     font-size: 14px;
   }
 }
@@ -404,6 +430,11 @@ nav a {
   font-size: 12.25px;
   color: #1a1a1a;
   margin-bottom: 0px;
+}
+
+.materials {
+  display: block;
+  margin: 20px 20px;
 }
 
 /** 
@@ -429,7 +460,7 @@ nav a {
 }
 
 .thumbnail p {
-  color: #ffffff;
+  color: #fff;
   font-size: 0.75em;
 }
 
@@ -467,7 +498,7 @@ nav a {
   bottom: 0;
   right: 0;
   background: rgba(0, 0, 0, 0.4);
-  color: #bcbcbc;
+  color: #8c8c8c;
   padding: 40px;
   text-align: center;
 }
@@ -487,21 +518,30 @@ nav a {
   background: #CC5500;
 }
 
+.img_full {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  box-sizing: border-box;
+  padding: 10px 5px;
+  margin: 20px 0;
+}
+
 .img_row {
-  height: 275px;
+  height: 300px;
   width: 100%;
   overflow: hidden;
   box-sizing: border-box;
-  padding: 5px;
+  padding: 10px 5px;
 }
 
 .col {
   width: 100%;
-  height: 100%;
+  height: auto;
   float: left;
   object-fit: cover;
   box-sizing: border-box;
-  padding: 5px;
+  padding: 10px 5px;
 }
 
 .right {
@@ -522,10 +562,11 @@ nav a {
 
 .caption {
   height: 100%;
-  color: #aaa;
+  color: #888;
   text-align: center;
   vertical-align: middle;
   font-size: 12px;
+  margin-bottom: 20px;
 }
 
 /**

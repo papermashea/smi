@@ -2,8 +2,8 @@
 layout: default
 ---
 <div class="post">
-  <header class="post-header">
-    <div class="page-title"><a href="{{ page.root }}" class="root-link">{{ page.title }}</a> //</div> 
+  <header class="page-header">
+    <div class="page-title"><a href="{{ page.root }}" class="root-link" id="{{ page.categories }}">{{ page.title }}</a> //</div> 
     {% if page.title == 'Projects' %}  
       {% assign categories =  site.portfolio | map: 'categories' | uniq %}
         <div class="page-desc">

@@ -17,15 +17,15 @@ $vertical-spacing-unit:         40px;
 $nav-height:                    50px;
 
 /* portfolio tinkering */
-$img_spacing: 5px; 
-$img_height: 275px;
+$img_spacing: 10px 5px; 
+$img_height: 300px;
 $caption_font_size: 12px;
-$caption_color: #aaa;
+$caption_color: #888;
 
-$grey-color-dark: #1a1a1a;   /* footer */
-$grey-color-light: #bcbcbc;  /* navigation bar border */
+$grey-color-dark: #1c1c1c;   /* footer */
+$grey-color-light: #8c8c8c;  /* navigation bar border */
 $text-color: #000;
-$text-color-light: #ffffff;
+$text-color-light: #fff;
 
 /* Set theme color *************************/
 $theme-color:   $brand-color;
@@ -125,12 +125,15 @@ a {
 article a {
     color: $theme-color;
     font-weight: 100;
-
     &:hover {
         text-decoration: none;
     }
 }
-
+#home,
+#crumb,{
+    text-decoration: none;
+    padding: 0px;
+}
 .post-header a {
     text-decoration: underline;
     text-underline-offset: 8px;
@@ -139,15 +142,23 @@ article a {
         text-decoration: underline;
     }
 }
-
-.post-tag {
-    color: $brand-color;
-    border: 1px dotted $brand-color;
-    padding: 1px 5px ;
+.post-resource {
+    background-color: $accent-color;
+    font-size: $small-font-size;
+    color: $text-color-light;
+    padding:10px;
+    border-radius: 50px;
     text-align: center;
     &:hover {
         background-color: $highlight-color;
-        text-decoration: underline;
+    }
+}
+.post-cat {
+    color: $brand-color;
+    border: 1px dotted $brand-color;
+    text-align: center;
+    &:hover {
+        background-color: $highlight-color;
         border: .5px solid $highlight-color;
     }
 }

@@ -27,6 +27,10 @@ body {
   -webkit-text-size-adjust: 100%;
 }
 
+section {
+  margin: 5px 10px;
+}
+
 /**
  * Set `margin-bottom` to maintain vertical rhythm
  */
@@ -84,7 +88,7 @@ h1, h2, h3, h4, h5, h6 {
 a {
   color: #000;
   text-decoration: none;
-  padding: 2px;
+  padding: 0px;
   margin-bottom: 20px;
 }
 a:hover {
@@ -132,11 +136,16 @@ article a:hover {
   color: #CC5500;
   border: 1px dotted #CC5500;
   text-align: center;
-  margin-left: 4px;
+  padding: 2px;
+  margin-left: 2px;
 }
 .post-cat:hover {
   background-color: #E9F322;
   border: 0.5px solid #E9F322;
+}
+
+#meta-cat {
+  margin-left: 8px;
 }
 
 /**
@@ -403,7 +412,6 @@ nav a {
 .post-desc {
   font-size: 1.2em;
   line-height: 2;
-  margin-left: 4px;
   color: #1c1c1c;
 }
 @media screen and (max-width: 800px) {
@@ -526,7 +534,7 @@ nav a {
   height: auto;
   object-fit: contain;
   box-sizing: border-box;
-  padding: 10px 0;
+  padding: 10px 5px;
   margin: 20px 0;
 }
 
@@ -535,7 +543,7 @@ nav a {
   width: 100%;
   overflow: hidden;
   box-sizing: border-box;
-  padding: 10px 0;
+  padding: 10px 5px;
 }
 
 .col {
@@ -544,7 +552,7 @@ nav a {
   float: left;
   object-fit: cover;
   box-sizing: border-box;
-  padding: 10px 0;
+  padding: 10px 5px;
 }
 
 .right {
@@ -770,3 +778,5 @@ nav a {
 .highlight .il {
   color: #099;
 }
+
+/*# sourceMappingURL=main.css.map */

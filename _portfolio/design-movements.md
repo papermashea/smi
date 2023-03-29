@@ -28,7 +28,7 @@ Individual design objects provide a great deal of creative insight and societal 
 The objects presented in this project aim to encourage trend analysis and pattern analysis in areas such as color over time, form by frequency, and origin clusters. Please feel free to explore collection subsets and individual objects alike, with the help of the Cooper Hewittdigital collection.
 
 <div class="img_row">
-	<img class="col two" src="{{ site.baseurl }}/img/design-movements/form1.png" alt="" title="example image"/>
+	<img class="col two" src="{{ site.baseurl }}/img/design-movements/form1.png" alt="" title="design objects by type and medium"/>
 	<img class="col one" src="{{ site.baseurl }}/img/design-movements/form2.png" alt="" title="abstract word cloud of cooper hewitt design obects type and medium"/>
 </div>
 <div class="col three caption">

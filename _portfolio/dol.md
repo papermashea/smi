@@ -3,46 +3,40 @@ layout: post
 title: Department of Labor
 description: Civic tech usability research and prototyping
 categories: design
+tags: ux cc research
 permalink: /projects/dol/
 root: /projects/
 date: 2019-06-01
-img: /img/9.jpg
+img: /img/dol.png
 ---
 
-Every project has a beautiful feature shocase page. It's easy to include images, in a flexible 3-column grid format. Make your photos 1/3, 2/3, or full width.
+My work with the Department of Labor as a usability research and prototyping consultant for a large-scale website redesign led by <a href="http://rayogram.com">rayogram</a>, a creative agency based in TriBeCa.
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so: 
-
-	---
-	layout: post
-	title: Project
-	description: a project with a background image
-	img: {{ site.baseurl }}/img/12.jpg
-	---
-
-
-<div class="img_row">
-	<img class="col one" src="{{ site.baseurl }}/img/1.jpg" alt="" title="example image"/>
-	<img class="col one" src="{{ site.baseurl }}/img/2.jpg" alt="" title="example image"/>
-	<img class="col one" src="{{ site.baseurl }}/img/3.jpg" alt="" title="example image"/>
+<div class="img_full">
+	<img class="col three" src="{{ site.baseurl }}/img/dol/test.png" alt="" title="2019 usability report"/>
 </div>
 <div class="col three caption">
-	Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="img_row">
-	<img class="col three" src="{{ site.baseurl }}/img/5.jpg" alt="" title="example image"/>
-</div>
-<div class="col three caption">
-	This image can also have a caption. It's like magic. 
+	2019 Usability report excerpt
 </div>
 
-You can also put regular text between your rows of images. Say you wanted to write a little bit about your project before you posted the rest of the images. You describe how you toiled, sweated, *bled* for your project, and then.... you reveal it's glory in the next row of images.
+This consulting work consisted of an in-depth usability study examining the audience of the DoL website based current website analytics, task completion metrics, and user surveys. I was also brought in to help build out the tablet and mobile prototypes using Adobe XD as a collaboration with the design team at rayogram.
 
+<div class="materials center">
+	<a href="{{ site.baseurl }}/img/dol/DOL_Original-UsabilityTestReport.pdf" target="_blank" class="post-resource" id="sources">research</a>
+</div>
 
 <div class="img_row">
-	<img class="col two" src="{{ site.baseurl }}/img/6.jpg" alt="" title="example image"/>
-	<img class="col one" src="{{ site.baseurl }}/img/11.jpg" alt="" title="example image"/>
+	<img class="col one" src="{{ site.baseurl }}/img/dol/dol1.gif" alt="" title="mobile device prototype"/>
+	<img class="col one" src="{{ site.baseurl }}/img/dol/dol2.gif" alt="" title="mobile device prototype"/>
+	<img class="col one" src="{{ site.baseurl }}/img/dol/dol3.gif" alt="" title="mobile device prototype"/>
 </div>
 <div class="col three caption">
-	You can also have artistically styled 2/3 + 1/3 images, like these.
+	Mobile device usability research and prototyping
+</div>
+
+<div class="img_full">
+	<img class="" src="{{ site.baseurl }}/img/dol/dol4.gif" alt="" title="mobile device prototype"/>
+</div>
+<div class="col three caption">
+	Mobile device usability research and prototyping
 </div>

@@ -14,7 +14,7 @@ z-index: 50;
 }
 
 .site-title {
-font-size: 20px;
+font-size: 1.4em;
 line-height: $nav-height;
 letter-spacing: -1px;
 margin-bottom: 0;
@@ -34,6 +34,7 @@ color: $theme-color;
     text-align: end;
 }
 .site-nav {
+font-size: 1.2em;
 line-height: $nav-height;
 .page-link{
 line-height: $base-line-height;
@@ -164,32 +165,33 @@ margin-bottom: $vertical-spacing-unit;
 }
 .post-title {
 display: inline;
-font-size: 24px;
+font-size: 1.8em;
 letter-spacing: -1px;
 line-height: 1;
 @include media-query($on-laptop) {
-font-size: 21px;
+font-size: 1.4em;
     }
 }
 .post-desc{
-font-size: 18px;
+font-size: 1.2em;
 line-height: 2;
+margin-left: 4px;
 color:$grey-color-dark;
 @include media-query($on-laptop) {
-font-size: 16px;
+font-size: 1.2em;
     }
 }   
 .post-content {
 h2 {
-font-size: 18px;
+font-size: 1.8em;
 @include media-query($on-laptop) {
 font-size: 14px;
         }
     }
 h3 {
-font-size: 16px;
+font-size: 1.2em;
 @include media-query($on-laptop) {
-font-size: 14px;
+font-size: 1em;
         }
     }
 }
@@ -254,7 +256,7 @@ top: 0;
 left: 0;
 bottom: 0;
 right: 0;
-background: rgba(0,0,0,0.4);
+background: rgba(0,0,0,0.6);
 color: $grey-color-light;
 padding: 40px;
 text-align: center;

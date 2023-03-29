@@ -17,7 +17,7 @@ $vertical-spacing-unit:         40px;
 $nav-height:                    50px;
 
 /* portfolio tinkering */
-$img_spacing: 10px 5px; 
+$img_spacing: 10px 0; 
 $img_height: 300px;
 $caption_font_size: 12px;
 $caption_color: #888;
@@ -157,6 +157,7 @@ article a {
     color: $brand-color;
     border: 1px dotted $brand-color;
     text-align: center;
+    margin-left: 4px;
     &:hover {
         background-color: $highlight-color;
         border: .5px solid $highlight-color;
@@ -170,7 +171,7 @@ blockquote {
     color: $text-color;
     border-left: 10px solid $grey-color-light;
     padding-left: $horizontal-spacing-unit / 2;
-    font-size: 18px;
+    font-size: 1.8em;
     font-style: italic;
 
     > :last-child {
@@ -185,7 +186,7 @@ blockquote {
  */
 pre,
 code {
-    font-size: 15px;
+    font-size: .8em;
     border-radius: 3px;
     background-color: $grey-color-light;
 }

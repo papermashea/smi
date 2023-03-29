@@ -17,7 +17,7 @@ $vertical-spacing-unit:         40px;
 $nav-height:                    50px;
 
 /* portfolio tinkering */
-$img_spacing: 10px 0; 
+$img_spacing: 10px 5px; 
 $img_height: 300px;
 $caption_font_size: 12px;
 $caption_color: #888;
@@ -44,7 +44,9 @@ body {
     background-color: $background-color;
     -webkit-text-size-adjust: 100%;
 }
-
+section {
+    margin: 5px 10px;
+}
 
 
 /**
@@ -113,7 +115,7 @@ h1, h2, h3, h4, h5, h6 {
 a {
     color: $text-color;
     text-decoration: none;
-    padding:2px;
+    padding:0px;
     margin-bottom: $vertical-spacing-unit / 2;
     &:hover {
         background-color: $highlight-color;
@@ -157,11 +159,15 @@ article a {
     color: $brand-color;
     border: 1px dotted $brand-color;
     text-align: center;
-    margin-left: 4px;
+    padding: 2px;
+    margin-left: 2px;
     &:hover {
         background-color: $highlight-color;
         border: .5px solid $highlight-color;
     }
+}
+#meta-cat {
+    margin-left: 8px;
 }
 
 /**

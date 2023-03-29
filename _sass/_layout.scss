@@ -175,7 +175,6 @@ font-size: 1.4em;
 .post-desc{
 font-size: 1.2em;
 line-height: 2;
-margin-left: 4px;
 color:$grey-color-dark;
 @include media-query($on-laptop) {
 font-size: 1.2em;

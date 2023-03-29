@@ -18,7 +18,7 @@ root: /work/
           {% endif %}
         </h4>
         <p class="post-meta"><a class="post-cat" href="{{ page.root }}{{ post.categories }}">{{ post.categories[0] | capitalize }}</a> | {{ post.date | date: '%B %Y' }}</p>
-        <p>{{ post.description }}</p>
+        <p class="post-desc">{{ post.description }}</p>
         <br/>
         <hr/>
       </li>

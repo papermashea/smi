@@ -1,10 +1,11 @@
 ---
 layout: post
-title: internal post 
-date: 2015-07-15
-description: with code
-redirect:
-published: false
+title: Futures studies and speculative design
+date: 2021-04-15
+description: Signals research, trend analysis, and forecasting models
+categories: research
+root: /work/
+permalink: /research/futures-studies/
 ---
 This theme implements a built-in Jekyll feature, the use of Pygments, for sytanx highlighting. It supports more than 100 languages. This example is in C++. All you have to do is wrap your code in a liquid tag: 
 {% raw  %}

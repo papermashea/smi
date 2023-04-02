@@ -532,18 +532,20 @@ nav a {
 .img_full {
   width: 100%;
   height: auto;
-  object-fit: contain;
-  box-sizing: border-box;
-  padding: 10px 5px;
+  object-fit: scale-down;
+  box-sizing: content-box;
   margin: 20px 0;
+  display: block;
 }
 
 .img_row {
   height: 300px;
+  object-fit: contain;
   width: 100%;
   overflow: hidden;
   box-sizing: border-box;
   padding: 10px 5px;
+  margin: 20px 0;
 }
 
 .col {
@@ -569,6 +571,10 @@ nav a {
 
 .three {
   width: 100%;
+}
+
+.half {
+  width: 50%;
 }
 
 .caption {

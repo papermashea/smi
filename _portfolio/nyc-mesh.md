@@ -1,12 +1,12 @@
 ---
 layout: post
 title: NYC Mesh
-description: Community-owned, accesibly wifi in nyc
+description: Community-owned, accesible wifi in nyc
 categories: design
-tags: [ux,cc]
+tags: ux,cc
 permalink: /projects/nyc-mesh/
 date: 2022-02-01
-img: /img/4.jpg
+img: /img/nycmesh.png
 ---
 
 Every project has a beautiful feature shocase page. It's easy to include images, in a flexible 3-column grid format. Make your photos 1/3, 2/3, or full width.

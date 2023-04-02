@@ -3,58 +3,43 @@ layout: post
 title: Streetwatch.live
 description: Taking back surveillance for activist archives
 categories: design
-tags: [html,css,js,ux,cc]
+tags: vue js sass ux cc
 permalink: /projects/streetwatch-live/
 root: /projects/
 date: 2021-06-01
-img: /img/5.jpg
+img: /img/streetwatch.png
 ---
 
-Every project has a beautiful feature shocase page. It's easy to include images, in a flexible 3-column grid format. Make your photos 1/3, 2/3, or full width.
+Streetwatch.live is a sub-project of NYC Mesh, launched in 2020 to harness surveillance in a way that could empower activists. Streetwatch.live is a camera archive project spun up in the wake of BLM movements that is dedicated to providing objective <a href="https://www.nycmesh.net/blog/nyc-surveillance-archive/" target="_blank">footage scraped from the NYC DOT traffic cameras footage to activists</a>.
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so: 
+<div class="materials center">
+	<a href="https://www.nycmesh.net/blog/streetwatchlive/" target="_blank" class="post-resource" id="sources">process</a>
+</div>
 
-	---
-	layout: post
-	title: Project
-	description: a project with a background image
-	img: /img/12.jpg
-	---
-
-
-<div class="img_row">
-	<img class="col one" src="{{ site.baseurl }}/img/1.jpg" alt="" title="example image"/>
-	<img class="col one" src="{{ site.baseurl }}/img/2.jpg" alt="" title="example image"/>
-	<img class="col one" src="{{ site.baseurl }}/img/3.jpg" alt="" title="example image"/>
+<div class="img_full">
+		<img class="col three" src="{{ site.baseurl }}/img/streetwatch/DOT2_Image2.png" alt="" title="streetwatch.live social posts">
 </div>
 <div class="col three caption">
-	Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="img_row">
-	<img class="col three" src="{{ site.baseurl }}/img/5.jpg" alt="" title="example image"/>
-</div>
-<div class="col three caption">
-	This image can also have a caption. It's like magic. 
+	Social media posts for archive access and calls to action
 </div>
 
-You can also put regular text between your rows of images. Say you wanted to write a little bit about your project before you posted the rest of the images. You describe how you toiled, sweated, *bled* for your project, and then.... you reveal it's glory in the next row of images.
-
-
-<div class="img_row">
-	<img class="col two" src="{{ site.baseurl }}/img/6.jpg" alt="" title="example image"/>
-	<img class="col one" src="{{ site.baseurl }}/img/11.jpg" alt="" title="example image"/>
+<div class="img_full">
+	<img class="col half" src="{{ site.baseurl }}/img/streetwatch/streetwatch-vice.png" alt="" title="streetwatch.live on vice"/>
+	<img class="col half" src="{{ site.baseurl }}/img/streetwatch/streetwatch-bi.png" alt="" title="streetwatch.live on business insider"/>
 </div>
 <div class="col three caption">
-	You can also have artistically styled 2/3 + 1/3 images, like these.
+Streetwatch.live covered on <a href="https://www.vice.com/en/article/y3zp55/activists-are-using-traffic-cameras-to-track-police-brutality" target="_blank">Vice Motherboard</a> and <a href="https://www.businessinsider.com/activists-using-nyc-traffic-cameras-to-track-police-brutality-2020-6" target="_blank">Business Insider</a>, June 2020
 </div>
 
+The project consisted of building out community outreach and standards practices, innovative information security operations and an interactive user experience with Adobe XD, Figma, and Vue.JS. For this project I facilitated research with activists and experts, developed media workflows, organized the distributed UX team, and helped implement the designs.
 
-<br/><br/><br/>
+The work built and archived by this organization has since been invited to help support academic research in computer vision and local actions in community networks.
 
+<div class="img_full">
+	<img class="col one" src="{{ site.baseurl }}/img/streetwatch/streetwatch-live_mobile.png" alt="" title="streetwatch.live mobile ui">
+	<img class="col two" src="{{ site.baseurl }}/img/streetwatch/streetwatch-live.png" alt="" title="streetwatch.live interface">
+</div>
+<div class="col three caption">
+	Streetwatch.live, active 2020-2022
+</div>
 
-The code is simple. Just add a col class to your image, and another class specifying the width: one, two, or three columns wide. Here's the code for the last row of images above: 
-
-	<div class="img_row">
-	  <img class="col two" src="/img/6.jpg"/>
-	  <img class="col one" src="/img/11.jpg"/>
-	</div>

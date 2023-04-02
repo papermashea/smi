@@ -1,13 +1,13 @@
 ---
 layout: post
 title: Creative Coding
-description: Experimental projects from DVIA and Data Structures
+description: Experimental data structures, visualization and information aesthetics projects 
 categories: data design
-tags: [js,sql,python]
+tags: p5 js sql canvas html python
 permalink: /projects/creative-coding/
 root: /projects/
 date: 2019-09-01
-img: /img/8.jpg
+img: /img/creative-coding.png
 ---
 
 Every project has a beautiful feature shocase page. It's easy to include images, in a flexible 3-column grid format. Make your photos 1/3, 2/3, or full width.

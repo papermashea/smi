@@ -7,7 +7,7 @@ tags: [ux,cc]
 permalink: /projects/unglitch/
 root: /projects/
 date: 2017-01-01
-img: /img/10.jpg
+img: /img/unglitch.png
 ---
 
 Every project has a beautiful feature shocase page. It's easy to include images, in a flexible 3-column grid format. Make your photos 1/3, 2/3, or full width.

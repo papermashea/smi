@@ -276,17 +276,19 @@ background: $theme-color;
 .img_full{
 width: 100%;
 height: auto;
-object-fit: contain;
-box-sizing:border-box;
-padding: $img_spacing;
+object-fit: scale-down;
+box-sizing:content-box;
 margin: $vertical-spacing-unit/2 0;
+display: block;
 }
 .img_row{
 height: $img_height;
+object-fit: contain;
 width: 100%;
 overflow: hidden;
 box-sizing:border-box;
 padding: $img_spacing;
+margin: $vertical-spacing-unit/2 0;
 }
 .col{ 
 width: 100%;
@@ -307,6 +309,9 @@ width: 66.66%;
 }
 .three{
 width: 100%;
+}
+.half {
+width: 50%;
 }
 .caption{
 height: 100%;

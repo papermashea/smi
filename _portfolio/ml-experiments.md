@@ -3,7 +3,7 @@ layout: post
 title: ML Explorations
 description: Natural language process, sentiment analysis, GAN generations and Stable Diffusion work
 categories: data
-tags: [python, r]
+tags: python,r
 permalink: /projects/ml-experiments/
 root: /projects/
 date: 2021-11-01

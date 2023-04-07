@@ -6,7 +6,7 @@ categories: design
 tags: vue js sass ux cc
 permalink: /projects/streetwatch-live/
 root: /projects/
-date: 2021-06-01
+date: 2021-12-01
 img: /img/streetwatch.png
 ---
 

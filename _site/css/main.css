@@ -501,6 +501,10 @@ nav a {
   height: 230px;
 }
 
+.thumbnail a:hover {
+  background-color: none;
+}
+
 .thumbnail a span {
   display: none;
   position: absolute;
@@ -516,10 +520,12 @@ nav a {
 
 .thumbnail a:hover span {
   display: block;
+  background-color: none;
 }
 
 .thumbnail a:hover img {
   filter: blur(0.5rem);
+  background-color: none;
 }
 
 /** 

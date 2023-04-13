@@ -43,6 +43,7 @@ To save local changes:
 - 2022 trends
 - speculative design
 - prof pic
+- project pics
 
 *code*
 - skills graph

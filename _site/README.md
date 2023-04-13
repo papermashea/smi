@@ -47,8 +47,6 @@ To save local changes:
 
 *code*
 - skills graph
-- subpage link styling
-- active link styling
 
 *projects*
 - ftgu

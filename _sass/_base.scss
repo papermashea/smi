@@ -155,7 +155,12 @@ article a {
         background-color: $highlight-color;
     }
 }
-.category-link ,
+.category-link {
+    border: 1px solid white;
+    margin-left: 2px;
+    color: $brand-color;
+}
+.category-link#active ,
 .post-cat {
     color: $brand-color;
     border: 1px dotted $brand-color;
@@ -167,13 +172,6 @@ article a {
         border: 1px solid $highlight-color;
         margin-left: 2px;
     }
-}
-.category-link#active {
-    background-color: $highlight-color;
-    border: 1px solid $highlight-color;
-    margin-left: 2px;
-    color: $text-color;
-    text-decoration: underline;
 }
 #meta-cat {
     margin-left: 8px;

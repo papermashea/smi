@@ -5,14 +5,9 @@ layout: default
   <header class="page-header">
     <div class="page-title"><a href="{{ page.root }}" class="root-link" id="{{ page.categories }}">{{ page.title }}</a> //</div> 
     {% if page.title == 'Projects' %}  
-      {% assign categories =  site.portfolio | map: 'categories' | uniq %}
         <div class="page-desc">
-<!--           {% for cat in categories %}
-              <a href="{{ page.root }}{{ cat }}" class="category-link" {% if /projects/cat/ }} == page.permalink %} id="active" {% else %} id="inactive" {%- endif -%}>{{ cat }}</a>{% if forloop.first %}&nbsp;and{%- endif -%}{% if forloop.last %}&nbsp;portfolio
-             {%- endif -%}
-          {%- endfor -%} -->
-          {% for nav in site.data.projects %}
-              <a href="{{ nav.url }}" class="category-link" {% if nav.url == page.permalink %} id="active" {% else %} id="inactive" {%- endif -%}>{{ nav.page }}</a>{% if forloop.first %}&nbsp;and{%- endif -%}{% if forloop.last %}&nbsp;portfolio
+          {% for cat in site.data.projects %}
+              <a href="{{ cat.url }}" class="category-link" {% if cat.url == page.permalink %} id="active" {% else %} id="inactive" {%- endif -%}>{{ cat.page }}</a>{% if forloop.first %}&nbsp;and{%- endif -%}{% if forloop.last %}&nbsp;portfolio
              {%- endif -%}
           {%- endfor -%}
         </div> 
@@ -21,11 +16,18 @@ layout: default
       {% assign categories =  site.posts | map: 'categories' | uniq %}
       {% assign link =  site.posts | map: 'permalink' | uniq %}
           <div class="page-desc">
-            {% for cat in categories %}
+<!--             {% for cat in categories %}
             {%- if forloop.length > 0 -%}
               {% if forloop.first == false %}&nbsp;{%- endif -%}
               {% if forloop.last %}and&nbsp;{%- endif -%}
                   <a href="{{ page.root }}{{ cat }}" class="category-link" id="filter">{{ cat }}{% if cat != 'research' %}s{%- endif -%}</a>{% unless forloop.last %},{% endunless -%}
+            {%- endif -%}
+            {% endfor %} -->
+            {% for cat in site.data.work %}
+            {%- if forloop.length > 0 -%}
+              {% if forloop.first == false %}&nbsp;{%- endif -%}
+              {% if forloop.last %}and&nbsp;{%- endif -%}
+                  <a href="{{ cat.url }}" class="category-link" {% if cat.url == page.permalink %} id="active" {% else %} id="inactive" {%- endif -%}>{{ cat.page }}{% if cat.page != 'research' %}s{%- endif -%}</a>{% unless forloop.last %},{% endunless -%}
             {%- endif -%}
             {% endfor %}
           </div>  

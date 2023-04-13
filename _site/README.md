@@ -36,3 +36,24 @@ To save local changes:
 ## site
 - Never update contents of "_site"
 - Update navigation by updating titles/permalinks and renaming .md files in the root directory markdown pages
+
+## ttd
+*content*
+- 2021 trends
+- 2022 trends
+- speculative design
+- prof pic
+
+*code*
+- skills graph
+- subpage link styling
+- active link styling
+
+*projects*
+- ftgu
+-- vue redirects
+-- update project page links
+- cooper
+-- footer
+- ml explorations
+-- new worlds

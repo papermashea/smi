@@ -6,6 +6,7 @@ description: Signals research, trend analysis, and forecasting models
 categories: research
 root: /work/
 permalink: /research/futures-studies/
+img: /img/1.jpg
 ---
 This theme implements a built-in Jekyll feature, the use of Pygments, for sytanx highlighting. It supports more than 100 languages. This example is in C++. All you have to do is wrap your code in a liquid tag: 
 {% raw  %}

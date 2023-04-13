@@ -155,6 +155,7 @@ article a {
         background-color: $highlight-color;
     }
 }
+.category-link ,
 .post-cat {
     color: $brand-color;
     border: 1px dotted $brand-color;
@@ -163,8 +164,12 @@ article a {
     margin-left: 2px;
     &:hover {
         background-color: $highlight-color;
-        border: .5px solid $highlight-color;
+        border: 1px solid $highlight-color;
+        margin-left: 2px;
     }
+}
+.category-link#active {
+    color: blue;
 }
 #meta-cat {
     margin-left: 8px;

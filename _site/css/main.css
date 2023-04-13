@@ -132,6 +132,7 @@ article a:hover {
   background-color: #E9F322;
 }
 
+.category-link,
 .post-cat {
   color: #CC5500;
   border: 1px dotted #CC5500;
@@ -139,9 +140,19 @@ article a:hover {
   padding: 2px;
   margin-left: 2px;
 }
+.category-link:hover,
 .post-cat:hover {
   background-color: #E9F322;
-  border: 0.5px solid #E9F322;
+  border: 1px solid #E9F322;
+  margin-left: 2px;
+}
+
+.category-link#active {
+  background-color: #E9F322;
+  border: 1px solid #E9F322;
+  margin-left: 2px;
+  color: #000;
+  text-decoration: underline;
 }
 
 #meta-cat {
@@ -491,7 +502,7 @@ nav a {
   height: auto;
   position: relative;
   left: -65%;
-  filter: blur(0.05rem);
+  /*filter: blur(.1rem);*/
 }
 
 .thumbnail a {

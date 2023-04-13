@@ -55,7 +55,7 @@ section {
 p, blockquote, pre,
 ul, ol, dl, figure,
 %vertical-rhythm {
-    margin-bottom: $vertical-spacing-unit / 4;
+    margin-bottom: calc($vertical-spacing-unit/4);
 }
 
 .alignright {
@@ -116,7 +116,7 @@ a {
     color: $text-color;
     text-decoration: none;
     padding:0px;
-    margin-bottom: $vertical-spacing-unit / 2;
+    margin-bottom: calc($vertical-spacing-unit/2);
     &:hover {
         background-color: $highlight-color;
         color: $text-color;
@@ -181,7 +181,7 @@ article a {
 blockquote {
     color: $text-color;
     border-left: 10px solid $grey-color-light;
-    padding-left: $horizontal-spacing-unit / 2;
+    padding-left: calc($horizontal-spacing-unit/2);
     font-size: 1.8em;
     font-style: italic;
 
@@ -235,8 +235,8 @@ pre {
     @include media-query($on-laptop) {
         max-width: -webkit-calc(800px - (#{$horizontal-spacing-unit}));
         max-width:         calc(800px - (#{$horizontal-spacing-unit}));
-        padding-right: $spacing-unit / 2;
-        padding-left: $spacing-unit / 2;
+        padding-right: calc($spacing-unit/2);
+        padding-left: calc($spacing-unit/2);
     }
 }
 

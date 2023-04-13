@@ -201,7 +201,7 @@ margin-bottom: 0px;
 }
 .materials {
 display:block;
-margin: $vertical-spacing-unit/2 $horizontal-spacing-unit;
+margin: calc($vertical-spacing-unit/2) $horizontal-spacing-unit;
 }
 /** 
  * Portfolio grid **********************************************************
@@ -283,7 +283,7 @@ width: 100%;
 height: auto;
 object-fit: scale-down;
 box-sizing:content-box;
-margin: $vertical-spacing-unit/2 0;
+margin: calc($vertical-spacing-unit/2) 0;
 display: block;
 }
 .img_row{
@@ -293,7 +293,7 @@ width: 100%;
 overflow: hidden;
 box-sizing:border-box;
 padding: $img_spacing;
-margin: $vertical-spacing-unit/2 0;
+margin: calc($vertical-spacing-unit/2) 0;
 }
 .col{ 
 width: 100%;
@@ -324,5 +324,5 @@ color: $caption_color;
 text-align: center;
 vertical-align: middle;
 font-size: $caption_font_size;
-margin-bottom: $vertical-spacing-unit/2;
+margin-bottom: calc($vertical-spacing-unit/2);
 }

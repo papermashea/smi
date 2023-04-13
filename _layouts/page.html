@@ -8,7 +8,7 @@ layout: default
       {% assign categories =  site.portfolio | map: 'categories' | uniq %}
         <div class="page-desc">
           {% for cat in categories %}
-              <a href="{{ page.root }}{{ cat }}" class="category-link" id="filter">{{ cat }}</a>{% if forloop.first %}&nbsp;and{%- endif -%}{% if forloop.last %}&nbsp;portfolio
+              <a href="{{ page.root }}{{ cat }}" class="category-link" {% for nav in site.data.navigation %}{% if navigation.url == page.permalink %} id="active" {% else %} id="inactive" {%- endif -%}{%- endfor -%}>{{ cat }}</a>{% if forloop.first %}&nbsp;and{%- endif -%}{% if forloop.last %}&nbsp;portfolio
              {%- endif -%}
           {%- endfor -%}
         </div> 

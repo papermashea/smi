@@ -169,7 +169,11 @@ article a {
     }
 }
 .category-link#active {
-    color: blue;
+    background-color: $highlight-color;
+    border: 1px solid $highlight-color;
+    margin-left: 2px;
+    color: $text-color;
+    text-decoration: underline;
 }
 #meta-cat {
     margin-left: 8px;

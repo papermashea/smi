@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width initial-scale=1" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-    <title>Creative Coding</title>
+    <title>Creative coding for reslience planning</title>
     <meta name="description" content="">
 
     <link rel="stylesheet" href="/css/main.css">
@@ -70,48 +70,68 @@
 
   <header class="page-header">
     
-    <div class="post-title"><a href="/projects/" class="root-link" id="crumb">Projects</a> // </div><div class="page-desc">Creative Coding</div>
-    <div class="post-desc">Experimental data structures, visualization and information aesthetics projects</div>
-    <p class="post-meta">2019 • <a href="/projects/data" class="post-cat" id="meta-cat">Data</a><a href="/projects/design" class="post-cat" id="meta-cat">Design</a> • p5, js, sql, canvas, html, python</p>
+    <div class="post-title"><a href="/projects/" class="root-link" id="crumb">Projects</a> // </div><div class="page-desc">Creative coding for reslience planning</div>
+    <div class="post-desc">Experimental data structures and information aesthetics projects</div>
+    <p class="post-meta">2019 • <a href="/projects/data" class="post-cat" id="meta-cat">Data</a><a href="/projects/design" class="post-cat" id="meta-cat">Design</a> • d3, js, p5, sql, canvas, html, tableau, excel</p>
   </header>
 
   <article class="post-content">
-    <p>Every project has a beautiful feature shocase page. It’s easy to include images, in a flexible 3-column grid format. Make your photos 1/3, 2/3, or full width.</p>
+    <p>Parsons <a href="https://www.newschool.edu/parsons/ms-data-visualization/" target="_blank">Master of Science in Data Visualization (MSDV)</a> program includes curriculum work with information aesthetics, data visualization and data structures using a variety of modern technical tools.</p>
 
-<p>To give your project a background in the portfolio page, just add the img tag to the front matter like so:</p>
+<p>These projects explore the role of data in resilience planning using javascript and html to map time, space and quantities from the lens of emergency planning and responses.</p>
 
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>---
-layout: post
-title: Project
-description: a project with a background image
-img: /img/12.jpg
----
-</code></pre></div></div>
+<div class="materials center">
+	<a href="https://github.com/papermashea/industryCentralization" target="_blank" class="post-resource" id="sources">process</a>
+	<a href="https://github.com/papermashea/dvia-2019" target="_blank" class="post-resource" id="sources">project</a>
+</div>
 
-<div class="img_row">
-	<img class="col one" src="/img/1.jpg" alt="" title="example image" />
-	<img class="col one" src="/img/2.jpg" alt="" title="example image" />
-	<img class="col one" src="/img/3.jpg" alt="" title="example image" />
+<div class="img_full">
+	<img class="col half" src="/img/creative-coding/space1.png" alt="" title="earthquake map" />
+	<img class="col half" src="/img/creative-coding/space2.png" alt="" title="earthquake map" />
 </div>
 <div class="col three caption">
-	Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="img_row">
-	<img class="col three" src="/img/5.jpg" alt="" title="example image" />
-</div>
-<div class="col three caption">
-	This image can also have a caption. It's like magic. 
+	Mapping space: plotting emergency facilities by relation to risk
 </div>
 
-<p>You can also put regular text between your rows of images. Say you wanted to write a little bit about your project before you posted the rest of the images. You describe how you toiled, sweated, <em>bled</em> for your project, and then…. you reveal it’s glory in the next row of images.</p>
+<p>The interactive map displays the location of emergency facilities in relation to their proximity to earthquakes, displayed by depth and magnitude of the earthquake. To create this interactive tool, I aggregated the locations of hospitals, energy plants, and water treatment facilities from government sources and mapped their proximity to <a href="https://www.usgs.gov/programs/earthquake-hazards/data" target="_blank"> USGS significant earthquake data</a>.</p>
+
+<p>I used d3.js, leaflet.js. p5.js, and brewer.js for the styling and interactions.</p>
 
 <div class="img_row">
-	<img class="col two" src="/img/6.jpg" alt="" title="example image" />
-	<img class="col one" src="/img/11.jpg" alt="" title="example image" />
+	<img class="col one" src="/img/creative-coding/quantities1.png" alt="" title="nuclear testing chart" />
+	<img class="col two" src="/img/creative-coding/quantities2.png" alt="" title="nuclear testing chart" />
 </div>
 <div class="col three caption">
-	You can also have artistically styled 2/3 + 1/3 images, like these.
+Mapping quantities: Nuclear testing data from the <a href="https://en.wikipedia.org/wiki/Comprehensive_Nuclear-Test-Ban_Treaty" target="_blank">Comprehensive Nuclear-Test-Ban Treaty</a>
 </div>
+<p>The exploration of nuclear testing and energy consumption data was an exercise in converting data tables to JSON and CSV data, and used tools such as Tableau and Excel to help identify data patterns in sketching out various data breakdowns.</p>
+
+<div class="img_full">
+	<img class="col three" src="/img/creative-coding/quantities_sketch.png" alt="" title="nuclear testing to energy consumption model" />
+</div>
+<div class="col three caption">
+	Mapping quantities: nuclear testing to energy consumption model
+</div>
+
+<p>I compared nuclear testing types and frequency by countries over time to their consumption of nuclear energy and hydro energy to find insights on who was conducting largest amount of nuclear testing for which potential purposes.</p>
+
+<div class="img_full">
+	<img class="col three" src="/img/creative-coding/time.gif" alt="" title="countdown clock" />
+</div>
+<div class="col three caption">
+	Mapping time: mapping fictional weather elements to real-time clock animations
+</div>
+
+<p>This countdown clock maps time in relation to seconds, hours, and days to <a href="https://p5js.org/" target="_blank">p5.js</a> elements in order to visualize a countdown of the impacts of climate catastrophe.</p>
+
+<p>This experimental piece was an exercising in working with javascript to map live elements to data feeds, and incorporated a cryptic legend explaining the time mapping:</p>
+
+<figure class="highlight"><pre><code class="language-html" data-lang="html">	  Every second, more snow falls.
+	  Sun spinning hourly:
+	  Hotter day by day.
+	  Monthly floods fills the city.
+	  Seasons vary drastically.
+	  Within the decade, fade to black</code></pre></figure>
 
   </article>
 

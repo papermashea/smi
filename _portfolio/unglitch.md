@@ -7,35 +7,47 @@ tags: [ux,cc]
 permalink: /projects/unglitch/
 root: /projects/
 date: 2017-01-01
-img: /img/unglitch.png
+img: /img/unglitch2.png
 ---
 
-Every project has a beautiful feature shocase page. It's easy to include images, in a flexible 3-column grid format. Make your photos 1/3, 2/3, or full width.
+<a href="http://unglitchthe.net/" target="_blank">Unglitch</a> is an art-tech activist organization that is currently focusing on net neutrality and tech policy education and outreach initiatives in New York City. As one of the founders and primary organizer, I helped develop the objectives and visual identity to secure locations and sponsorships for a alternative networks panel, an all-day hackathon at <a href="https://fatcatfablab.org/">fat cat fab labs</a> and an afterparty at <a href="https://www.babycastles.com/" target="_blank">babycastles</a>.
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so: 
+<div class="materials center">
+	<a href="http://unglitchthe.net/" target="_blank" class="post-resource" id="sources">org</a>
+	<a href="https://express.adobe.com/page/IV0csz3zMoTYd/" target="_blank" class="post-resource" id="sources">events</a>
+	<a href="{{ site.baseurl }}/img/unglitch/Poster-Zines.pdf" target="_blank" class="post-resource" id="sources">zines</a>
+</div>
 
-<div class="img_row">
-	<img class="col one" src="{{ site.baseurl }}/img/1.jpg" alt="" title="example image"/>
-	<img class="col one" src="{{ site.baseurl }}/img/2.jpg" alt="" title="example image"/>
-	<img class="col one" src="{{ site.baseurl }}/img/3.jpg" alt="" title="example image"/>
+<div class="img_full">
+	<img class="col one" src="{{ site.baseurl }}/img/unglitch/2018/net neutrality hackathon/digital/IMG_0277.JPG" alt="" title="nn hackathon"/>
+	<img class="col one" src="{{ site.baseurl }}/img/unglitch/2018/net neutrality hackathon/digital/SAM_2023.JPG" alt="" title="nn hackathon"/>
+	<img class="col one" src="{{ site.baseurl }}/img/unglitch/2018/net neutrality hackathon/digital/SAM_2097.JPG" alt="" title="nn hackathon"/>
+</div>
+
+<div class="col three caption">
+Net Neutrality Hackathon
+</div>
+
+<div class="img_full">
+	<img class="col one" src="{{ site.baseurl }}/img/unglitch/2018/s4a/IMG_20180706_195456310.jpg" alt="" title="s4ad"/>
+	<img class="col one" src="{{ site.baseurl }}/img/unglitch/2018/s4a/IMG_3838.JPG" alt="" title="s4ad"/>
+	<img class="col one" src="{{ site.baseurl }}/img/unglitch/2018/s4a/IMG_20180706_194137927_LL.jpg" alt="" title="s4ad"/>
 </div>
 <div class="col three caption">
-	Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
+Software for Artists Day
 </div>
-<div class="img_row">
-	<img class="col three" src="{{ site.baseurl }}/img/5.jpg" alt="" title="example image"/>
+
+We have since recieved <a href="www.citizensnyc.org/grants/neighborhood-grants" target="_blank">neighborhood grants from the Citizen's Committee for New York City</a>, built a glitchy-video, button-making, zine-distributing installation at <a href="https://pioneerworks.org/series/software-for-artists-day" target="_blank">Pioneer Work's Software for Artists Day</a> and partnered with NYC Mesh's <a href="/projects/streetwatch-live/" target="_blank">Streetwatch.live</a> to help support activist archive efforts.
+ 
+<div class="img_full">
+	<img class="col one" src="{{ site.baseurl }}/img/unglitch/poster1.png" alt="" title="aaron swartz quote"/>
+	<img class="col one" src="{{ site.baseurl }}/img/unglitch/poster2.png" alt="" title="laura poitras quote"/>
+	<img class="col one" src="{{ site.baseurl }}/img/unglitch/poster3.png" alt="" title="jenny holtzer quote"/>
 </div>
 <div class="col three caption">
-	This image can also have a caption. It's like magic. 
+Poster-zines for <a href="img/unglitch/Poster-Zines.pdf" target="_blank">Net Neutrality education</a>
 </div>
-
-You can also put regular text between your rows of images. Say you wanted to write a little bit about your project before you posted the rest of the images. You describe how you toiled, sweated, *bled* for your project, and then.... you reveal it's glory in the next row of images.
-
-
-<div class="img_row">
-	<img class="col two" src="{{ site.baseurl }}/img/6.jpg" alt="" title="example image"/>
-	<img class="col one" src="{{ site.baseurl }}/img/11.jpg" alt="" title="example image"/>
-</div>
-<div class="col three caption">
-	You can also have artistically styled 2/3 + 1/3 images, like these.
+<div class="img_full">
+	<img class="col half" src="{{ site.baseurl }}/img/unglitch/zine1.png" alt="" title="poster back foldable zines"/>
+	<img class="col half" src="{{ site.baseurl }}/img/unglitch/zine2.png" alt="" title="poster back foldable zines"/>
 </div>

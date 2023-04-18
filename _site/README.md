@@ -47,6 +47,8 @@ To save local changes:
 
 *code*
 - skills graph
+- portfolio list of projects
+- work preview images
 
 *projects*
 - ftgu

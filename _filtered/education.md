@@ -1,15 +1,15 @@
 ---
 layout: page
-permalink: /work/livestream/
+permalink: /work/education/
 title: Work
-description: livestreams, publications and research
+description: publications, education and research
 categories: filtered
 root: /work/
 ---
 
 <ul class="post-list">
   {% for post in site.posts %}
-    {% if post.categories contains "livestream" %}
+    {% if post.categories contains "education" %}
       <li>
         <h4>
           {% if post.redirect %}

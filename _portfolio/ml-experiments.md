@@ -1,13 +1,13 @@
 ---
 layout: post
 title: ML Explorations
-description: Natural language process, sentiment analysis, GAN generations and Stable Diffusion work
+description: Clustering in 
 categories: data
 tags: python,r
 permalink: /projects/ml-experiments/
 root: /projects/
 date: 2021-11-01
-img: /img/machine-learning.png
+img: /img/machine-learning.jpeg
 ---
 
 Every project has a beautiful feature shocase page. It's easy to include images, in a flexible 3-column grid format. Make your photos 1/3, 2/3, or full width.
@@ -16,8 +16,8 @@ To give your project a background in the portfolio page, just add the img tag to
 
 <div class="materials center">
 	<a href="https://github.com/papermashea/industryCentralization" target="_blank" class="post-resource" id="sources">research</a>
-	<a href="https://github.com/papermashea/ml-2020/tree/master/jupyter/_thirdProject/iteration1" target="_blank" class="post-resource" id="sources">practice</a>
-	<a href="https://papermashea.github.io/industryCentralization/index.html" target="_blank" class="post-resource" id="sources">experiment</a>
+	<a href="https://github.com/papermashea/ml-2020/tree/master/jupyter/_thirdProject/iteration1" target="_blank" class="post-resource" id="sources">education</a>
+	<a href="https://github.com/papermashea/ml-2020/tree/master/jupyter/_thirdProject/iteration1" target="_blank" class="post-resource" id="sources">experiment</a>
 </div>
 
 <div class="img_row">

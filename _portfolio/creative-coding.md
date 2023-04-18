@@ -1,49 +1,70 @@
 ---
 layout: post
-title: Creative Coding
-description: Experimental data structures, visualization and information aesthetics projects 
+title: Creative coding for reslience planning
+description: Experimental data structures and information aesthetics projects 
 categories: data design
-tags: p5 js sql canvas html python
+tags: d3 js p5 sql canvas html tableau excel
 permalink: /projects/creative-coding/
 root: /projects/
 date: 2019-09-01
 img: /img/creative-coding.png
 ---
 
-Every project has a beautiful feature shocase page. It's easy to include images, in a flexible 3-column grid format. Make your photos 1/3, 2/3, or full width.
+Parsons <a href="https://www.newschool.edu/parsons/ms-data-visualization/" target="_blank">Master of Science in Data Visualization (MSDV)</a> program includes curriculum work with information aesthetics, data visualization and data structures using a variety of modern technical tools. 
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so: 
+These projects explore the role of data in resilience planning using javascript and html to map time, space and quantities from the lens of emergency planning and responses.
 
-	---
-	layout: post
-	title: Project
-	description: a project with a background image
-	img: {{ site.baseurl }}/img/12.jpg
-	---
+<div class="materials center">
+	<a href="https://github.com/papermashea/industryCentralization" target="_blank" class="post-resource" id="sources">process</a>
+	<a href="https://github.com/papermashea/dvia-2019" target="_blank" class="post-resource" id="sources">project</a>
+</div>
 
-
-<div class="img_row">
-	<img class="col one" src="{{ site.baseurl }}/img/1.jpg" alt="" title="example image"/>
-	<img class="col one" src="{{ site.baseurl }}/img/2.jpg" alt="" title="example image"/>
-	<img class="col one" src="{{ site.baseurl }}/img/3.jpg" alt="" title="example image"/>
+<div class="img_full">
+	<img class="col half" src="{{ site.baseurl }}/img/creative-coding/space1.png" alt="" title="earthquake map"/>
+	<img class="col half" src="{{ site.baseurl }}/img/creative-coding/space2.png" alt="" title="earthquake map"/>
 </div>
 <div class="col three caption">
-	Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="img_row">
-	<img class="col three" src="{{ site.baseurl }}/img/5.jpg" alt="" title="example image"/>
-</div>
-<div class="col three caption">
-	This image can also have a caption. It's like magic. 
+	Mapping space: plotting emergency facilities by relation to risk
 </div>
 
-You can also put regular text between your rows of images. Say you wanted to write a little bit about your project before you posted the rest of the images. You describe how you toiled, sweated, *bled* for your project, and then.... you reveal it's glory in the next row of images.
+The interactive map displays the location of emergency facilities in relation to their proximity to earthquakes, displayed by depth and magnitude of the earthquake. To create this interactive tool, I aggregated the locations of hospitals, energy plants, and water treatment facilities from government sources and mapped their proximity to <a href="https://www.usgs.gov/programs/earthquake-hazards/data" target="_blank"> USGS significant earthquake data</a>.
 
+I used d3.js, leaflet.js. p5.js, and brewer.js for the styling and interactions.
 
 <div class="img_row">
-	<img class="col two" src="{{ site.baseurl }}/img/6.jpg" alt="" title="example image"/>
-	<img class="col one" src="{{ site.baseurl }}/img/11.jpg" alt="" title="example image"/>
+	<img class="col one" src="{{ site.baseurl }}/img/creative-coding/quantities1.png" alt="" title="nuclear testing chart"/>
+	<img class="col two" src="{{ site.baseurl }}/img/creative-coding/quantities2.png" alt="" title="nuclear testing chart"/>
 </div>
 <div class="col three caption">
-	You can also have artistically styled 2/3 + 1/3 images, like these.
+Mapping quantities: Nuclear testing data from the <a href="https://en.wikipedia.org/wiki/Comprehensive_Nuclear-Test-Ban_Treaty" target="_blank">Comprehensive Nuclear-Test-Ban Treaty</a>
 </div>
+The exploration of nuclear testing and energy consumption data was an exercise in converting data tables to JSON and CSV data, and used tools such as Tableau and Excel to help identify data patterns in sketching out various data breakdowns. 
+
+<div class="img_full">
+	<img class="col three" src="{{ site.baseurl }}/img/creative-coding/quantities_sketch.png" alt="" title="nuclear testing to energy consumption model"/>
+</div>
+<div class="col three caption">
+	Mapping quantities: nuclear testing to energy consumption model
+</div>
+
+I compared nuclear testing types and frequency by countries over time to their consumption of nuclear energy and hydro energy to find insights on who was conducting largest amount of nuclear testing for which potential purposes.
+
+<div class="img_full">
+	<img class="col three" src="{{ site.baseurl }}/img/creative-coding/time.gif" alt="" title="countdown clock"/>
+</div>
+<div class="col three caption">
+	Mapping time: mapping fictional weather elements to real-time clock animations
+</div>
+
+This countdown clock maps time in relation to seconds, hours, and days to <a href="https://p5js.org/" target="_blank">p5.js</a> elements in order to visualize a countdown of the impacts of climate catastrophe. 
+
+This experimental piece was an exercising in working with javascript to map live elements to data feeds, and incorporated a cryptic legend explaining the time mapping:
+
+{% highlight html %}
+	  Every second, more snow falls.
+	  Sun spinning hourly:
+	  Hotter day by day.
+	  Monthly floods fills the city.
+	  Seasons vary drastically.
+	  Within the decade, fade to black
+{% endhighlight %}

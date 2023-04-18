@@ -42,6 +42,10 @@ To save local changes:
 - 2021 trends
 - 2022 trends
 - speculative design
+- curriculum page: gan intensive
+- curriculum page: emerging technology
+- machine learning page
+- data structures
 - prof pic
 - project pics
 
@@ -58,3 +62,5 @@ To save local changes:
 -- footer
 - ml explorations
 -- new worlds
+- creative coding
+-- map link

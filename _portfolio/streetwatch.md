@@ -25,7 +25,7 @@ Streetwatch.live is a sub-project of NYC Mesh, launched in 2020 to harness surve
 
 <div class="img_full">
 	<img class="col half" src="{{ site.baseurl }}/img/streetwatch/streetwatch-vice.png" alt="" title="streetwatch.live on vice"/>
-	<img class="col half" src="{{ site.baseurl }}/img/streetwatch/streetwatch-bi.png" alt="" title="streetwatch.live on business insider"/>
+	<img class="col half" src="{{ site.baseurl }}/img/streetwatch/streetwatch-bi_short.png" alt="" title="streetwatch.live on business insider"/>
 </div>
 <div class="col three caption">
 Streetwatch.live covered on <a href="https://www.vice.com/en/article/y3zp55/activists-are-using-traffic-cameras-to-track-police-brutality" target="_blank">Vice Motherboard</a> and <a href="https://www.businessinsider.com/activists-using-nyc-traffic-cameras-to-track-police-brutality-2020-6" target="_blank">Business Insider</a>, June 2020

@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Creative coding for reslience planning
-description: Experimental data structures and information aesthetics projects 
+title: Creative coding for crises
+description: Information aesthetics in resilience planning
 categories: data design
 tags: d3 js p5 sql canvas html tableau excel
 permalink: /projects/creative-coding/
@@ -52,7 +52,7 @@ The exploration of nuclear testing and energy consumption data was an exercise i
 I compared nuclear testing types and frequency by countries over time to their consumption of nuclear energy and hydro energy to find insights on who was conducting largest amount of nuclear testing for which potential purposes.
 
 <div class="img_full">
-	<img class="col three" src="{{ site.baseurl }}/img/creative-coding/time.gif" alt="" title="countdown clock"/>
+	<img class="col three" src="{{ site.baseurl }}/img/creative-coding/map-time.gif" alt="" title="countdown clock"/>
 </div>
 <div class="col three caption">
 	Mapping time: mapping fictional weather elements to real-time clock animations

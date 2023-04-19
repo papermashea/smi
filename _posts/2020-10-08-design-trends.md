@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Design Trends for Illustrators
+title: Design Trends for illustrators
 date: 2020-10-08
 categories: education
 root: /work/

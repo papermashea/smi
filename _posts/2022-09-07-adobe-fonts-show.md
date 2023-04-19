@@ -1,6 +1,6 @@
 ---
 layout: post
-title: The Adobe Fonts Show 
+title: The Adobe Fonts show 
 date: 2022-09-07
 categories: education
 root: /work/

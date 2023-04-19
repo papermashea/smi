@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Using Adobe Fonts in Adobe Stock Templates
+title: Using Adobe Fonts in Adobe Stock templates
 date: 2019-02-11
 categories: publication
 root: /work/

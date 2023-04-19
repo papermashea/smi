@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Creative Components Portfolio Review
+title: Creative components portfolio review
 date: 2023-01-19
 categories: education
 root: /work/

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Layout Tools in Adobe Stock Templates
+title: Layout Tools in Adobe Stock templates
 date: 2019-08-02
 categories: publication
 root: /work/

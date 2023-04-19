@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Generative AI Content Directon
+title: Generative AI content directon
 date: 2022-12-07
 categories: education
 root: /work/

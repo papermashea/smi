@@ -7,7 +7,7 @@ tags: [ux,cc]
 permalink: /projects/unglitch/
 root: /projects/
 date: 2018-01-01
-img: /img/unglitch2.png
+img: /img/unglitch.png
 ---
 
 

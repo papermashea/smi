@@ -10,32 +10,47 @@ date: 2016-06-01
 img: /img/eddi.png
 ---
 
-Every project has a beautiful feature shocase page. It's easy to include images, in a flexible 3-column grid format. Make your photos 1/3, 2/3, or full width.
+EDDI was an <a href="https://news.samsung.com/us/samsung-awards-eddi-iot-developer-team-winner-makers-against-drought-mad-global-challenge-curtis-sasaki/" target="_blank">award-winning</a> electrodialysis desalinator for irrigation designed to provide real-time soil and salinity metrics to small-scale farmers in California trying to avoid overwatering and leaching. 
+<br>
+<br>
+Our goal was to put <a href="https://papermashea.github.io/smi/hello/work/eddi/pitch.pdf" target="_blank">data into the hands of farmers</a> so they could respond responsiblity to the weather and soil quality specific to their crop.
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so: 
-
-<div class="img_row">
-	<img class="col one" src="{{ site.baseurl }}/img/1.jpg" alt="" title="example image"/>
-	<img class="col one" src="{{ site.baseurl }}/img/2.jpg" alt="" title="example image"/>
-	<img class="col one" src="{{ site.baseurl }}/img/3.jpg" alt="" title="example image"/>
+<div class="materials center">
+	<a href="{{ site.baseurl }}/img/eddi/EDDI_pitch.pdf" target="_blank" class="post-resource" id="sources">pitch</a>
+	<a href="https://www.youtube.com/watch?v=UJFghMIfyXA" target="_blank" class="post-resource" id="sources">project</a>
+	<a href="{{ site.baseurl }}/img/eddi/eddi-demo.m4v" target="_blank" class="post-resource" id="sources">demo</a>
 </div>
-<div class="col three caption">
-	Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="img_row">
-	<img class="col three" src="{{ site.baseurl }}/img/5.jpg" alt="" title="example image"/>
-</div>
-<div class="col three caption">
-	This image can also have a caption. It's like magic. 
-</div>
-
-You can also put regular text between your rows of images. Say you wanted to write a little bit about your project before you posted the rest of the images. You describe how you toiled, sweated, *bled* for your project, and then.... you reveal it's glory in the next row of images.
 
 
 <div class="img_row">
-	<img class="col two" src="{{ site.baseurl }}/img/6.jpg" alt="" title="example image"/>
-	<img class="col one" src="{{ site.baseurl }}/img/11.jpg" alt="" title="example image"/>
+	<img class="col half" src="{{ site.baseurl }}/img/eddi/eddi-waterday-loop.gif" alt="" title="eddi identity"/>
+	<img class="col half" src="{{ site.baseurl }}/img/eddi/eddi.png" alt="" title="eddi product"/>
 </div>
 <div class="col three caption">
-	You can also have artistically styled 2/3 + 1/3 images, like these.
+	EDDI: a circular movement of water // electrodialysis desalinator for irrigation
+</div>
+
+Using the mobile device, a user could remotely turn off their personal desalinator and desalinate only to the necessary levels to save water and energy. 
+<br>
+<br>
+As the design lead on the team, I created the visual identity, <a href="https://github.com/water-alchemists" target="_blank">built the mobile and web interfaces</a> and <a href="https://www.youtube.com/watch?v=UJFghMIfyXA" target="_blank">created the multimedia assets</a> as well as helped <a href="https://medium.com/vision-for-tomorrow/one-year-later-how-eddi-went-from-idea-to-game-changing-drought-solution-a8f041cf8b8" target="_blank">build the machine</a>. 
+
+<div class="img_full">
+	<img class="col three" src="{{ site.baseurl }}/img/eddi/eddi_ui.png" alt="" title="eddi ui shots"/>
+	<img class="col one" src="{{ site.baseurl }}/img/eddi/nav.gif" alt="" title="eddi ui shots"/>
+	<img class="col one" src="{{ site.baseurl }}/img/eddi/dashboard.gif" alt="" title="eddi ui shots"/>
+	<img class="col one" src="{{ site.baseurl }}/img/eddi/troubleshoot.gif" alt="" title="eddi ui shots"/>
+</div>
+<div class="col three caption">
+	EDDI UI overview
+</div>
+
+This project went on to <a href="https://medium.com/vision-for-tomorrow/one-year-later-how-eddi-went-from-idea-to-game-changing-drought-solution-a8f041cf8b8" target="_blank">live on a permaculture barge in the East River</a>, touring around Governor's Island, the Bronx, and Downtown Brooklyn.
+
+<div class="img_full">
+	<img class="col two" src="{{ site.baseurl }}/img/eddi/build/EDDIam00.jpg" alt="" title="eddi build process"/>
+	<img class="col one" src="{{ site.baseurl }}/img/eddi/build/EDDIam06.jpg" alt="" title="eddi build process"/>
+</div>
+<div class="col three caption">
+	While EDDI was developed for the Samsung Makers Against Drought competition in California, we conceptualized, built, and tested it on NYC rooftops.
 </div>

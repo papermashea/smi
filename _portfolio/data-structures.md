@@ -1,12 +1,12 @@
 ---
 layout: post
-title: ML explorations empowering creativity
-description: Clustering in 
+title: Data structures for environmental variables
+description: IoT and data interactions for care
 categories: data
-tags: python,r
-permalink: /projects/ml-experiments/
+tags: python,sql,aws,html,css
+permalink: /projects/data-structures/
 root: /projects/
-date: 2021-11-01
+date: 2020-11-01
 img: /img/machine-learning.jpeg
 published: false
 ---

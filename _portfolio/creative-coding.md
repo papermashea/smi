@@ -31,6 +31,8 @@ The interactive map displays the location of emergency facilities in relation to
 
 I used d3.js, leaflet.js. p5.js, and brewer.js for the styling and interactions.
 
+<hr>
+
 <div class="img_row">
 	<img class="col one" src="{{ site.baseurl }}/img/creative-coding/quantities1.png" alt="" title="nuclear testing chart"/>
 	<img class="col two" src="{{ site.baseurl }}/img/creative-coding/quantities2.png" alt="" title="nuclear testing chart"/>
@@ -55,6 +57,8 @@ I compared nuclear testing types and frequency by countries over time to their c
 <div class="col three caption">
 	Mapping time: mapping fictional weather elements to real-time clock animations
 </div>
+
+<hr>
 
 This countdown clock maps time in relation to seconds, hours, and days to <a href="https://p5js.org/" target="_blank">p5.js</a> elements in order to visualize a countdown of the impacts of climate catastrophe. 
 

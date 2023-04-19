@@ -41,7 +41,7 @@ My work with NYC Mesh has focused on exploring the role of design and community 
 	<img class="col half" src="{{ site.baseurl }}/img/nycmesh/mayDay/mayDay_IMG_0386.jpg" alt="" title="installing nyc mesh at mayday space"/>
 </div>
 
-NYC Mesh in the news:
+#### NYC Mesh in the news:
 <li>
 	<a href="https://www.vice.com/en/article/paj8z8/a-diy-internet-network-has-drastically-expanded-its-coverage-in-nyc" target="_blank">The Internet Society</a>
 </li>

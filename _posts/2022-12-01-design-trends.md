@@ -2,6 +2,7 @@
 layout: post
 title: Digital creator design trends
 date: 2022-12-01
+description: Trend forecasting for creative direction at scale
 categories: research
 tags: analysis forecasting curation direction
 root: /work/

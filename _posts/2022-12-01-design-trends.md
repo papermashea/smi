@@ -3,11 +3,11 @@ layout: post
 title: Digital creator design trends
 date: 2022-12-01
 categories: research
+tags: analysis forecasting curation direction
 root: /work/
 permalink: /research/design-trends/
 ---
-Jean shorts raw denim Vice normcore, art party High Life PBR skateboard stumptown vinyl kitsch. Four loko meh 8-bit, tousled banh mi tilde forage Schlitz dreamcatcher twee 3 wolf moon. Chambray asymmetrical paleo salvia, sartorial umami four loko master cleanse drinking vinegar brunch. <a href="https://www.pinterest.com" target="blank">Pinterest</a> DIY authentic Schlitz, hoodie Intelligentsia butcher trust fund brunch shabby chic Kickstarter forage flexitarian. Direct trade <a href="https://en.wikipedia.org/wiki/Cold-pressed_juice" target="blank">cold-pressed</a> meggings stumptown plaid, pop-up taxidermy. Hoodie XOXO fingerstache scenester Echo Park. Plaid ugh Wes Anderson, freegan pug selvage fanny pack leggings pickled food truck DIY irony Banksy.
-
+The Adobe Stock Creative Trends explore visual patterns and marketplace demand for buyers and creators of Adobe Stock. 
 #### Hipster list
 <ul>
 	<li>brunch</li>

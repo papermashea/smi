@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Futures studies and speculative design
-date: 2021-04-15
+date: 2022-04-15
 description: Signals research, trend analysis, and forecasting models
 categories: research
 tags: analysis forecasting

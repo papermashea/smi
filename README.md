@@ -39,11 +39,10 @@ To save local changes:
 
 ## ttd
 *content*
-- design trends
-- speculative design
-- curriculum page: gan intensive
-- curriculum page: emerging technology
-- machine learning for empowering artists
+- post: design trends
+- post: speculative design
+- post: emerging technology
+- page: machine learning for empowering artists
 
 - data structures for environmental data
 - interaction and harm reduction

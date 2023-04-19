@@ -39,13 +39,14 @@ To save local changes:
 
 ## ttd
 *content*
-- 2021 trends
-- 2022 trends
+- design trends
 - speculative design
 - curriculum page: gan intensive
 - curriculum page: emerging technology
-- machine learning page
-- data structures
+- machine learning for empowering artists
+
+- data structures for environmental data
+- interaction and harm reduction
 - prof pic
 - project pics
 

@@ -39,15 +39,14 @@ To save local changes:
 
 ## ttd
 *content*
-- post: design trends
 - post: speculative design
 - post: emerging technology
-- page: machine learning for empowering artists
-
-- data structures for environmental data
-- interaction and harm reduction
-- prof pic
-- project pics
+- page: machine learning for empowering artists: https://github.com/papermashea/ml-2020/blob/master/jupyter/_thirdProject/iteration1/readMe.md
+- future content
+    - data structures for environmental data: https://github.com/papermashea/ds-2020/blob/main/finalProject/2.sensorData_walkthrough.mov
+    - interaction and harm reduction: https://github.com/papermashea/dvia-2019/tree/master/3.mapping-space
+    - prof pic
+    - project pics
 
 *code*
 - skills graph

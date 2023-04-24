@@ -39,7 +39,6 @@ To save local changes:
 
 ## ttd
 *content*
-- post: speculative design
 - post: emerging technology
 - page: machine learning for empowering artists: https://github.com/papermashea/ml-2020/blob/master/jupyter/_thirdProject/iteration1/readMe.md
 - future content
@@ -47,6 +46,13 @@ To save local changes:
     - interaction and harm reduction: https://github.com/papermashea/dvia-2019/tree/master/3.mapping-space
     - prof pic
     - project pics
+
+*qa*
+- Cooper links
+- Cooper Gifs
+- FTGU images
+- Streetwatch images
+- EDDI images
 
 *code*
 - skills graph

@@ -75,11 +75,15 @@ I collected further data on emotional responses to these events, as well as whic
 			</ul> 
 		</td>
 		<td class="col one">
-			<i>Ranked across a spectrum of:</i>
 			<ul>
-				<li>Happy (excited/content/mind-blown/curious)</li>
-				<li>Sad (sad/distraught)</li>
-				<li>Angry (unsurprised/angry)</li>
+				<li>Excited</li>
+				<li>Content</li>
+				<li>Mind-blown</li>
+				<li>Curious</li>
+				<li>Unsurprised</li>
+				<li>Sad</li>
+				<li>Distraught</li>
+				<li>Angry</li>
 				<br>
 			</ul> 
 		</td>
@@ -87,6 +91,7 @@ I collected further data on emotional responses to these events, as well as whic
 </table>
 
 <div class="img_full">
+	<img class="col three" src="{{ site.baseurl }}/img/work/futures-studies/Scenarios_Examples.png" alt="" title="futures studies signals research"/>
 	<img class="col three" src="{{ site.baseurl }}/img/work/futures-studies/Clustering.png" alt="" title="futures studies signals research"/>
 </div>
 <div class="col three caption">
@@ -96,7 +101,8 @@ I collected further data on emotional responses to these events, as well as whic
 After synthesizing all of this information, I developed a futures matrix exploring 4 possible narratives relating the cost of goods and the cost of creative. From there, I further developed a series of <a href="{{ site.baseurl }}/img/work/futures-studies/Molloy_Futures-narratives.pdf" target="_blank">narrative scenarios</a> which detailed the human experience of how these scenarios could play out.
 
 <div class="img_full">
-	<img class="col three" src="{{ site.baseurl }}/img/work/futures-studies/Scenarios.png" alt="" title="futures studies signals research"/>
+	<img class="col three" src="{{ site.baseurl }}/img/work/futures-studies/Scenarios_Model.png" alt="" title="futures studies signals research"/>
+	<img class="col three" src="{{ site.baseurl }}/img/work/futures-studies/Scenarios_Matrix.png" alt="" title="futures studies signals research"/>
 </div>
 <div class="col three caption">
 	Future of digitals goods immersive narratives, Spring 2022

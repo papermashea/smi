@@ -3,7 +3,7 @@ layout: post
 title: Creative coding for crises
 description: Information aesthetics in resilience planning
 categories: data design
-tags: d3 js p5 sql canvas html tableau excel
+tags: d3 leaflet js p5 sql canvas html tableau excel
 permalink: /projects/creative-coding/
 root: /projects/
 date: 2019-09-01

@@ -10,7 +10,7 @@ date: 2019-09-01
 img: /img/creative-coding.png
 ---
 
-Parsons <a href="https://www.newschool.edu/parsons/ms-data-visualization/" target="_blank">Master of Science in Data Visualization (MSDV)</a> program includes curriculum work with information aesthetics, data visualization and data structures using a variety of modern technical tools. 
+Parsons' <a href="https://www.newschool.edu/parsons/ms-data-visualization/" target="_blank">Master of Science in Data Visualization (MSDV)</a> program includes curriculum work with information aesthetics, data visualization and data structures using a variety of modern technical tools. 
 
 These projects explore the role of data in resilience planning using javascript and html to map time, space and quantities from the lens of emergency planning and responses.
 

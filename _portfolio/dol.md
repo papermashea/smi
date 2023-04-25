@@ -8,7 +8,6 @@ permalink: /projects/dol/
 root: /projects/
 date: 2019-06-01
 img: /img/dol.png
-published: false
 ---
 
 My work with the Department of Labor as a usability research and prototyping consultant for a large-scale website redesign led by <a href="http://rayogram.com">rayogram</a>, a creative agency based in TriBeCa.

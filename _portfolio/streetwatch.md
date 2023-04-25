@@ -3,7 +3,7 @@ layout: post
 title: Streetwatch.live
 description: Taking back surveillance for activist archives
 categories: design
-tags: vue js sass ux cc
+tags: vue js leaflet sass ux cc
 permalink: /projects/streetwatch-live/
 root: /projects/
 date: 2021-12-01

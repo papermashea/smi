@@ -11,7 +11,7 @@
         <div class="nav-wrap" id="work">
           {% for page in site.pages %}
               {% if page.categories == 'lp' %}  
-            <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+            <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title | capitalize }}</a>
             {% endif %}
         {% endfor %}
         </div>

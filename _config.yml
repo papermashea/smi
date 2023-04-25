@@ -9,8 +9,9 @@ github_username:  papermashea
 
 # Build settings
 markdown: kramdown
-
 highlighter: rouge
+# plugins:
+#   - jekyll-seo-tag
 
 # Pagination
 # paginate: 15

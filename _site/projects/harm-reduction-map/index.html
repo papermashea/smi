@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width initial-scale=1" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>
+        
+            
+                projects // human-centered harm reduction 
+            
+        
+    </title>
+    <meta name="description" content="">
+
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="shortcut icon" type="image/png" href="/favicon.png">
+    <link rel="canonical" href="http://localhost:4000/projects/harm-reduction-map/">
+
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+</head>
+
+
+  <body>
+
+    <header class="site-header">
+
+  <div class="wrapper">
+
+    <nav class="site-nav">
+
+      <div class="trigger">
+        <div class="nav-wrap" id="home">
+          <a class="home-link" href="/">sheamolloy.info</a>
+        </div>
+        <div class="nav-wrap" id="work">
+          
+              
+        
+              
+        
+              
+        
+              
+        
+              
+        
+              
+        
+                
+            <a class="page-link" href="/projects/">Projects</a>
+            
+        
+              
+        
+              
+        
+                
+            <a class="page-link" href="/work/">Work</a>
+            
+        
+        </div>
+      </div>
+    </nav>
+
+  </div>
+
+</header>
+
+
+
+    <div class="page-content">
+      <div class="wrapper">
+        <div class="post">
+
+  <header class="page-header">
+    
+    <div class="post-title"><a href="/projects/" class="root-link" id="crumb">Projects</a> // </div><div class="page-desc">Human-centered harm reduction</div>
+    <div class="post-desc">Mapping AA meetings in NYC</div>
+    <p class="post-meta">2020 • <a href="/projects/data" class="post-cat" id="meta-cat">Data</a><a href="/projects/design" class="post-cat" id="meta-cat">Design</a> • sql, regex, leaflet, js, mapbox, html, css</p>
+  </header>
+
+  <article class="post-content">
+    <p>This All-Access AA Meetings Map was built to provide friendly, functional meeting groupings to make finding an AA meeting as easy as possible. The meetings are grouped by time of day, day of week, and type of meeting - including remote meetings.</p>
+
+<div class="materials center">
+	<a href="https://github.com/papermashea/ds-2020/tree/main/finalProject" target="_blank" class="post-resource" id="sources">repo</a>
+	<a href="/img/harm-reduction-map/blog-data-demo.m4v" target="_blank" class="post-resource" id="sources">demo</a>
+</div>
+<p><br />
+<br /></p>
+
+<div class="img_row">
+	<img class="col three" src="/img/harm-reduction-map/aa-map1.gif" alt="" title="aa map" />
+</div>
+<div class="col three caption">
+	AA meetings by day of week
+</div>
+
+<p>Meeting data was scraped from the HTML of many <a href="https://www.nyintergroup.org/meetings/" target="_blank">Intergroup NY pages </a> and transformed through a series of <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String" target="_blank">js string methods</a> to construct consist, human readable meeting data. By heavily re-working data in it’s initial and varyied presentation, users would be able to quickly identify a meeting that best suited their immediate needs. 
+<br />
+<br />
+<br />
+The final AA meeting data was structured accordingly:</p>
+
+<ul>
+  <li>Location: street address, zipcode, latitude/longitude</li>
+  <li>Times: days, start times, end times</li>
+  <li>Types: beginner, step, open, closed, big book</li>
+</ul>
+
+<div class="img_row">
+	<img class="col three" src="/img/harm-reduction-map/aa-map2.gif" alt="" title="aa map" />
+</div>
+<div class="col three caption">
+	AA meetings by time of day
+</div>
+
+<p>This project was built by mapping cleaned data against NYC zones, venues, and co-ordinates using <a href="https://leafletjs.com/" target="_blank">leaflet.js</a> and <a href="https://www.mapbox.com/" target="_blank">Mapbox</a>. The cleaning process required primarily js and regex and the database was managed in SQL. The interface for the app was built using <a href="https://expressjs.com/" target="_blank">Express.js</a> and <a href="https://handlebarsjs.com/" target="_blank">handlebars.js</a>.</p>
+
+  </article>
+
+</div>
+      </div>
+    </div>
+
+    <footer class="site-footer">
+  <div class="wrapper">
+  	<p><a href="https://forms.gle/wV9mH9p4xHHvZGT49" target="_blank"><i class="fa fa-bug"></i> Please share any feedback &#x27F6;</a></p>
+  </div>
+
+</footer>
+
+
+  </body>
+
+</html>

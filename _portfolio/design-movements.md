@@ -13,7 +13,7 @@ Design Movements is an interactive visualization of the digitized design objects
 
 <div class="materials center">
 	<a href="https://github.com/papermashea/major-studio-1" target="_blank" class="post-resource" id="sources">process</a>
-	<a href="https://papermashea.github.io/major-studio-1/" target="_blank" class="post-resource" id="demo">demo</a>
+	<a href="{{ site.baseurl }}/img/design-movements/design-movements-demo.m4v" target="_blank" class="post-resource" id="demo">demo</a>
 	<a href="https://papermashea.github.io/major-studio-1/" target="_blank" class="post-resource" id="sources">project</a>
 </div>
 

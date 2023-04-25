@@ -39,13 +39,8 @@ To save local changes:
 
 ## ttd
 *content*
-- post: emerging technology
-- page: machine learning for empowering artists: https://github.com/papermashea/ml-2020/blob/master/jupyter/_thirdProject/iteration1/readMe.md
-- future content
-    - data structures for environmental data: https://github.com/papermashea/ds-2020/blob/main/finalProject/2.sensorData_walkthrough.mov
-    - interaction and harm reduction: https://github.com/papermashea/dvia-2019/tree/master/3.mapping-space
-    - prof pic
-    - project pics
+- data structures for environmental data: https://github.com/papermashea/ds-2020/blob/main/finalProject/2.sensorData_walkthrough.mov
+- interaction and harm reduction: https://github.com/papermashea/dvia-2019/tree/master/3.mapping-space
 
 *qa*
 - Cooper links

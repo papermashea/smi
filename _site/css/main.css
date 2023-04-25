@@ -503,7 +503,7 @@ nav a {
   width: 500px;
   height: auto;
   position: relative;
-  left: -65%;
+  left: -50%;
   /*filter: blur(.1rem);*/
 }
 

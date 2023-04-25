@@ -4,12 +4,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
     <title>
-        {% if page.categories == 'lp' %} 
+        {% if page.categories == 'home' %}
+            {{ site.title | downcase }} 
+        {% elsif page.categories == 'lp' %} 
             {{ page.title | downcase }} 
-        {% else page.categories != 'lp' %}
+        {% else %}
             {% if page.root == '/projects/' %}
                 projects // {{ page.title | downcase }} 
-            {% else page.root == '/root/' %}
+            {% else page.root == '/work/' %}
                 work // {{ page.title | downcase }} 
             {% endif %}
         {% endif %}

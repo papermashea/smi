@@ -1,59 +1,52 @@
 ---
 layout: post
-title: Data structures for environmental variables
+title: Environmental data structures
 description: IoT and data interactions for care
 categories: data
-tags: python,sql,aws,html,css
-permalink: /projects/data-structures/
+tags: python aws html css
+permalink: /projects/environmental-data-structures/
 root: /projects/
-date: 2020-11-01
-img: /img/machine-learning.jpeg
-published: false
+date: 2020-12-20
+img: /img/env-data.png
 ---
 
-Every project has a beautiful feature shocase page. It's easy to include images, in a flexible 3-column grid format. Make your photos 1/3, 2/3, or full width.
-
-To give your project a background in the portfolio page, just add the img tag to the front matter like so: 
+Snekscape is an experimental data app used to aggregate care sensor-collected data from IoT sensors as well as manually entered petcare information. 
 
 <div class="materials center">
-	<a href="https://github.com/papermashea/industryCentralization" target="_blank" class="post-resource" id="sources">research</a>
-	<a href="https://github.com/papermashea/ml-2020/tree/master/jupyter/_thirdProject/iteration1" target="_blank" class="post-resource" id="sources">education</a>
-	<a href="https://github.com/papermashea/ml-2020/tree/master/jupyter/_thirdProject/iteration1" target="_blank" class="post-resource" id="sources">experiment</a>
+	<a href="https://github.com/papermashea/ds-2020/tree/main/finalProject" target="_blank" class="post-resource" id="sources">repo</a>
+	<a href="{{ site.baseurl }}/img/env-data/sensor-data-demo.m4v" target="_blank" class="post-resource" id="sources">sensor</a>
+	<a href="{{ site.baseurl }}/img/env-data/blog-data-demo.m4v" target="_blank" class="post-resource" id="sources">blog</a>
 </div>
+<br>
+<br>
+The Snekscape IoT dashboard can be used to track sensors associated with your Snekscape. The temperature chart visualizes average temperatures by hour over the course of the day so you can gauge where and when your creature might need adjustments, in addition to mapping temperature tracking against safe ranges.
 
-<div class="img_row">
-	<img class="col one" src="{{ site.baseurl }}/img/1.jpg" alt="" title="example image"/>
-	<img class="col one" src="{{ site.baseurl }}/img/2.jpg" alt="" title="example image"/>
-	<img class="col one" src="{{ site.baseurl }}/img/3.jpg" alt="" title="example image"/>
-</div>
-<div class="col three caption">
-	Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="img_row">
-	<img class="col three" src="{{ site.baseurl }}/img/5.jpg" alt="" title="example image"/>
+<div class="img_full">
+	<img class="col three" src="{{ site.baseurl }}/img/env-data/sensor_chart1.png" alt="" title="sensor chart"/>
+	<img class="col three" src="{{ site.baseurl }}/img/env-data/sensor_chart2.png" alt="" title="sensor chart"/>
 </div>
 <div class="col three caption">
-	This image can also have a caption. It's like magic. 
+	Snekscape sensor data dashboard
 </div>
 
-You can also put regular text between your rows of images. Say you wanted to write a little bit about your project before you posted the rest of the images. You describe how you toiled, sweated, *bled* for your project, and then.... you reveal it's glory in the next row of images.
 
+Using the Particle platform you can add light, humidity, and dewpoint sensors to monitor all kinds of pets and plants in the future.
 
-<div class="img_row">
-	<img class="col two" src="{{ site.baseurl }}/img/6.jpg" alt="" title="example image"/>
-	<img class="col one" src="{{ site.baseurl }}/img/11.jpg" alt="" title="example image"/>
+<div class="img_full">
+	<img class="col three" src="{{ site.baseurl }}/img/env-data/particle.png" alt="" title="blog chart"/>
 </div>
 <div class="col three caption">
-	You can also have artistically styled 2/3 + 1/3 images, like these.
+	Particle Photon platform
 </div>
 
+You may also monitor the historical records of your creature's environment, courtesy of data you input youself. The dashboard has customizeable care needs such as water, food, and grooming statuses.
 
-<br/><br/><br/>
+<div class="img_full">
+	<img class="col three" src="{{ site.baseurl }}/img/env-data/blog_chart.png" alt="" title="blog chart"/>
+</div>
+<div class="col three caption">
+	Snekscape care blog data dashboard
+</div>
 
+This project was built using <a href="https://d3js.org/" target="_blank">D3.js</a>, <a href="https://expressjs.com/" target="_blank">Express.js</a> and <a href="https://handlebarsjs.com/" target="_blank">handlebars.js</a> in addition to the <a href="https://docs.particle.io/photon/" target="_blank">Particle Photon platform</a>. Care data was <a href="https://github.com/papermashea/ds-2020/blob/main/finalProject/processBlog/data/caresheet.entries.csv" target="_blank">recorded</a> using a <a href="https://github.com/papermashea/ds-2020/blob/main/finalProject/app/templates/form.txt" target="_blank">collection form</a> and both care and sensor data were managed in AWS.
 
-The code is simple. Just add a col class to your image, and another class specifying the width: one, two, or three columns wide. Here's the code for the last row of images above: 
-
-	<div class="img_row">
-	  <img class="col two" src="/img/6.jpg"/>
-	  <img class="col one" src="/img/11.jpg"/>
-	</div>

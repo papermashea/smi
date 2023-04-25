@@ -2,7 +2,7 @@
 layout: page
 title: Projects
 permalink: /projects/
-description: Design and data portfolio
+description: design and data
 categories: lp
 ---
 <!-- portfolio sidebar -->

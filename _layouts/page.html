@@ -7,8 +7,8 @@ layout: default
     {% if page.title == 'Projects' %}  
         <div class="page-desc">
           {% for cat in site.data.projects %}
-              <a href="{{ cat.url }}" class="category-link" {% if cat.url == page.permalink %} id="active" {% else %} id="inactive" {%- endif -%}>{{ cat.page }}</a>{% if forloop.first %}&nbsp;and{%- endif -%}{% if forloop.last %}&nbsp;portfolio
-             {%- endif -%}
+              <a href="{{ cat.url }}" class="category-link" {% if cat.url == page.permalink %} id="active" {% else %} id="inactive" {%- endif -%}>{{ cat.page }}</a>{% if forloop.first %}&nbsp;and{%- endif -%}
+              {% if forloop.last %}&nbsp;portfolio{%- endif -%}
           {%- endfor -%}
         </div> 
     

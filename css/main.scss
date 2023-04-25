@@ -15,8 +15,10 @@ $spacing-unit:     30px;
 
 $background-color: #fff;
 $brand-color:      #CC5500;
-$highlight-color: #E9F322;
-$accent-color: #afaedc;
+/*$highlight-color: #00FFFF;  */ /* cyan highlight */
+$accent-color: #afaedc; /* purple accent */
+$highlight-color: #E9F322; /* lime highlight */
+
 
 $grey-color:       #1a1a1a;
 $grey-color-light: lighten($grey-color, 100%);

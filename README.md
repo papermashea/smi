@@ -39,14 +39,11 @@ To save local changes:
 <hr/>
 
 *QA*
-- trim cooper gifs
-- EDDI images
 - resource button padding
-- header title on landing and filtered pages
-- prof pic
 
 *DESIGN*
 - blankcard if empty
+- prof pic
 
 *BUILD*
 - skills graph
@@ -54,6 +51,7 @@ To save local changes:
 - work preview images
 
 *UPDATE*
+- domain name
 - ftgu
     -- vue redirects
     -- update project page links afterwards

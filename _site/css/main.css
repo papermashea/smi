@@ -378,12 +378,14 @@ nav a {
 }
 
 .page-title {
-  font-size: 32px;
+  /*font-size: 32px;*/
+  font-size: 1.8em;
   display: inline;
 }
 
 .page-desc {
-  font-size: 24px;
+  /*font-size: 24px;*/
+  font-size: 1.8em;
   display: inline;
 }
 

@@ -21,7 +21,7 @@ From the Ground Up explores the current landscape of plant data presently availa
 	<img class="col three" src="{{ site.baseurl }}/img/ftgu/PlantFlow.png" alt="" title="interactivity in searching plant data"/>
 </div>
 <div class="col three caption">
-	From the Ground Up:<a href="www.usefulplants.tech" target="_blank">Environmental vairables flowchart UI</a><sup>1</sup>
+	From the Ground Up: <a href="www.usefulplants.tech" target="_blank">Environmental vairables flowchart UI</a>
 </div>
 The visualizations focus on representing use cases most relevant to urban farming in New York City, prioritizing data for plants that grow successfully in temperate climate zones. Users can filter data for more than 7,000 plants based on plant needs, plant tolerances, and aggregated consumable uses. 
 
@@ -29,7 +29,7 @@ The visualizations focus on representing use cases most relevant to urban farmin
 	<img class="col three" src="{{ site.baseurl }}/img/ftgu/02.plantfilter.gif" alt="" title="interactivity in searching plant data"/>
 </div>
 <div class="col three caption">
-	From the Ground Up:<a href="www.usefulplants.tech" target="_blank">Interactivity with intentional redundancies</a><sup>2</sup>
+	From the Ground Up: <a href="www.usefulplants.tech" target="_blank">Interactivity with intentional redundancies</a>
 </div>
 The visualizations further connect to other online resources and provide information to enable users’ self-education and encourage in-person connection and continued participation in sustainable food growing practices in their communities and at home. From the Ground Up aims to make plant research more exciting and accessible to larger communities and to implement modern data practices within collective horticultural knowledge.
 

@@ -36,11 +36,17 @@ To save local changes:
 - work posts in posts/
 - project pages in portfolio/
 
+<hr/>
 
 *QA*
 - trim cooper gifs
 - EDDI images
 - resource button padding
+- header title on landing and filtered pages
+- prof pic
+
+*DESIGN*
+- blankcard if empty
 
 *BUILD*
 - skills graph

@@ -8,6 +8,8 @@
             {{ site.title | downcase }} 
         {% elsif page.categories == 'lp' %} 
             {{ page.title | downcase }} 
+        {% elsif page.categories == 'filtered' %} 
+            {{ page.title | downcase }} // {{ page.description | downcase }}
         {% else %}
             {% if page.root == '/projects/' %}
                 projects // {{ page.title | downcase }} 

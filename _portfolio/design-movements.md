@@ -7,7 +7,7 @@ tags: d3 js css html ux bash regex
 permalink: /projects/design-movements/
 root: /projects/
 date: 2021-12-21
-img: img/design-movements.png
+img: /img/design-movements.png
 ---
 Design Movements is an interactive visualization of the digitized design objects in the Cooper Hewitt collection. It reinterprets different perspectives of the collection as a whole to provide "bird's-eye" views of color, form, and place. In looking at color over time, form by frequency, and object origins spatially, users can explore the collection from a new view and draw their own conclusions about what design means to them, and where it may go in the future.
 

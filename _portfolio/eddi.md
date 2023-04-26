@@ -7,7 +7,7 @@ tags: js sass css html cc ux
 permalink: /projects/eddi/
 root: /projects/
 date: 2016-06-01
-img: img/eddi.png
+img: /img/eddi.png
 ---
 
 EDDI is an <a href="https://news.samsung.com/us/samsung-awards-eddi-iot-developer-team-winner-makers-against-drought-mad-global-challenge-curtis-sasaki/" target="_blank">award-winning</a> electrodialysis desalinator for irrigation designed to provide real-time soil and salinity metrics to small-scale farmers in California trying to avoid overwatering and leaching. 

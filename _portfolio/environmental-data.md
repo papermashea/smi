@@ -7,7 +7,7 @@ tags: python aws html css
 permalink: /projects/environmental-data-structures/
 root: /projects/
 date: 2020-12-20
-img: img/env-data.png
+img: /img/env-data.png
 ---
 
 Snekscape is an experimental data app used to aggregate care sensor-collected data from IoT sensors as well as manually entered petcare information. 

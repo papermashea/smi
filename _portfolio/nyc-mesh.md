@@ -7,7 +7,7 @@ tags: ux,cc
 permalink: /projects/nyc-mesh/
 root: /projects/
 date: 2022-02-01
-img: img/nycmesh.JPG
+img: /img/nycmesh.JPG
 
 ---
 <a href="https://www.nycmesh.net/" target="_blank">NYC Mesh</a> is a diverse group of volunteers dedicated to ending the digital divide and extending high-speed, reliable internet to all New Yorkers. NYC Mesh is a neutral network and we do not monitor, collect, store or block any user data or content. I originally collaborated with NYC Mesh to develop panels and materials advocating for net neutrality in 2017 and have since worked with them to develop educational materials, partnerships, and special projects for digital civil liberties.

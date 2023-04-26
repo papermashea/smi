@@ -7,7 +7,7 @@ tags: d3 js tableau ux
 permalink: /projects/market-measures/
 root: /projects/
 date: 2021-03-01
-img: img/market-measures.png
+img: /img/market-measures.png
 ---
 
 In examining financial information about the markets of the past, it's difficult to find clear, consistent data that shows who was dominating the market and how, over time. While the Securities and Exchange Commission has been around to examine and prevent market issues since 1934†, the priority of recording data consistenly has only been a focus of governmental frameworks in recent years.

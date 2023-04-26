@@ -7,7 +7,7 @@ tags: d3 js ux regex excel
 permalink: /projects/labor-movements/
 root: /projects/
 date: 2021-05-01
-img: img/labor-movements.png
+img: /img/labor-movements.png
 ---
 This interactive map of US labor movements and mounments collects data from many sources to better understand the aggregated impact and efforts of the American worker. The sources range from the historic to the political, including the AFL-CIO, IWW, and US Bureau of Labor. In mapping labor movements through events, landmarks, leaders, strikes, organizations, and collective tech actions we can better understand the collective efforts and long history of workers everywhere.
 

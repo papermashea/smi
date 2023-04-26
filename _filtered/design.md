@@ -3,6 +3,7 @@ layout: page
 title: Projects
 permalink: /projects/design/
 description: design
+categories: filtered
 root: /projects/
 ---
 {% assign categories =  site.portfolio | map: 'categories' | uniq %}

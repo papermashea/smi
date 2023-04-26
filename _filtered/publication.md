@@ -2,7 +2,7 @@
 layout: page
 permalink: /work/publication/
 title: Work
-description: publications, education and research
+description: publications
 categories: filtered
 root: /work/
 ---

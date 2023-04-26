@@ -38,9 +38,6 @@ To save local changes:
 - Update navigation by updating titles/permalinks and renaming .md files in the root directory markdown pages
 
 ## ttd
-*content*
-- data structures for environmental data: https://github.com/papermashea/ds-2020/blob/main/finalProject/2.sensorData_walkthrough.mov
-- interaction and harm reduction: https://github.com/papermashea/dvia-2019/tree/master/3.mapping-space
 
 *qa*
 - trim cooper gifs

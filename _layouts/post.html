@@ -6,7 +6,8 @@ layout: default
 
   <header class="page-header">
     {% assign crumb =  page.root | remove: '/'  %}
-    <div class="post-title"><a href="{{ page.root }}" class="root-link" id="crumb">{{ crumb | capitalize }}</a> // </div><div class="page-desc">{{ page.title }}</div>
+    <div class="page-title"><a href="{{ page.root }}" class="root-link" id="crumb">{{ crumb | capitalize }}</a> // </div>
+    <div class="page-desc">{{ page.title }}</div>
     <div class="post-desc">{{ page.description }}</div>
     <p class="post-meta">{{ page.date | date: "%Y" }} • {% for cat in page.categories %}<a href="{{ page.root }}{{ cat }}" class="post-cat" id="meta-cat">{{ cat | capitalize }}</a>{% endfor %} • {% for tag in page.tags %}{{ tag }}{% unless forloop.last %}, {% endunless -%}{% endfor %}</p>
   </header>

@@ -24,7 +24,7 @@ Our goal was to put <a href="{{ site.baseurl }}/img/eddi/EDDI_pitch.pdf" target=
 
 <div class="img_row">
 	<img class="col half" src="{{ site.baseurl }}/img/eddi/eddi-waterday-loop.gif" alt="" title="eddi identity"/>
-	<img class="col half" src="{{ site.baseurl }}/img/eddi/eddi.png" alt="" title="eddi product"/>
+	<img class="col half" src="{{ site.baseurl }}/img/eddi/eddi_product_crop.png" alt="" title="eddi product"/>
 </div>
 <div class="col three caption">
 	EDDI: a circular movement of water // electrodialysis desalinator for irrigation

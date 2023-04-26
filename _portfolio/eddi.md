@@ -10,10 +10,10 @@ date: 2016-06-01
 img: /img/eddi.png
 ---
 
-EDDI was an <a href="https://news.samsung.com/us/samsung-awards-eddi-iot-developer-team-winner-makers-against-drought-mad-global-challenge-curtis-sasaki/" target="_blank">award-winning</a> electrodialysis desalinator for irrigation designed to provide real-time soil and salinity metrics to small-scale farmers in California trying to avoid overwatering and leaching. 
+EDDI is an <a href="https://news.samsung.com/us/samsung-awards-eddi-iot-developer-team-winner-makers-against-drought-mad-global-challenge-curtis-sasaki/" target="_blank">award-winning</a> electrodialysis desalinator for irrigation designed to provide real-time soil and salinity metrics to small-scale farmers in California trying to avoid overwatering and leaching. 
 <br>
 <br>
-Our goal was to put <a href="https://papermashea.github.io/smi/hello/work/eddi/pitch.pdf" target="_blank">data into the hands of farmers</a> so they could respond responsiblity to the weather and soil quality specific to their crop.
+Our goal was to put <a href="{{ site.baseurl }}/img/eddi/EDDI_pitch.pdf" target="_blank">data into the hands of farmers</a> so they could respond responsiblity to the weather and soil quality specific to their crop.
 
 <div class="materials center">
 	<a href="{{ site.baseurl }}/img/eddi/EDDI_pitch.pdf" target="_blank" class="post-resource" id="sources">pitch</a>

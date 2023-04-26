@@ -18,7 +18,7 @@ Design Movements is an interactive visualization of the digitized design objects
 </div>
 
 <div class="img_full">
-		<img class="col three" src="{{ site.baseurl }}/img/design-movements/color2.png" alt="" title="color timeline of cooper hewitt design objects"/>
+		<img class="col three" src="{{ site.baseurl }}/img/design-movements/cooper1.gif" alt="" title="color timeline of cooper hewitt design objects"/>
 </div>
 <div class="col three caption">
 	Design movements: <a href="https://papermashea.github.io/major-studio-1/color.html" target="_blank">Color analysis</a>
@@ -37,7 +37,7 @@ The objects presented in this project aim to encourage trend analysis and patter
 To reconfigure the collection objects with the data presented in these views, color and spectrum order were extracted using javascript and D3.js was used to aggregate totals over different features as well as to implement interactivity.
 
 <div class="img_full">
-		<img class="col three" src="{{ site.baseurl }}/img/design-movements/place1.png" alt="" title="maps of cooper hewitt design objects"/>
+		<img class="col three" src="{{ site.baseurl }}/img/design-movements/cooper3.gif" alt="" title="map of cooper hewitt design objects"/>
 </div>
 <div class="col three caption">
 	Design movements: <a href="https://papermashea.github.io/major-studio-1/form.html" target="_blank">Regional analysis</a>

@@ -43,8 +43,7 @@ To save local changes:
 - interaction and harm reduction: https://github.com/papermashea/dvia-2019/tree/master/3.mapping-space
 
 *qa*
-- FTGU images
-- Streetwatch images
+- trim cooper gifs
 - EDDI images
 
 *code*

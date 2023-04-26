@@ -7,7 +7,7 @@ tags: sql regex leaflet js mapbox html css
 permalink: /projects/harm-reduction-map/
 root: /projects/
 date: 2020-12-19
-img: /img/harm-reduction-map.png
+img: img/harm-reduction-map.png
 ---
 
 This All-Access AA Meetings Map was built to provide friendly, functional meeting groupings to make finding an AA meeting as easy as possible. The meetings are grouped by time of day, day of week, and type of meeting - including remote meetings.

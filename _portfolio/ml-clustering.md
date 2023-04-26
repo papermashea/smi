@@ -7,7 +7,7 @@ tags: python r jupyter
 permalink: /projects/ml-clustering/
 root: /projects/
 date: 2020-05-01
-img: /img/ml-clustering.png
+img: img/ml-clustering.png
 ---
 
 To fufill an Advanced Topics in Research Methods, I completed the Machine Learning course from Parsons' Arts, Media and Technology department. This course explored <a href="https://github.com/papermashea/ml-2020/blob/master/jupyter/_firstProject/iteration1/Molloy_readMe.md" target="_blank">logistical regression sentiment analysis</a>, <a href="https://github.com/papermashea/ml-2020/tree/master/jupyter/_secondProject/iteration1" target="_blank">image recognition models</a>, and <a href="https://github.com/papermashea/ml-2020/tree/master/jupyter/_thirdProject/iteration1" target="_blank">k-means clustering</a>. 

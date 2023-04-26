@@ -7,7 +7,7 @@ tags: html,css,js,ux,sql,bash,regex
 permalink: /projects/from-the-ground-up/
 root: /projects/
 date: 2022-05-01
-img: /img/ftgu.png
+img: img/ftgu.png
 ---
 
 From the Ground Up explores the current landscape of plant data presently available to potential growers with the aim of fostering participation, curiosity, and confidence in applying plant data. The project explores data aggregated from Plants for a Future, USDA, and National Gardening Association to invite users to identify plant cultivation needs and practical uses that fit their needs. 

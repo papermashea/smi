@@ -7,7 +7,7 @@ tags: d3 leaflet js p5 sql canvas html tableau excel
 permalink: /projects/creative-coding/
 root: /projects/
 date: 2019-09-01
-img: /img/creative-coding.png
+img: img/creative-coding.png
 ---
 
 Parsons' <a href="https://www.newschool.edu/parsons/ms-data-visualization/" target="_blank">Master of Science in Data Visualization (MSDV)</a> program includes curriculum work with information aesthetics, data visualization and data structures using a variety of modern technical tools. 

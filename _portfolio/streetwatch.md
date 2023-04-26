@@ -7,7 +7,7 @@ tags: vue js leaflet sass ux cc
 permalink: /projects/streetwatch-live/
 root: /projects/
 date: 2021-12-01
-img: /img/streetwatch.png
+img: img/streetwatch.png
 ---
 
 Streetwatch.live is a sub-project of NYC Mesh, launched in 2020 to harness surveillance in a way that could empower activists. Streetwatch.live is a camera archive project spun up in the wake of BLM movements that is dedicated to providing objective <a href="https://www.nycmesh.net/blog/nyc-surveillance-archive/" target="_blank">footage scraped from the NYC DOT traffic cameras footage to activists</a>.

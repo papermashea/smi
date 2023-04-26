@@ -16,19 +16,13 @@ layout: default
       {% assign categories =  site.posts | map: 'categories' | uniq %}
       {% assign link =  site.posts | map: 'permalink' | uniq %}
           <div class="page-desc">
-<!--             {% for cat in categories %}
-            {%- if forloop.length > 0 -%}
-              {% if forloop.first == false %}&nbsp;{%- endif -%}
-              {% if forloop.last %}and&nbsp;{%- endif -%}
-                  <a href="{{ page.root }}{{ cat }}" class="category-link" id="filter">{{ cat }}{% if cat != 'research' %}s{%- endif -%}</a>{% unless forloop.last %},{% endunless -%}
-            {%- endif -%}
-            {% endfor %} -->
             {% for cat in site.data.work %}
             {%- if forloop.length > 0 -%}
               {% if forloop.first == false %}&nbsp;{%- endif -%}
               {% if forloop.last %}and&nbsp;{%- endif -%}
-                  <a href="{{ cat.url }}" class="category-link" {% if cat.url == page.permalink %} id="active" {% else %} id="inactive" {%- endif -%}>{{ cat.page }}{% if cat.page == 'publication' %}s{%- endif -%}</a>{% unless forloop.last %},{% endunless -%}
+                  <a href="{{ cat.url }}" class="category-link" {% if cat.url == page.permalink %} id="active" {% else %} id="inactive" {%- endif -%}>{{ cat.page }}</a>
             {%- endif -%}
+            {% if forloop.last %}&nbsp;materials{%- endif -%}
             {% endfor %}
           </div>  
 

@@ -17,7 +17,10 @@ Streetwatch.live is a sub-project of NYC Mesh, launched in 2020 to harness surve
 </div>
 
 <div class="img_full">
-		<img class="col three" src="{{ site.baseurl }}/img/streetwatch/DOT2_Image2.png" alt="" title="streetwatch.live social posts">
+		<img class="col three" src="{{ site.baseurl }}/img/streetwatch/swl_socials.png" alt="" title="streetwatch.live social posts">
+</div>
+<div class="img_row">
+	<img class="col three" src="{{ site.baseurl }}/img/streetwatch/TSQ092020_v7.gif" alt="" title="streetwatch.live archival footage">
 </div>
 <div class="col three caption">
 	Social media posts for archive access and calls to action
@@ -40,6 +43,6 @@ The work built and archived by this organization has since been invited to help 
 	<img class="col two" src="{{ site.baseurl }}/img/streetwatch/streetwatch-live.png" alt="" title="streetwatch.live interface">
 </div>
 <div class="col three caption">
-	Streetwatch.live, active 2020-2022
+	Streetwatch.live mobile and web designs, active 2020-2022
 </div>
 

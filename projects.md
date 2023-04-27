@@ -32,6 +32,7 @@ categories: lp
         <span>
             <p class="tile-title">{{ project.title }}</p>
             <p class="tile-text">{{ project.description }}</p>
+            <hr class="tile-rule">
             <p class="tile-cat">{{ project.categories  | join: ' • ' }}</p>
         </span>
         </a>

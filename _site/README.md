@@ -34,7 +34,9 @@ To save local changes:
 - site subfolder is for build only
 - edit .md files in the root directory
 - work posts in posts/
+    -- education and research filtered subpages located in filtered folder
 - project pages in portfolio/
+    -- data and design filtered subpages located in filtered folder
 
 <hr/>
 

@@ -17,7 +17,7 @@ The Adobe Stock Creative Trends explore visual patterns and marketplace demand f
 </div>
 
 <div class="img_full">
-	<img class="col three" src="{{ site.url }}/img/work/design-trends/brainstorming.png" alt="" title="design trend research"/>
+	<img class="col three" src="{{ site.baseurl }}/img/work/design-trends/brainstorming.png" alt="" title="design trend research"/>
 </div>
 <div class="col three caption">
 Identifying design trends from all over the internet
@@ -28,7 +28,7 @@ My work in this project focuses on identifying, synthesizing and elevating desig
 Signals can be found from Adobe Stock, Behance, social media feeds, fashion and interior design shows, art, and media (music, tv, movies, games, etc.). Trends are sketched out by creator type and collaborators are constantly sharing new signals across different platforms, expanding the scope of our insight and impact.
 
 <div class="img_row">
-	<img class="col three" src="{{ site.url }}/img/work/design-trends/moodboards.png" alt="" title="design trend research"/>
+	<img class="col three" src="{{ site.baseurl }}/img/work/design-trends/moodboards.png" alt="" title="design trend research"/>
 </div>
 <div class="col three caption">
 See all <a href="https://www.behance.net/adobestock/moodboards">Adobe Stock Creative Trend research moodboards on Behance</a>
@@ -37,10 +37,10 @@ See all <a href="https://www.behance.net/adobestock/moodboards">Adobe Stock Crea
 The trends are shared with Adobe Stock creators and customers throughout the year to maximize seasonal relevance. We provide in-depth discussions on the <a href="https://stock.adobe.com/pages/artisthub/" target="_blank">Adobe Stock Artist Hub</a>, <a href="https://www.behance.net/adobestock/livestreams" target="_blank">livestreams</a> and <a href="https://event.on24.com/eventRegistration/EventLobbyServlet?target=reg20.jsp&eventid=2161918&sessionid=1&key=36E9065D22F2DFC1C8EC7081417667AD&groupId=755432&partnerref=ent&sourcepage=register" target="_blank">webinars</a>, as well as curated collections - which help us track performance of these trends throughout the year. My work has included creative direction and execution of curated collections, publications, and creative briefs to help support these trends.
 
 <div class="img_full">
-	<img class="col half" src="{{ site.url }}/img/work/design-trends/soft.png" alt="" title="2022 design trends"/>
-	<img class="col half" src="{{ site.url }}/img/work/design-trends/natural.png" alt="" title="2022 design trends"/>
-	<img class="col half" src="{{ site.url }}/img/work/design-trends/heritage.png" alt="" title="2022 design trends"/>
-	<img class="col half" src="{{ site.url }}/img/work/design-trends/otherworldly.png" alt="" title="2022 design trends"/>
+	<img class="col half" src="{{ site.baseurl }}/img/work/design-trends/soft.png" alt="" title="2022 design trends"/>
+	<img class="col half" src="{{ site.baseurl }}/img/work/design-trends/natural.png" alt="" title="2022 design trends"/>
+	<img class="col half" src="{{ site.baseurl }}/img/work/design-trends/heritage.png" alt="" title="2022 design trends"/>
+	<img class="col half" src="{{ site.baseurl }}/img/work/design-trends/otherworldly.png" alt="" title="2022 design trends"/>
 </div>
 <div class="col three caption">
 See the <a href="https://stock.adobe.com/collections/HzkqK0YILnIJ42rCZPxbCHGDOxPhdn5p" target="_blank">Soft Pop</a>, <a href="https://stock.adobe.com/collections/UdjP02sQ10zNqctIg9vpmaaThg6hR9yJ
@@ -53,7 +53,7 @@ These trends identify high-quality work in the consistently growing collection w
 Throughout the years, we've found that this approach to thought leadership in the creative content space helps shape the idea of what Stock can be.
 
 <div class="img_full">
-	<img class="col three" src="{{ site.url }}/img/work/design-trends/nn_curation1.png" alt="" title="design trend curation"/>
+	<img class="col three" src="{{ site.baseurl }}/img/work/design-trends/nn_curation1.png" alt="" title="design trend curation"/>
 </div>
 <div class="col three caption">
 Curation selects from the <a href="https://stock.adobe.com/pages/artisthub/get-inspired/creative-trends/new-naturalism-design-marries-simple-surfaces-with-big-forest-vibes" target="_blank">New Naturalism inspiration article</a>
@@ -65,9 +65,9 @@ Curation selects from the <a href="https://stock.adobe.com/pages/artisthub/get-i
 
 #### 2022 Design Trends Briefs
 <ul>
-	<li><a href="{{ site.url }}/img/work/design-trends/2022/2022-DesignTrend-SoftPop.pdf" target="_blank">Soft Pop</a></li>
-	<li><a href="{{ site.url }}/img/work/design-trends/2022/2022-DesignTrend-NewNaturalism.pdf" target="_blank">New Naturalism</a></li>
-	<li><a href="{{ site.url }}/img/work/design-trends/2022/2022-DesignTrend-BackToBauhaus.pdf" target="_blank">Otherworldly Visions</a></li>
-	<li><a href="{{ site.url }}/img/work/design-trends/2022/2022-DesignTrend-HeritageCraft.pdf" target="_blank">Heritage Craft</a></li>
+	<li><a href="{{ site.baseurl }}/img/work/design-trends/2022/2022-DesignTrend-SoftPop.pdf" target="_blank">Soft Pop</a></li>
+	<li><a href="{{ site.baseurl }}/img/work/design-trends/2022/2022-DesignTrend-NewNaturalism.pdf" target="_blank">New Naturalism</a></li>
+	<li><a href="{{ site.baseurl }}/img/work/design-trends/2022/2022-DesignTrend-BackToBauhaus.pdf" target="_blank">Otherworldly Visions</a></li>
+	<li><a href="{{ site.baseurl }}/img/work/design-trends/2022/2022-DesignTrend-HeritageCraft.pdf" target="_blank">Heritage Craft</a></li>
 </ul>
 

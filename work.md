@@ -16,7 +16,9 @@ root: /work/
         {% endif %} -->
         <h4>
           {% if post.redirect %}
-            <a class="post-title" href="{{ post.redirect}}" target="_blank">{{ post.title }} <sup>&nearr;</sup></a>
+            <a class="post-title" href="{{ post.redirect }}" target="_blank">{{ post.title }} <sup>&nearr;</sup></a>
+          {% elsif post.source %}
+            <a class="post-title" href="{{ post.source | prepend: site.baseurl }}" target="blank">{{ post.title }} <sup>&#10035;</sup></a>
           {% else %}
             <a class="post-title" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }} <sup>&#10035;</sup></a>
           {% endif %}

@@ -2,8 +2,8 @@
 title: sheamolloy.info
 email: hello@sheamolloy.info
 description: > # this means to ignore newlines until "baseurl:"
-baseurl: 
-url:  https://papermashea.github.io/smi/
+baseurl: /smi
+url:  https://papermashea.github.io
 twitter_username: papermashea
 github_username:  papermashea
 

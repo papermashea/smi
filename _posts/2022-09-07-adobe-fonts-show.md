@@ -4,6 +4,6 @@ title: The Adobe Fonts show
 date: 2022-09-07
 categories: education
 root: /work/
-description: 2022 Creative Trends
+description: 2022 Creative Trends discussion with Adobe Fonts
 redirect: https://www.behance.net/live/videos/17713/The-Adobe-Fonts-Show-2022-Creative-Trends-with-Adobe-Stock-Episode-34
 ---

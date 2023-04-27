@@ -41,13 +41,20 @@ To save local changes:
 <hr/>
 
 *QA*
-- resource button padding
+- add bold text to pages
+- mobile
+    -- project image tiles
+    -- resource button spacing
+    -- post description spacing
+    -- nest prof pic column
+    -- font sizes
 
 *DESIGN*
 - blankcard if empty
 - prof pic
 
 *BUILD*
+- lightbox feature for larger images
 - skills graph
 - portfolio list of projects
 - work preview images

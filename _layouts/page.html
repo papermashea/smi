@@ -3,11 +3,11 @@ layout: default
 ---
 <div class="post">
   <header class="page-header">
-    <div class="page-title"><a href="{{ page.root }}" class="root-link" id="{{ page.categories }}">{{ page.title }}</a> // </div> 
+    <div class="page-title"><a href="{{ page.root | prepend: site.baseurl }}" class="root-link" id="{{ page.categories }}">{{ page.title }}</a> // </div> 
     {% if page.title == 'Projects' %}  
         <div class="page-desc">
           {% for cat in site.data.projects %}
-              <a href="{{ cat.url }}" class="category-link" {% if cat.url == page.permalink %} id="active" {% else %} id="inactive" {%- endif -%}>{{ cat.page }}</a>{% if forloop.first %}&nbsp;and{%- endif -%}
+              <a href="{{ cat.url | prepend: site.baseurl }}" class="category-link" {% if cat.url == page.permalink %} id="active" {% else %} id="inactive" {%- endif -%}>{{ cat.page }}</a>{% if forloop.first %}&nbsp;and{%- endif -%}
               {% if forloop.last %}&nbsp;portfolio{%- endif -%}
           {%- endfor -%}
         </div> 
@@ -20,7 +20,7 @@ layout: default
             {%- if forloop.length > 0 -%}
               {% if forloop.first == false %}&nbsp;{%- endif -%}
               {% if forloop.last %}and&nbsp;{%- endif -%}
-                  <a href="{{ cat.url }}" class="category-link" {% if cat.url == page.permalink %} id="active" {% else %} id="inactive" {%- endif -%}>{{ cat.page }}</a>
+                  <a href="{{ cat.url | prepend: site.baseurl }}" class="category-link" {% if cat.url == page.permalink %} id="active" {% else %} id="inactive" {%- endif -%}>{{ cat.page }}</a>
             {%- endif -%}
             {% if forloop.last %}&nbsp;materials{%- endif -%}
             {% endfor %}

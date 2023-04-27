@@ -4,27 +4,28 @@ layout: default
 <div class="post">
   <header class="page-header">
     <div class="page-title"><a href="{{ page.root | prepend: site.baseurl }}" class="root-link" id="{{ page.categories }}">{{ page.title }}</a> // </div> 
-    {% if page.title == 'Projects' %}  
-        <div class="page-desc">
-          {% for cat in site.data.projects %}
-              <a href="{{ cat.url | prepend: site.baseurl }}" class="category-link" {% if cat.url == page.permalink %} id="active" {% else %} id="inactive" {%- endif -%}>{{ cat.page }}</a>{% if forloop.first %}&nbsp;and{%- endif -%}
-              {% if forloop.last %}&nbsp;portfolio{%- endif -%}
-          {%- endfor -%}
-        </div> 
-    
-    {% elsif page.title == 'Work' %}
-      {% assign categories =  site.posts | map: 'categories' | uniq %}
-      {% assign link =  site.posts | map: 'permalink' | uniq %}
+
+      {% if page.title == 'Projects' %}  
           <div class="page-desc">
-            {% for cat in site.data.work %}
-            {%- if forloop.length > 0 -%}
-              {% if forloop.first == false %}&nbsp;{%- endif -%}
-              {% if forloop.last %}and&nbsp;{%- endif -%}
-                  <a href="{{ cat.url | prepend: site.baseurl }}" class="category-link" {% if cat.url == page.permalink %} id="active" {% else %} id="inactive" {%- endif -%}>{{ cat.page }}</a>
-            {%- endif -%}
-            {% if forloop.last %}&nbsp;materials{%- endif -%}
-            {% endfor %}
-          </div>  
+            {% for cat in site.data.projects %}
+                <a href="{{ cat.url | prepend: site.baseurl }}" class="category-link" {% if cat.url == page.permalink %} id="active" {% else %} id="inactive" {%- endif -%}>{{ cat.page }}</a>{% if forloop.first %}&nbsp;and{%- endif -%}
+                {% if forloop.last %}&nbsp;portfolio{%- endif -%}
+            {%- endfor -%}
+          </div> 
+    
+      {% elsif page.title == 'Work' %}
+        {% assign categories =  site.posts | map: 'categories' | uniq %}
+        {% assign link =  site.posts | map: 'permalink' | uniq %}
+            <div class="page-desc">
+              {% for cat in site.data.work %}
+                {%- if forloop.length > 0 -%}
+                  {% if forloop.first == false %}&nbsp;{%- endif -%}
+                  {% if forloop.last %}and&nbsp;{%- endif -%}
+                      <a href="{{ cat.url | prepend: site.baseurl }}" class="category-link" {% if cat.url == page.permalink %} id="active" {% else %} id="inactive" {%- endif -%}>{{ cat.page }}</a>
+                {%- endif -%}
+                {% if forloop.last %}&nbsp;materials{%- endif -%}
+              {% endfor %}
+            </div>  
 
     {% else %}
       <div class="page-desc">{{ page.description }}</div> 

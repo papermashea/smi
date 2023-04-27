@@ -13,9 +13,8 @@ img: /img/ftgu.png
 From the Ground Up explores the current landscape of plant data presently available to potential growers with the aim of fostering participation, curiosity, and confidence in applying plant data. The project explores data aggregated from <a href="https://pfaf.org/" target="_blank">Plants for a Future</a>, the <a href="https://plants.usda.gov/" target="_blank">USDA PLANTS Database</a>, and the <a href="https://garden.org/plants/" target="_blank">National Gardening Association</a> to invite users to identify plant cultivation needs and practical uses that fit their needs. 
 
 <div class="materials center">
-	<a href="https://github.com/papermashea/major-studio-2" target="_blank" class="post-resource" id="sources">process</a>
-	<a href="https://github.com/papermashea/thesis/tree/main/research" target="_blank" class="post-resource" id="sources">data</a>
 	<a href="{{ site.baseurl }}/img/ftgu/Molloy_Thesis_FromTheGroundUp_MS2022.pdf" target="_blank" class="post-resource" id="sources">thesis</a>
+	<a href="https://github.com/papermashea/major-studio-2" target="_blank" class="post-resource" id="sources">process</a>
 	<a href="https://parsons.nyc/archive/#/project/2022-from-the-ground-up-shea-molloy" target="_blank" class="post-resource" id="sources">demo</a>
 	<a href="https://usefulplants.tech/" target="_blank" class="post-resource" id="sources">project</a>
 </div>
@@ -52,4 +51,4 @@ This project aims to prioritize horticultural education in a scalable, accessibl
 </div>
 Building out this project involved lengthy data cleanup using sql, regex, and javascript. The interactivity was implemented using <a href="https://vuejs.org/" target="_blank">Vue.js</a> and the visualizations were constructed using <a href="http://d3js.org/" target="_blank">D3.js</a>.
 <br>
-From the Ground Up was developed and launched to meet the thesis and project requirements to complete a graduate degree within the <a href="parsons.nyc" target="_blank" class="post-resource" id="sources">Master's of Science in Data Vizualization program</a> at Parsons at The New School.
+From the Ground Up was developed and launched to meet the <a href="parsons.nyc">thesis and project</a> requirements to complete a graduate degree within the <a href="https://www.newschool.edu/parsons/ms-data-visualization/" target="_blank">Master's of Science in Data Vizualization (MSDV)</a> program at Parsons at The New School.

@@ -1,8 +1,8 @@
 ---
 layout: page
-permalink: /work/
 title: Work
-description: Livestreams, publications and research
+permalink: /work/
+description: Education and research materials
 categories: lp
 root: /work/
 ---

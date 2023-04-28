@@ -4,6 +4,7 @@ title: Projects
 permalink: /projects/
 description: design and data portfolio
 categories: lp
+root: /projects/
 ---
 <!-- portfolio sidebar -->
 <!-- <section>

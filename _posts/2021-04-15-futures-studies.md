@@ -61,13 +61,9 @@ The data collected largely pertained to content platforms such as Youtube, Tikto
 Using a <a href="https://docs.google.com/forms/d/e/1FAIpQLSdwcwDAZ4-BePWBC6UmIBqQJqSQxYusqDG-DzpymOj3KT5vsA/viewform" target="_blank">signals collection form</a> I created, I was able to collect additional data on emotional responses to these events, as well as which aspects of the digital content industry they affect and which people were affected by them. These additional tags allowed me to explore the nuances in the relationships of these signals. I organized these variables of influence with the following model:
 
 <table class="col three">
-	<tr>
-		<th class="col one">People</th>
-		<th class="col one">Processes</th>
-		<th class="col one">Emotions</th>
-	</tr>
 	<tr class="img_row">
 		<td class="col one">
+			<strong>People</strong>
 			<ul>
 				<li>Creators</li>
 				<li>Consumers</li>
@@ -77,6 +73,7 @@ Using a <a href="https://docs.google.com/forms/d/e/1FAIpQLSdwcwDAZ4-BePWBC6UmIBq
 			</ul> 
 		</td>
 		<td class="col one">
+			<strong>Processes</strong>
 			<ul>
 				<li>Creation</li>
 				<li>Possession</li>
@@ -86,6 +83,7 @@ Using a <a href="https://docs.google.com/forms/d/e/1FAIpQLSdwcwDAZ4-BePWBC6UmIBq
 			</ul> 
 		</td>
 		<td class="col one">
+			<strong>Emotions</strong>
 			<ul>
 				<li>Excited</li>
 				<li>Content</li>

@@ -174,16 +174,18 @@ display: inline;
 font-size: 1.8em;
 letter-spacing: -1px;
 line-height: 1;
-@include media-query($on-laptop) {
-font-size: 1.4em;
+    @include media-query($on-palm) {
+        font-size: 1.4em;
     }
 }
 .post-desc{
 font-size: 1.2em;
 line-height: 2;
 color:$grey-color-dark;
-@include media-query($on-laptop) {
-font-size: 1.2em;
+    @include media-query($on-palm) {
+        font-size: 1.2em;
+        line-height: 1.2;
+        margin: $horizontal-spacing-unit 0;
     }
 }   
 .post-content {
@@ -303,7 +305,10 @@ width: 100%;
 overflow: hidden;
 box-sizing:border-box;
 padding: $img_spacing;
-margin: calc($vertical-spacing-unit/2) 0;
+margin: calc($vertical-spacing-unit/4) 0;
+    @include media-query($on-palm) {
+       height: calc($img_height/2);
+    }
 }
 .col{ 
 width: 100%;
@@ -318,15 +323,27 @@ float: right;
 }
 .one {
 width:33.33%;
+    @include media-query($on-palm) {
+       width:100%;
+    }
 }
 .two {
 width: 66.66%;
+    @include media-query($on-palm) {
+       width:100%;
+    }
 }
 .three{
 width: 100%;
+    @include media-query($on-palm) {
+       width:100%;
+    }
 }
 .half {
 width: 50%;
+    @include media-query($on-palm) {
+       width:100%;
+    }
 }
 .caption{
 height: 100%;

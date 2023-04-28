@@ -1,7 +1,7 @@
 ---
 layout: page
-permalink: /work/education/
 title: Work
+permalink: /work/education/
 description: education
 categories: filtered
 root: /work/

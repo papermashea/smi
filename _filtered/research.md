@@ -1,7 +1,7 @@
 ---
 layout: page
-permalink: /work/research/
 title: Work
+permalink: /work/research/
 description: research
 categories: filtered
 root: /work/

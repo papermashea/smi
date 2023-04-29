@@ -132,6 +132,9 @@ padding: 100px 0; /* VERTICAL PADDING FOR TITLE ON EVERY PAGE */
 }
 .page-header {
 margin-bottom: $vertical-spacing-unit;
+    @include media-query($on-palm) {
+        margin-bottom: calc($vertical-spacing-unit/1.5);
+    }
 }
 .page-title {
 font-size: 1.8em;
@@ -183,7 +186,7 @@ font-size: 1.2em;
 line-height: 2;
 color:$grey-color-dark;
     @include media-query($on-palm) {
-        font-size: 1.2em;
+        font-size: 1em;
         line-height: 1.2;
         margin: $horizontal-spacing-unit 0;
     }
@@ -203,9 +206,25 @@ font-size: 1em;
     }
 }
 .post-meta {
-font-size: $small-font-size;
 color: $grey-color;
 margin-bottom: 0px; 
+    @include media-query($on-palm) {
+        line-height: $tight-line-height;
+        margin: $horizontal-spacing-unit 0;
+    }
+}
+.points {
+    @include media-query($on-palm) {
+        display: block;
+        margin-bottom: 10px 0px;
+        font-size: 1em;
+        }    
+}
+.points#list {
+    @include media-query($on-palm) {
+        margin: 10px 0px;
+        font-size: .9em;
+        }    
 }
 .materials {
 display:block;

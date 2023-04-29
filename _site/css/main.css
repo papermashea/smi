@@ -498,7 +498,7 @@ nav a {
 
 .materials {
   display: block;
-  margin: 20px;
+  margin: 40px;
 }
 
 /** 
@@ -521,6 +521,11 @@ nav a {
   vertical-align: middle;
   box-sizing: border-box;
   padding: 10px;
+}
+@media screen and (max-width: 600px) {
+  .project {
+    width: 100%;
+  }
 }
 
 .thumbnail p {
@@ -550,6 +555,11 @@ hr.tile-rule {
   position: relative;
   left: -50%;
   /*filter: blur(.1rem);*/
+}
+@media screen and (max-width: 600px) {
+  .thumbnail img {
+    left: -25%;
+  }
 }
 
 .thumbnail a {

@@ -164,10 +164,6 @@ article a:hover {
   margin-left: 2px;
 }
 
-#meta-cat {
-  margin-left: 8px;
-}
-
 /**
  * Blockquotes
  */
@@ -380,17 +376,30 @@ nav a {
 .page-header {
   margin-bottom: 40px;
 }
+@media screen and (max-width: 600px) {
+  .page-header {
+    margin-bottom: 26.6666666667px;
+  }
+}
 
 .page-title {
-  /*font-size: 32px;*/
   font-size: 1.8em;
   display: inline;
 }
+@media screen and (max-width: 600px) {
+  .page-title {
+    font-size: 1.6em;
+  }
+}
 
 .page-desc {
-  /*font-size: 24px;*/
   font-size: 1.8em;
   display: inline;
+}
+@media screen and (max-width: 600px) {
+  .page-desc {
+    font-size: 1.6em;
+  }
 }
 
 .post-list {
@@ -425,7 +434,7 @@ nav a {
   letter-spacing: -1px;
   line-height: 1;
 }
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 600px) {
   .post-title {
     font-size: 1.4em;
   }
@@ -436,9 +445,11 @@ nav a {
   line-height: 2;
   color: #1c1c1c;
 }
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 600px) {
   .post-desc {
-    font-size: 1.2em;
+    font-size: 1em;
+    line-height: 1.2;
+    margin: 20px 0;
   }
 }
 
@@ -460,9 +471,29 @@ nav a {
 }
 
 .post-meta {
-  font-size: 12.25px;
   color: #1a1a1a;
   margin-bottom: 0px;
+}
+@media screen and (max-width: 600px) {
+  .post-meta {
+    line-height: 1.125;
+    margin: 20px 0;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .points {
+    display: block;
+    margin-bottom: 10px 0px;
+    font-size: 1em;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .points#list {
+    margin: 10px 0px;
+    font-size: 0.9em;
+  }
 }
 
 .materials {
@@ -578,7 +609,12 @@ hr.tile-rule {
   overflow: hidden;
   box-sizing: border-box;
   padding: 10px 5px;
-  margin: 20px 0;
+  margin: 10px 0;
+}
+@media screen and (max-width: 600px) {
+  .img_row {
+    height: 150px;
+  }
 }
 
 .col {
@@ -597,17 +633,37 @@ hr.tile-rule {
 .one {
   width: 33.33%;
 }
+@media screen and (max-width: 600px) {
+  .one {
+    width: 100%;
+  }
+}
 
 .two {
   width: 66.66%;
+}
+@media screen and (max-width: 600px) {
+  .two {
+    width: 100%;
+  }
 }
 
 .three {
   width: 100%;
 }
+@media screen and (max-width: 600px) {
+  .three {
+    width: 100%;
+  }
+}
 
 .half {
   width: 50%;
+}
+@media screen and (max-width: 600px) {
+  .half {
+    width: 100%;
+  }
 }
 
 .caption {

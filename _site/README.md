@@ -39,15 +39,13 @@ To save local changes:
     -- data and design filtered subpages located in filtered folder
 
 <hr/>
+<hr/>
 
 *QA*
 - add bold text to pages
 - mobile
-    -- project image tiles
-    -- resource button spacing
-    -- post description spacing
-    -- nest prof pic column
-    -- font sizes
+    -- font sizes/spacing
+
 
 *DESIGN*
 - blankcard if empty

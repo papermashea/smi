@@ -7,9 +7,10 @@
 
 // Our variables
 $base-font-family: Courier New, monospace;
-$base-font-size:   14px;
-$small-font-size:  $base-font-size * 0.875;
+$base-font-size: 14px;
+$small-font-size: $base-font-size * .875;
 $base-line-height: 1.5;
+$tight-line-height: $base-line-height * .75;
 
 $spacing-unit:     30px;
 

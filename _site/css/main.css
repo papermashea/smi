@@ -542,6 +542,11 @@ hr.tile-rule {
   border-top: 1px dotted #fff;
   margin: 10px 20px;
 }
+@media screen and (max-width: 600px) {
+  hr.tile-rule {
+    margin: 10px 20px;
+  }
+}
 
 .thumbnail {
   width: 100%;
@@ -554,7 +559,6 @@ hr.tile-rule {
   height: auto;
   position: relative;
   left: -50%;
-  /*filter: blur(.1rem);*/
 }
 @media screen and (max-width: 600px) {
   .thumbnail img {
@@ -568,9 +572,9 @@ hr.tile-rule {
   width: 100%;
   height: 230px;
 }
-
-.thumbnail a.tile-link:hover {
+.thumbnail a:hover {
   background-color: none !important;
+  text-decoration: none;
 }
 
 .thumbnail a span {
@@ -588,12 +592,12 @@ hr.tile-rule {
 
 .thumbnail a:hover span {
   display: block;
-  background-color: none;
+  background-color: none !important;
+  text-decoration: none;
 }
 
 .thumbnail a:hover img {
   filter: blur(0.5rem);
-  background-color: none;
 }
 
 /** 

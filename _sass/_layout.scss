@@ -262,7 +262,10 @@ padding: 10px;
 }
 hr.tile-rule{
     border-top: 1px dotted $text-color-light;
-    margin: calc($vertical-spacing-unit/4) $horizontal-spacing-unit
+    margin: calc($vertical-spacing-unit/4) $horizontal-spacing-unit;
+        @include media-query($on-palm) {
+        margin: calc($vertical-spacing-unit/4) $horizontal-spacing-unit;
+    }    
 }
 .thumbnail{
 width: 100%;
@@ -274,7 +277,6 @@ width: 500px;
 height: auto;
 position: relative;
 left: -50%;
-/*filter: blur(.1rem);*/
     @include media-query($on-palm) {
         left: 0;
     }    
@@ -284,9 +286,10 @@ float: left;
 position: relative;
 width: 100%;
 height: 230px;
-}
-.thumbnail a.tile-link:hover{
-background-color: none!important;
+    &:hover {
+        background-color: none;
+        text-decoration: none;
+    }
 }
 .thumbnail a span {
 display: none;
@@ -302,11 +305,9 @@ text-align: center;
 }
 .thumbnail a:hover span {
 display: block;
-background-color: none;
 }
 .thumbnail a:hover img {
 filter: blur(.5rem);
-background-color: none;
 }
 
 /** 

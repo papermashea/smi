@@ -2,25 +2,25 @@
  * Site header   **********************************************************
  */
 .site-header {
-border-bottom: 1px solid $grey-color-dark;
-background-color: $grey-color-dark;
-opacity: 0.95;
-position:fixed;
-left:0px;
-top:0px;
-height:56px;
-width:100%;
-z-index: 50;
+    border-bottom: 1px solid $grey-color-dark;
+    background-color: $grey-color-dark;
+    opacity: 0.95;
+    position:fixed;
+    left:0px;
+    top:0px;
+    height:56px;
+    width:100%;
+    z-index: 50;
 }
 
 .site-title {
-font-size: 1.4em;
-line-height: $nav-height;
-letter-spacing: -1px;
-margin-bottom: 0;
-&:hover {
-text-decoration: none;
-color: $theme-color;
+    font-size: 1.4em;
+    line-height: $nav-height;
+    letter-spacing: -1px;
+    margin-bottom: 0;
+    &:hover {
+        text-decoration: none;
+        color: $theme-color;
     }
 }
 .nav-wrap {
@@ -34,32 +34,32 @@ color: $theme-color;
     text-align: end;
 }
 .site-nav {
-font-size: 1.2em;
-line-height: $nav-height;
-.page-link{
-line-height: $base-line-height;
-        // Gaps between nav items, but not on the first one
-&:not(:first-child) {
-margin-left: 10px;
+    font-size: 1.2em;
+    line-height: $nav-height;
+    .page-link{
+    line-height: $base-line-height;
+            // Gaps between nav items, but not on the first one
+        &:not(:first-child) {
+            margin-left: 10px;
         }
     }
-@include media-query($on-palm) {
-position: fixed;
-top: 0px;
-right: 10px;
-text-align: center;
-width: 100%;
-&:hover .trigger {
-display: block;
-padding-bottom: 5px;
-        }
-.page-link {
-display: line;
-        }
+    @include media-query($on-palm) {
+        position: fixed;
+        top: 0px;
+        right: 10px;
+        text-align: center;
+        width: 100%;
+        &:hover .trigger {
+        display: block;
+        padding-bottom: 5px;
+    }
+    .page-link {
+        display: line;
+    }
     }
 }
 nav a {
-color: #fff;
+    color: #fff;
 }
 
 .header-bar{
@@ -87,16 +87,16 @@ color: #fff;
  * Site footer  **********************************************************
  */
 .site-footer {
-border-top: 1px solid $grey-color-dark;
-font-size: 10px;
-background-color: $grey-color-dark;
-opacity: 0.95;
-padding: 5px 0px;
-color: #aaa;
-position:fixed;
-left:0px;
-bottom:0px;
-width:100%;
+    border-top: 1px solid $grey-color-dark;
+    font-size: 10px;
+    background-color: $grey-color-dark;
+    opacity: 0.95;
+    padding: 5px 0px;
+    color: #aaa;
+    position:fixed;
+    left:0px;
+    bottom:0px;
+    width:100%;
 }
 
 .site-footer p,
@@ -112,83 +112,83 @@ width:100%;
  * Pagination   **********************************************************
  */
 .pagination{
-max-width: -webkit-calc(800px - (#{$horizontal-spacing-unit} * 2));
-text-align: center;
-width: 100%;
-position: fixed;
-bottom: 50px;
+    max-width: -webkit-calc(800px - (#{$horizontal-spacing-unit} * 2));
+    text-align: center;
+    width: 100%;
+    position: fixed;
+    bottom: 50px;
 }
 .paginationicon {
-font-size: 50px;
-a {
-color: $theme-color;
+    font-size: 50px;
+    a {
+        color: $theme-color;
     }
 }
 /**
  * Page content   **********************************************************
  */
 .page-content {
-padding: 100px 0; /* VERTICAL PADDING FOR TITLE ON EVERY PAGE */
+    padding: 100px 0; /* VERTICAL PADDING FOR TITLE ON EVERY PAGE */
 }
 .page-header {
-margin-bottom: $vertical-spacing-unit;
-    @include media-query($on-palm) {
-        margin-bottom: calc($vertical-spacing-unit/1.5);
-    }
+    margin-bottom: $vertical-spacing-unit;
+        @include media-query($on-palm) {
+            margin-bottom: calc($vertical-spacing-unit/1.5);
+        }
 }
 .page-title {
-font-size: 1.8em;
-display: inline;
-    @include media-query($on-palm) {
-        font-size: 1.6em;
-    }
+    font-size: 1.8em;
+    display: inline;
+        @include media-query($on-palm) {
+            font-size: 1.6em;
+        }
 }
 .page-desc {
-font-size: 1.8em;
-display: inline;
-    @include media-query($on-palm) {
-        font-size: 1.6em;
-    }
+    font-size: 1.8em;
+    display: inline;
+        @include media-query($on-palm) {
+            font-size: 1.6em;
+        }
 }
 .post-list {
-margin: 0px 0;
-list-style: none;
-    > li {
-margin-bottom: $vertical-spacing-unit;
-    }
+    margin: 0px 0;
+    list-style: none;
+        > li {
+    margin-bottom: $vertical-spacing-unit;
+        }
 }
 .contacticon {
-font-size: 20px;
-display:block;
-margin: 10px;
-text-align: right;
+    font-size: 20px;
+    display:block;
+    margin: 10px;
+    text-align: right;
 }
 .center{
-text-align: center;
+    text-align: center;
 }
 /**
  * Posts  **********************************************************
  */
 .post-header {
-margin-bottom: $vertical-spacing-unit;
+    margin-bottom: $vertical-spacing-unit;
 }
 .post-title {
-display: inline;
-font-size: 1.8em;
-letter-spacing: -1px;
-line-height: 1;
-    @include media-query($on-palm) {
-        font-size: 1.4em;
-    }
+    display: inline;
+    font-size: 1.8em;
+    letter-spacing: -1px;
+    line-height: 1;
+        @include media-query($on-palm) {
+            font-size: 1.4em;
+        }
 }
 .post-desc{
-font-size: 1.2em;
-line-height: 2;
-color:$grey-color-dark;
-    @include media-query($on-palm) {
-        font-size: 1em;
-        line-height: 1.2;
-        margin: $horizontal-spacing-unit 0;
+    font-size: 1.2em;
+    line-height: 2;
+    color:$grey-color-dark;
+        @include media-query($on-palm) {
+            font-size: 1em;
+            line-height: 1.2;
+            margin: $horizontal-spacing-unit 0;
     }
 }   
 .post-content {
@@ -268,101 +268,103 @@ hr.tile-rule{
     }    
 }
 .thumbnail{
-width: 100%;
-height: 230px;
-overflow: hidden;
+    width: 100%;
+    height: 230px;
+    overflow: hidden;
 }
 .thumbnail img{
-width: 500px;
-height: auto;
-position: relative;
-left: -50%;
-    @include media-query($on-palm) {
-        left: 0;
+    width: 500px;
+    height: auto;
+    position: relative;
+    left: -50%;
+        @include media-query($on-palm) {
+            left: 0;
     }    
 }
 .thumbnail a{
-float: left;
-position: relative;
-width: 100%;
-height: 230px;
+    float: left;
+    position: relative;
+    width: 100%;
+    height: 230px;
     &:hover {
-        background-color: none;
+        background-color: none!important;
         text-decoration: none;
     }
 }
 .thumbnail a span {
-display: none;
-position: absolute;
-top: 0;
-left: 0;
-bottom: 0;
-right: 0;
-background-color: rgba(0,0,0,0.6);
-color: $grey-color-light;
-padding: 40px;
-text-align: center;
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(0,0,0,0.6);
+    color: $grey-color-light;
+    padding: 40px;
+    text-align: center;
 }
 .thumbnail a:hover span {
-display: block;
+    display: block;
+    background-color: none!important;
+    text-decoration: none;
 }
 .thumbnail a:hover img {
-filter: blur(.5rem);
+    filter: blur(.5rem);
 }
 
 /** 
  * Portfolio pages **********************************************************
 */
 .blankbox{
-background: $accent-color;
+    background: $accent-color;
 }
 .img_full{
-width: 100%;
-height: auto;
-object-fit: scale-down;
-box-sizing:content-box;
-margin: calc($vertical-spacing-unit/2) 0;
-display: block;
+    width: 100%;
+    height: auto;
+    object-fit: scale-down;
+    box-sizing:content-box;
+    margin: calc($vertical-spacing-unit/2) 0;
+    display: block;
 }
 .img_row{
-height: $img_height;
-object-fit: contain;
-width: 100%;
-overflow: hidden;
-box-sizing:border-box;
-padding: $img_spacing;
-margin: calc($vertical-spacing-unit/4) 0;
-    @include media-query($on-palm) {
-       height: calc($img_height/2);
+    height: $img_height;
+    object-fit: contain;
+    width: 100%;
+    overflow: hidden;
+    box-sizing:border-box;
+    padding: $img_spacing;
+    margin: calc($vertical-spacing-unit/4) 0;
+        @include media-query($on-palm) {
+           height: calc($img_height/2);
     }
 }
 .col{ 
-width: 100%;
-height: auto;
-float: left;
-object-fit: cover;
-box-sizing:border-box;
-padding: $img_spacing;
+    width: 100%;
+    height: auto;
+    float: left;
+    object-fit: cover;
+    box-sizing:border-box;
+    padding: $img_spacing;
 }
 .right{
-float: right;
+    float: right;
 }
 .one {
-width:33.33%;
-    @include media-query($on-palm) {
-       width:100%;
+    width:33.33%;
+        @include media-query($on-palm) {
+           width:100%;
     }
 }
 .two {
-width: 66.66%;
-    @include media-query($on-palm) {
-       width:100%;
+    width: 66.66%;
+        @include media-query($on-palm) {
+           width:100%;
     }
 }
 .three{
-width: 100%;
-    @include media-query($on-palm) {
-       width:100%;
+    width: 100%;
+        @include media-query($on-palm) {
+           width:100%;
     }
 }
 .half {
@@ -372,10 +374,10 @@ width: 50%;
     }
 }
 .caption{
-height: 100%;
-color: $caption_color;
-text-align: center;
-vertical-align: middle;
-font-size: $caption_font_size;
-margin-bottom: calc($vertical-spacing-unit/2);
+    height: 100%;
+    color: $caption_color;
+    text-align: center;
+    vertical-align: middle;
+    font-size: $caption_font_size;
+    margin-bottom: calc($vertical-spacing-unit/2);
 }

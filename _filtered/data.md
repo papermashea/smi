@@ -11,7 +11,7 @@ root: /projects/
     {% if project.categories contains "data" %}
 <div class="project ">
     <div class="thumbnail">
-        <a href="{{ site.baseurl }}{{ project.url }}">
+        <a href="{{ site.baseurl }}{{ project.url }}" class="tile-link">
         {% if project.img %}
         <img class="thumbnail" src="{{ site.baseurl }}{{ project.img }}"/>
         {% else %}

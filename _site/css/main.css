@@ -558,7 +558,7 @@ hr.tile-rule {
 }
 @media screen and (max-width: 600px) {
   .thumbnail img {
-    left: -25%;
+    left: 0;
   }
 }
 
@@ -569,8 +569,8 @@ hr.tile-rule {
   height: 230px;
 }
 
-.thumbnail a:hover {
-  background-color: none;
+.thumbnail a.tile-link:hover {
+  background-color: none !important;
 }
 
 .thumbnail a span {
@@ -580,7 +580,7 @@ hr.tile-rule {
   left: 0;
   bottom: 0;
   right: 0;
-  background: rgba(0, 0, 0, 0.6);
+  background-color: rgba(0, 0, 0, 0.6);
   color: #8c8c8c;
   padding: 40px;
   text-align: center;

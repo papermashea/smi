@@ -48,11 +48,14 @@ ul, ol, dl, figure,
 }
 
 hr {
-  /* Inset, by Dan Eden */
   border: 0;
   height: 0;
   border-top: 1px solid rgba(0, 0, 0, 0.1);
   border-bottom: 1px solid rgba(255, 255, 255, 0.6);
+}
+
+hr.section {
+  margin-top: 20px;
 }
 
 th {
@@ -399,6 +402,7 @@ nav a {
 @media screen and (max-width: 600px) {
   .page-desc {
     font-size: 1.6em;
+    display: block;
   }
 }
 
@@ -525,6 +529,7 @@ nav a {
 @media screen and (max-width: 600px) {
   .project {
     width: 100%;
+    padding: 10px 0px;
   }
 }
 
@@ -538,12 +543,12 @@ nav a {
   font-size: 1em;
 }
 
-hr.tile-rule {
+hr.deco-rule {
   border-top: 1px dotted #fff;
   margin: 10px 20px;
 }
 @media screen and (max-width: 600px) {
-  hr.tile-rule {
+  hr.deco-rule {
     margin: 10px 20px;
   }
 }

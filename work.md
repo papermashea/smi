@@ -10,10 +10,6 @@ root: /work/
 <ul class="post-list">
     {% for post in site.posts %}
       <li>
-        <!-- work preview img -->
-<!--         {% if post.img %}
-        <img class="post-preview" src="{{ post.img }}"/>
-        {% endif %} -->
         <h4>
           {% if post.redirect %}
             <a class="post-title" href="{{ post.redirect }}" target="_blank">{{ post.title }} <sup>&nearr;</sup></a>

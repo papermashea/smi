@@ -10,7 +10,7 @@ Demo: http://bogoli.github.io/-folio/
 ## Local development
 To serve locally: 
     bundle exec jekyll serve
-Go to: http://localhost:4000/
+Go to: http://localhost:4000/smi
 To stop: CTRL + C
 
 ## Compile

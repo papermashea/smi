@@ -148,7 +148,6 @@ article a:hover {
 
 .category-link {
   border: 1px solid white;
-  margin-left: 2px;
   color: #CC5500;
 }
 
@@ -158,13 +157,11 @@ article a:hover {
   border: 1px dotted #CC5500;
   text-align: center;
   padding: 2px;
-  margin-left: 2px;
 }
 .category-link#active:hover,
 .post-cat:hover {
   background-color: #E9F322;
   border: 1px solid #E9F322;
-  margin-left: 2px;
 }
 
 /**
@@ -403,6 +400,7 @@ nav a {
   .page-desc {
     font-size: 1.6em;
     display: block;
+    margin-top: 10px;
   }
 }
 

@@ -43,9 +43,12 @@ To save local changes:
 
 *QA*
 - add bold text to pages
-- mobile
-    -- font sizes/spacing
-
+- lightbox js
+- images to fix
+    market measures
+    snekscape
+    machine learning
+    earthquakes
 
 *DESIGN*
 - blankcard if empty

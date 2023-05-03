@@ -165,7 +165,6 @@ article a {
 }
 .category-link {
     border: 1px solid white;
-    margin-left: 2px;
     color: $brand-color;
 }
 .category-link#active ,
@@ -174,11 +173,9 @@ article a {
     border: 1px dotted $brand-color;
     text-align: center;
     padding: 2px;
-    margin-left: 2px;
     &:hover {
         background-color: $highlight-color;
         border: 1px solid $highlight-color;
-        margin-left: 2px;
     }
 }
 

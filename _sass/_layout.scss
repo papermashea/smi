@@ -149,6 +149,7 @@ nav a {
         @include media-query($on-palm) {
             font-size: 1.6em;
             display: block;
+            margin-top: calc($vertical-spacing-unit/4);
         }
 }
 .post-list {

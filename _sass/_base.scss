@@ -69,7 +69,7 @@ hr{
     border-bottom: 1px solid rgba(255, 255, 255, 0.6);
 }
 hr.section {
-    margin-top: calc($vertical-spacing-unit/2);
+    margin: calc($vertical-spacing-unit/2) 0;
 }
 
 th{

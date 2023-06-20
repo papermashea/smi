@@ -30,7 +30,7 @@ root: /projects/
         {% else %}
         <div class="thumbnail blankbox"></div>
         {% endif %}    
-        <span>
+        <span class="tile">
             <p class="tile-title">{{ project.title }}</p>
             <p class="tile-text">{{ project.description }}</p>
 <!--             <hr class="deco-rule">

@@ -33,8 +33,8 @@ root: /projects/
         <span>
             <p class="tile-title">{{ project.title }}</p>
             <p class="tile-text">{{ project.description }}</p>
-            <hr class="deco-rule">
-            <p class="tile-cat">{{ project.categories  | join: ' • ' }}</p>
+<!--             <hr class="deco-rule">
+            <p class="tile-cat">{{ project.categories  | join: ' • ' }}</p> -->
         </span>
         </a>
     </div>

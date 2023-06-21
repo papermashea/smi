@@ -6,7 +6,7 @@ layout: default
     <div class="page-title"><a href="{{ page.root | prepend: site.baseurl }}" class="root-link" id="{{ page.categories }}">{{ page.title }}</a> // </div> 
 
       {% if page.title == 'Projects' %}  
-          <div class="page-desc">
+          <div class="page-title">
             {% for cat in site.data.projects %}
                 <a href="{{ cat.url | prepend: site.baseurl }}" class="category-link" {% if cat.url == page.permalink %} id="active" {% else %} id="inactive" {%- endif -%}>{{ cat.page }}</a>{% if forloop.first %}&nbsp;and{%- endif -%}
                 {% if forloop.last %}&nbsp;portfolio{%- endif -%}
@@ -16,13 +16,13 @@ layout: default
       {% elsif page.title == 'Work' %}
         {% assign categories =  site.posts | map: 'categories' | uniq %}
         {% assign link =  site.posts | map: 'permalink' | uniq %}
-            <div class="page-desc">
+            <div class="page-title">
               {% for cat in site.data.work %}
                 <a href="{{ cat.url | prepend: site.baseurl }}" class="category-link" {% if cat.url == page.permalink %} id="active" {% else %} id="inactive" {%- endif -%}>{{ cat.page }}</a>{% if forloop.first %}&nbsp;and{%- endif -%}
                 {% if forloop.last %}&nbsp;materials{%- endif -%}
             {%- endfor -%}
             </div>  
-            <hr class="section">
+        <!-- <hr class="deco-rule"> -->
     {% else %}
       <div class="page-desc">{{ page.description }}</div> 
     {% endif %}

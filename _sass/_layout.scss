@@ -176,14 +176,14 @@ nav a {
 }
 .post-title {
     display: inline;
-    font-size: 1.8em;
+    font-size: 1.4em;
     letter-spacing: -1px;
     line-height: 1;
         @include media-query($on-palm) {
-            font-size: 1.4em;
+            font-size: 1.2em;
         }
 }
-.post-desc{
+.post-sub {
     font-size: 1.2em;
     line-height: 2;
     color:$grey-color-dark;
@@ -193,9 +193,19 @@ nav a {
             margin: $horizontal-spacing-unit 0;
     }
 }   
+.post-desc {
+    font-size: 1em;
+    line-height: 1.5;
+    color:$grey-color-dark;
+        @include media-query($on-palm) {
+            font-size: 1em;
+            line-height: 1.2;
+            margin: $horizontal-spacing-unit 0;
+    }
+}   
 .post-content {
 h2 {
-font-size: 1.8em;
+font-size: 1.2em;
 @include media-query($on-laptop) {
 font-size: 14px;
         }
@@ -260,6 +270,7 @@ padding: 10px;
     font-size: .75em;
 }
 .tile-title {
+    margin-top: 10%;
     font-weight: bold;
     font-size:1em;
 }

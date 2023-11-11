@@ -44,6 +44,7 @@
         }
     }
     @include media-query($on-palm) {
+        font-size: 1em;
         position: fixed;
         top: 0px;
         right: 10px;
@@ -162,7 +163,7 @@ nav a {
 .contacticon {
     font-size: 20px;
     display:block;
-    margin: 10px;
+    margin: $vertical-spacing-unit calc($horizontal-spacing-unit/2);
     text-align: right;
 }
 .center{
@@ -240,7 +241,10 @@ margin-bottom: 0px;
 }
 .materials {
 display:block;
-margin: $vertical-spacing-unit;
+margin: $horizontal-spacing-unit calc($horizontal-spacing-unit/2);
+    @include media-query($on-palm) {
+        margin: 1%;
+        }
 }
 /** 
  * Portfolio grid **********************************************************

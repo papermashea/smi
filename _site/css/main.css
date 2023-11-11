@@ -1,6 +1,6 @@
-/*$highlight-color: #00FFFF;  */ /* cyan highlight */
 /* purple accent */
-/* lime highlight */
+/* lime highlight for links */
+/* cyan highlight */
 /**
  * Reset some basic elements
  */
@@ -62,6 +62,16 @@ th {
   text-align: left;
 }
 
+mark {
+  background-color: #89ffec;
+}
+
+p::selection,
+div::selection,
+li::selection {
+  background-color: #89ffec;
+}
+
 /**
  * Figures
  */
@@ -102,13 +112,16 @@ a {
   margin-bottom: 20px;
 }
 a:hover {
-  background-color: #E9F322;
+  background-color: #d8f322;
   color: #000;
   text-decoration: underline;
 }
+a::selection {
+  background-color: #d8f322;
+}
 
 article a {
-  color: #CC5500;
+  color: #cc5500;
   font-weight: 200;
 }
 article a:hover {
@@ -121,7 +134,7 @@ article a:hover {
 }
 
 #crumb {
-  color: #CC5500;
+  color: #cc5500;
   padding: 0px;
 }
 
@@ -130,7 +143,7 @@ article a:hover {
   text-underline-offset: 8px;
 }
 .post-header a:hover {
-  background-color: #E9F322;
+  background-color: #d8f322;
   text-decoration: underline;
 }
 
@@ -143,25 +156,26 @@ article a:hover {
   text-align: center;
 }
 .post-resource:hover {
-  background-color: #E9F322;
+  background-color: #d8f322;
 }
 
 .category-link {
   border: 1px solid white;
-  color: #CC5500;
+  color: #cc5500;
 }
 
 .category-link#active,
 .post-cat {
-  color: #CC5500;
-  border: 1px dotted #CC5500;
+  color: #cc5500;
+  border: 1px dotted #cc5500;
   text-align: center;
   padding: 2px;
+  margin: 2px;
 }
 .category-link#active:hover,
 .post-cat:hover {
-  background-color: #E9F322;
-  border: 1px solid #E9F322;
+  background-color: #d8f322;
+  border: 1px solid #d8f322;
 }
 
 /**
@@ -254,7 +268,7 @@ pre > code {
 }
 .site-title:hover {
   text-decoration: none;
-  color: #CC5500;
+  color: #cc5500;
 }
 
 .nav-wrap {
@@ -282,6 +296,7 @@ pre > code {
 }
 @media screen and (max-width: 600px) {
   .site-nav {
+    font-size: 1em;
     position: fixed;
     top: 0px;
     right: 10px;
@@ -315,7 +330,7 @@ nav a {
   z-index: 25;
 }
 .header-bar h1 {
-  color: #CC5500;
+  color: #cc5500;
   font-size: 75px;
 }
 .header-bar h2 {
@@ -363,7 +378,7 @@ nav a {
   font-size: 50px;
 }
 .paginationicon a {
-  color: #CC5500;
+  color: #cc5500;
 }
 
 /**
@@ -415,7 +430,7 @@ nav a {
 .contacticon {
   font-size: 20px;
   display: block;
-  margin: 10px;
+  margin: 40px 10px;
   text-align: right;
 }
 
@@ -513,7 +528,12 @@ nav a {
 
 .materials {
   display: block;
-  margin: 40px;
+  margin: 20px 10px;
+}
+@media screen and (max-width: 600px) {
+  .materials {
+    margin: 1%;
+  }
 }
 
 /** 

@@ -42,7 +42,6 @@ To save local changes:
 <hr/>
 
 *QA*
-- add bold text to pages
 - lightbox js
 - images to fix
     market measures
@@ -52,13 +51,20 @@ To save local changes:
 
 *DESIGN*
 - blankcard if empty
-- prof pic
+
+*WRITE*
+- work/data informed creative direction
+- work/adobe makerstudio
 
 *BUILD*
 - lightbox feature for larger images
 - skills graph
 - portfolio list of projects
 - work preview images
+- creative endeavors section
+    - NOT
+    - mofe
+    - little cinema
 
 *UPDATE*
 - domain name
@@ -72,3 +78,11 @@ To save local changes:
     -- new worlds
 - creative coding
     -- map link
+
+****************
+*DONE*
+- buttons on mobile
+- tags on mobile
+- hide profile pic
+- update
+- add bold/mark text to pages

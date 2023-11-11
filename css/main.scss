@@ -15,12 +15,10 @@ $tight-line-height: $base-line-height * .75;
 $spacing-unit:     30px;
 
 $background-color: #fff;
-$brand-color:      #CC5500;
-/*$highlight-color: #00FFFF;  */ /* cyan highlight */
-/*$accent-color: #afaedc; /* purple accent */
-$accent-color: #CE99CD; /* purple accent update */
-$highlight-color: #E9F322; /* lime highlight */
-
+$brand-color:      #cc5500;
+$accent-color: #afaedc; /* purple accent */
+$highlink-color: #d8f322; /* lime highlight for links */
+$highlight-color: #89ffec;   /* cyan highlight */
 
 $grey-color:       #1a1a1a;
 $grey-color-light: lighten($grey-color, 100%);

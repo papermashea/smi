@@ -49,6 +49,6 @@ This project aims to prioritize horticultural education in a scalable, accessibl
 <div class="col three caption">
 	From the Ground Up: <a href="www.usefulplants.tech" target="_blank">Dig</a>
 </div>
-Building out this project involved lengthy data cleanup using sql, regex, and javascript. The interactivity was implemented using <a href="https://vuejs.org/" target="_blank">Vue.js</a> and the visualizations were constructed using <a href="http://d3js.org/" target="_blank">D3.js</a>.
-<br>
+Building out this project involved lengthy data cleanup using <div clssql, regex, and javascript. The interactivity was implemented using <a href="https://vuejs.org/" target="_blank">Vue.js</a> and the visualizations were constructed using <a href="http://d3js.org/" target="_blank">D3.js</a>.
+<br><br>
 From the Ground Up was developed and launched to meet the <a href="parsons.nyc">thesis and project</a> requirements to complete a graduate degree within the <a href="https://www.newschool.edu/parsons/ms-data-visualization/" target="_blank">Master's of Science in Data Vizualization (MSDV)</a> program at Parsons at The New School.

@@ -76,6 +76,15 @@ th{
     text-align: left;
 }
 
+mark {
+    background-color: $highlight-color;
+}
+
+p::selection,
+div::selection,
+li::selection {
+    background-color: $highlight-color;
+}
 
 /**
  * Figures
@@ -123,9 +132,12 @@ a {
     padding:0px;
     margin-bottom: calc($vertical-spacing-unit/2);
     &:hover {
-        background-color: $highlight-color;
+        background-color: $highlink-color;
         color: $text-color;
         text-decoration: underline ;
+    }
+    &::selection {
+        background-color: $highlink-color;
     }
 }
 
@@ -148,7 +160,7 @@ article a {
     text-decoration: underline;
     text-underline-offset: 8px;
     &:hover {
-        background-color: $highlight-color;
+        background-color: $highlink-color;
         text-decoration: underline;
     }
 }
@@ -160,7 +172,7 @@ article a {
     border-radius: 50px;
     text-align: center;
     &:hover {
-        background-color: $highlight-color;
+        background-color: $highlink-color;
     }
 }
 .category-link {
@@ -175,8 +187,8 @@ article a {
     padding: 2px;
     margin: 2px;
     &:hover {
-        background-color: $highlight-color;
-        border: 1px solid $highlight-color;
+        background-color: $highlink-color;
+        border: 1px solid $highlink-color;
     }
 }
 

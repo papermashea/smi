@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Emerging technologies workshops
-date: 2021-11-01
+date: 2022-11-20
 categories: education
 tags: workshops management support
 root: /work/

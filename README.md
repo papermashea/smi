@@ -51,6 +51,7 @@ To save local changes:
 
 *DESIGN*
 - blankcard if empty
+- add bold/mark text to pages
 
 *WRITE*
 - work/data informed creative direction
@@ -85,4 +86,3 @@ To save local changes:
 - tags on mobile
 - hide profile pic
 - update
-- add bold/mark text to pages

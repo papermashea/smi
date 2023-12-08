@@ -40,7 +40,7 @@ section {
 p, blockquote, pre,
 ul, ol, dl, figure,
 .highlight {
-  margin-bottom: 20px;
+  margin: 5px 0px;
 }
 
 .alignright {

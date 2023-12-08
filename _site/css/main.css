@@ -40,7 +40,7 @@ section {
 p, blockquote, pre,
 ul, ol, dl, figure,
 .highlight {
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 
 .alignright {
@@ -532,7 +532,7 @@ nav a {
 }
 @media screen and (max-width: 600px) {
   .materials {
-    margin: 1%;
+    margin: 20px 10px;
   }
 }
 

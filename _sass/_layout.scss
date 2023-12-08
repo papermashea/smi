@@ -243,7 +243,7 @@ margin-bottom: 0px;
 display:block;
 margin: $horizontal-spacing-unit calc($horizontal-spacing-unit/2);
     @include media-query($on-palm) {
-        margin: 1%;
+        margin: $horizontal-spacing-unit calc($horizontal-spacing-unit/2);
         }
 }
 /** 

@@ -163,7 +163,7 @@ nav a {
 .contacticon {
     font-size: 20px;
     display:block;
-    margin: $vertical-spacing-unit calc($horizontal-spacing-unit/2);
+    margin: 40px 20px;
     text-align: right;
 }
 .center{
@@ -241,9 +241,9 @@ margin-bottom: 0px;
 }
 .materials {
 display:block;
-margin: $horizontal-spacing-unit calc($horizontal-spacing-unit/2);
+margin: 20px 10px;
     @include media-query($on-palm) {
-        margin: $horizontal-spacing-unit calc($horizontal-spacing-unit/2);
+        margin: 20px 10px;
         }
 }
 /** 

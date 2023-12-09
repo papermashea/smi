@@ -134,7 +134,7 @@ nav a {
 .page-header {
     margin-bottom: $vertical-spacing-unit;
         @include media-query($on-palm) {
-            margin-bottom: calc($vertical-spacing-unit/1.5);
+            margin-bottom: calc($vertical-spacing-unit/2);
         }
 }
 .page-title {
@@ -287,7 +287,10 @@ hr.deco-rule{
 }
 .spacer{
     width: 100%;
-    height: 20px;
+    height: 10px;
+        @include media-query($on-palm) {
+            height: 20px;
+    }
 }
 .thumbnail{
     width: 100%;

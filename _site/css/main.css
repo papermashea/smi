@@ -393,7 +393,7 @@ nav a {
 }
 @media screen and (max-width: 600px) {
   .page-header {
-    margin-bottom: 26.6666666667px;
+    margin-bottom: 20px;
   }
 }
 
@@ -582,6 +582,16 @@ hr.deco-rule {
 @media screen and (max-width: 600px) {
   hr.deco-rule {
     margin: 10px 20px;
+  }
+}
+
+.spacer {
+  width: 100%;
+  height: 10px;
+}
+@media screen and (max-width: 600px) {
+  .spacer {
+    height: 20px;
   }
 }
 
